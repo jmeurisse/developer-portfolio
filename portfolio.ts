@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: "Hanzla Tauqeer",
   title: "Hi all, I'm Hanzla",
   description:
-    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
+    "I am a highly skilled software engineer with over 9 years of experience at NASA Ames Research Center, I specialize in developing and leading complex multi-physics simulation projects. My journey from Intern to Lead Software Engineer has equipped me with a robust technical background and strong leadership capabilities, including 7 years of management experience.",
   resumeLink: "#",
 };
 
