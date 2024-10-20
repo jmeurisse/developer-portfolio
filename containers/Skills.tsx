@@ -26,11 +26,11 @@ const Skills = () => {
                         <Fragment key={i}>
                           <div
                             className="icon icon-lg icon-shape shadow-sm rounded-circle m-1"
-                            id={skill.skillName.replace(/\s/g, "")}
+                            id={`${skill.skillName.replace(/\s/g, "").replace(/\+/g, "Plus").replace(/\//g, "Slash")}-${i}`}
                           >
                             <Icon icon={skill.iconifyTag} width="40" height="40"></Icon>
                           </div>
-                          <UncontrolledTooltip delay={0} placement="bottom" target={skill.skillName.replace(/\s/g, "")}>
+                          <UncontrolledTooltip delay={0} placement="bottom" target={`${skill.skillName.replace(/\s/g, "").replace(/\+/g, "Plus").replace(/\//g, "Slash")}-${i}`}>
                             {skill.skillName}
                           </UncontrolledTooltip>
                         </Fragment>
