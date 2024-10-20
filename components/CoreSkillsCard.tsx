@@ -1,17 +1,17 @@
 import React from "react";
 import { Card, CardBody, Col, Button } from "reactstrap";
 import Fade from "react-reveal/Fade";
-import { ProjectType } from "../types/sections";
+import { CoreSkillsType } from "../types/sections";
 import GreetingLottie from "../components/DisplayLottie";
 
-const CoreSkillsCard = ({ name, desc, github, link }: ProjectType) => {
+const CoreSkillsCard = ({ lottie, name, desc, github, link }: CoreSkillsType) => {
   return (
     <Col lg="6">
       <Card className="shadow-lg--hover shadow mt-4">
         <CardBody>
           <div className="d-flex px-3">
             <div className="pl-4">
-              <GreetingLottie animationPath="/lottie/skills/space_suit_mac.json" />
+              <GreetingLottie animationPath={lottie} />
               <h3>{name}</h3>
               <p className="description mt-3">{desc}</p>
               {github ? (

@@ -84,25 +84,24 @@ export const SkillBars: SkillBarsType[] = [
 
 export const coreSkills: CoreSkillsType[] = [
   {
-    name: "developer-portfolio",
-    desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "https://github.com/1hanzla100/developer-portfolio",
-    link: "https://developer-portfolio-1hanzla100.vercel.app/",
+    lottie: "/lottie/software_dev.json",
+    name: "Software Development",
+    desc: "9 years of software development. Built 6 simulation software from scracth to launch.",
   },
   {
-    name: "Giebo",
-    desc: "A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions.",
-    link: "https://gibeo.io/",
+    lottie: "/lottie/team_management.json",
+    name: "Technical Leadership and Team Management",
+    desc: "7 years of management. Directed 12 NASA projects with 8 engineers, overseeing code development, research, milestones, and long-term planning. Secured $3M in research funding. Coordinated with NASA leadership, managed team administration, organized 30 annual visits for professors and students, and established 2 international agreements with research institutes.",
   },
   {
-    name: "O Mejor Oferta",
-    desc: "O Mejor Oferta is a mobile marketplace for buying and selling items nearby, helping users find deals on things they want and make money from items they no longer need.",
-    link: "https://play.google.com/store/apps/details?id=com.duseca.mejor_oferta",
-  },
+    lottie: "/lottie/ML.json",
+    name: "Machine Learning Integration",
+    desc: "Developed deep learning segmentation tools for video and 3D imaging data. Trained physics-informed neural networks to create surrogate models for statistical analysis. Fine-tuned generative AI model GPT-NeoX (1.3B) to enhance knowledge management systems. Participated in ML training and conferences and invited external experts to lead collaborative sessions to strengthen team's proficiency in ML applications."
+   },
   {
-    name: "Hooligan Culture",
-    desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
-    link: "https://hooliganculture.com/",
+    lottie: "/lottie/innovations.json",
+    name: "Innovation and R&D ",
+    desc: "9 years of software development. Built 6 simulation software from scracth to launch.",
   },
 ];
 
