@@ -39,7 +39,7 @@ const Skills = () => {
                   </div>
                   <div>
                     {section.skills.map((skill, i) => (
-                      <p key={i} style={{ textAlign: 'left' }}>{skill}</p>
+                      <p key={i} style={{ textAlign: 'left', paddingLeft: '20px' }}>{skill}</p>
                     ))}
                   </div>
                 </Col>
