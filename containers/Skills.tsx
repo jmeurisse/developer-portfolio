@@ -26,7 +26,7 @@ const Skills = () => {
                         <Fragment key={i}>
                           <div
                             className="icon icon-lg icon-shape shadow-sm rounded-circle m-1"
-                            id={skill.skillName.replace(/\s/g, "")}
+                            id={`${skill.skillName.replace(/\s/g, "").replace(/[\/\+]/g, "PlusOrSlash")}-${i}`}
                           >
                             <Icon icon={skill.iconifyTag} width="40" height="40"></Icon>
                           </div>
