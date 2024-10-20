@@ -49,7 +49,7 @@ export const skillsSection: SkillsSectionType = {
         emoji("🤖 ML/AI Integration"),
       ],
       softwareSkills: [
-        // { skillName: "C/C++", iconifyTag: "devicon-plain:cplusplus" },
+        { skillName: "C", iconifyTag: "bxl:c-plus-plus" },
         { skillName: "Python", iconifyTag: "logos:python" },
         { skillName: "MPI", iconifyTag: "simple-icons:mpich" },
         { skillName: "OpenMP", iconifyTag: "logos:openmp" },
