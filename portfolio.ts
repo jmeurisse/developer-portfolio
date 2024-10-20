@@ -6,6 +6,7 @@ import {
   ProjectType,
   SkillsSectionType,
   SkillBarsType,
+  CoreSkillsType,
   SEODataType,
   SocialLinksType,
   GreetingsType,
