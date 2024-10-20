@@ -81,7 +81,7 @@ export const SkillBars: SkillBarsType[] = [
   },
 ];
 
-export const skills: CoreSkillsType[] = [
+export const coreSkills: CoreSkillsType[] = [
   {
     name: "developer-portfolio",
     desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
