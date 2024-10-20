@@ -56,7 +56,7 @@ export const skillsSection: SkillsSectionType = {
             ),
       ],
       softwareSkills: [
-        { skillName: "C++", iconifyTag: "simple-icons:c-plusplus" },
+        // { skillName: "C/C++", iconifyTag: "devicon-plain:cplusplus" },
         { skillName: "Python", iconifyTag: "logos:python" },
         { skillName: "MPI", iconifyTag: "simple-icons:mpich" },
         { skillName: "OpenMP", iconifyTag: "logos:openmp" },
