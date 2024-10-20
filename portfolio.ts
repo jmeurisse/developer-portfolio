@@ -36,7 +36,7 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: "What I do",
-  subTitle: "Developing, testing, deploying, and directing predictive simulation software products with ML/AI integration.",
+  subTitle: "Developing, testing, deploying, and directing predictive simulation software products with ML/AI integration",
   data: [
     {
       title: "Lead Software Engineer",
@@ -76,11 +76,6 @@ export const skillsSection: SkillsSectionType = {
         // { skillName: "React.js", iconifyTag: "vscode-icons:file-type-reactjs" },
         // { skillName: "Next.js", iconifyTag: "vscode-icons:file-type-light-next" },
         { skillName: "GitHub", iconifyTag: "akar-icons:github-fill" },
-                // {
-        //   skillName: "Python",
-        //   iconifyTag: "logos:python",
-        // },
-
       ],
     },
   ],
