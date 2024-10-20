@@ -60,7 +60,7 @@ export const skillsSection: SkillsSectionType = {
         { skillName: "Python", iconifyTag: "logos:python" },
         { skillName: "MPI", iconifyTag: "simple-icons:mpich" },
         { skillName: "OpenMP", iconifyTag: "logos:openmp" },
-        { skillName: "Fortran", iconifyTag: "logos:fortran" },
+        { skillName: "Fortran", iconifyTag: "simple-icons:fortran" },
         { skillName: "Java", iconifyTag: "logos:java" },
         { skillName: "JavaScript", iconifyTag: "logos:javascript" },
         { skillName: "PyTorch", iconifyTag: "logos:pytorch-icon" },
