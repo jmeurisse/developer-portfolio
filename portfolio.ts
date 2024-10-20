@@ -72,9 +72,9 @@ export const skillsSection: SkillsSectionType = {
         { skillName: "Docker", iconifyTag: "logos:docker-icon" },
         { skillName: "Google Cloud", iconifyTag: "logos:google-cloud" },
         { skillName: "AWS", iconifyTag: "logos:aws" },
-        { skillName: "Django", iconifyTag: "vscode-icons:file-type-django" },
-        { skillName: "React.js", iconifyTag: "vscode-icons:file-type-reactjs" },
-        { skillName: "Next.js", iconifyTag: "vscode-icons:file-type-light-next" },
+        // { skillName: "Django", iconifyTag: "vscode-icons:file-type-django" },
+        // { skillName: "React.js", iconifyTag: "vscode-icons:file-type-reactjs" },
+        // { skillName: "Next.js", iconifyTag: "vscode-icons:file-type-light-next" },
         { skillName: "GitHub", iconifyTag: "akar-icons:github-fill" },
                 // {
         //   skillName: "Python",
