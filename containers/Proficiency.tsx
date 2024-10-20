@@ -1,7 +1,7 @@
 import React from "react";
 import { coreSkills } from "../portfolio";
 import { Container, Row } from "reactstrap";
-import ProjectsCard from "../components/ProjectsCard";
+import CoreSkillsCard from "../components/CoreSkillsCard";
 import Fade from "react-reveal/Fade";
 
 const CoreSkills = () => {
@@ -22,7 +22,7 @@ const CoreSkills = () => {
             </div>
             <Row className="row-grid align-items-center">
               {coreSkills.map((data, i) => {
-                return <ProjectsCard key={i} {...data} />;
+                return <CoreSkillsCard key={i} {...data} />;
               })}
             </Row>
           </Container>
