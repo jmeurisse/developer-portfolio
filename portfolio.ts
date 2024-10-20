@@ -96,12 +96,12 @@ export const coreSkills: CoreSkillsType[] = [
   {
     lottie: "/lottie/ML.json",
     name: "Machine Learning Integration",
-    desc: "Developed deep learning segmentation tools for video and 3D imaging data. Trained physics-informed neural networks to create surrogate models for statistical analysis. Fine-tuned generative AI model GPT-NeoX (1.3B) to enhance knowledge management systems. Participated in ML training and conferences and invited external experts to lead collaborative sessions to strengthen team's proficiency in ML applications."
+    desc: "Developed deep learning segmentation modules for video and 3D imaging data. Trained physics-informed neural networks to create surrogate models for statistical analysis. Fine-tuned generative AI model GPT-NeoX (1.3B) to enhance knowledge management systems. Participated in ML training and conferences and invited external experts to lead collaborative sessions to strengthen team's proficiency in ML applications."
    },
   {
     lottie: "/lottie/innovations.json",
     name: "Innovation and R&D ",
-    desc: "9 years of software development. Built 6 simulation software from scracth to launch.",
+    desc: "Published journal papers and presented at leading conferences using large-scale simulation data to drive scientific advancements. Developed novel multiscale models to address critical NASA challenges such as micro-tomography analysis, material response, particle tracking, turbulence, hypersonic CFD, radiation, and plasma physics.",
   },
 ];
 
