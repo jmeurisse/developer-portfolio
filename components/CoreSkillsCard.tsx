@@ -11,7 +11,7 @@ const CoreSkillsCard = ({ lottie, name, desc, github, link }: CoreSkillsType) =>
         <CardBody>
           <div className="d-flex px-3">
             <div className="pl-4">
-              <div style={{ paddingLeft: '24px' }}>
+              <div style={{ paddingLeft: '50px' }}>
                 <GreetingLottie animationPath={lottie} />
               </div>
               <h3>{name}</h3>
