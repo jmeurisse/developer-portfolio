@@ -56,43 +56,31 @@ export const skillsSection: SkillsSectionType = {
             ),
       ],
       softwareSkills: [
-        { skillName: "C++", iconifyTag: "bxl:c-plus-plus" },
-        {
-          skillName: "Python",
-          iconifyTag: "logos:python",
-        },
-        {
-          skillName: "Django",
-          iconifyTag: "vscode-icons:file-type-django",
-        },
-        {
-          skillName: "JavaScript",
-          iconifyTag: "logos:javascript",
-        },
-        {
-          skillName: "Reactjs",
-          iconifyTag: "vscode-icons:file-type-reactjs",
-        },
-        {
-          skillName: "Nextjs",
-          iconifyTag: "vscode-icons:file-type-light-next",
-        },
-        {
-          skillName: "AWS",
-          iconifyTag: "logos:aws",
-        },
-        {
-          skillName: "Heroku",
-          iconifyTag: "logos:heroku-icon",
-        },
-        {
-          skillName: "Github",
-          iconifyTag: "akar-icons:github-fill",
-        },
-        {
-          skillName: "Docker",
-          iconifyTag: "logos:docker-icon",
-        },
+        { skillName: "C/C++", iconifyTag: "devicon-plain:cplusplus" },
+        { skillName: "Python", iconifyTag: "logos:python" },
+        { skillName: "MPI", iconifyTag: "simple-icons:mpich" },
+        { skillName: "OpenMP", iconifyTag: "logos:openmp" },
+        { skillName: "Fortran", iconifyTag: "simple-icons:fortran" },
+        { skillName: "Java", iconifyTag: "logos:java" },
+        { skillName: "JavaScript", iconifyTag: "logos:javascript" },
+        { skillName: "PyTorch", iconifyTag: "logos:pytorch-icon" },
+        { skillName: "MuJoCo", iconifyTag: "simple-icons:mujoco" },
+        { skillName: "NVIDIA Modulus", iconifyTag: "simple-icons:nvidia" },
+        { skillName: "NVIDIA Warp", iconifyTag: "simple-icons:nvidia" },
+        { skillName: "Git", iconifyTag: "logos:git" },
+        { skillName: "CI/CD", iconifyTag: "vscode-icons:file-type-light-ci" },
+        { skillName: "Docker", iconifyTag: "logos:docker-icon" },
+        { skillName: "Google Cloud", iconifyTag: "logos:google-cloud" },
+        { skillName: "AWS", iconifyTag: "logos:aws" },
+        { skillName: "Django", iconifyTag: "vscode-icons:file-type-django" },
+        { skillName: "React.js", iconifyTag: "vscode-icons:file-type-reactjs" },
+        { skillName: "Next.js", iconifyTag: "vscode-icons:file-type-light-next" },
+        { skillName: "GitHub", iconifyTag: "akar-icons:github-fill" },
+                // {
+        //   skillName: "Python",
+        //   iconifyTag: "logos:python",
+        // },
+
       ],
     },
   ],
