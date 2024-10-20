@@ -40,7 +40,7 @@ export const skillsSection: SkillsSectionType = {
   data: [
     {
       title: "Lead Software Engineer",
-      lottieAnimationFile: "/lottie/skills/space_suit_mac.json", // Path of Lottie Animation JSON File
+      lottieAnimationFile: "/lottie/coding.json", // Path of Lottie Animation JSON File
       skills: [
         emoji("🚀 Predictive Simulation Tools Design & Development"),
         emoji("🤖 ML/AI Integration                               "),
