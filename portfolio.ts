@@ -56,7 +56,7 @@ export const skillsSection: SkillsSectionType = {
             ),
       ],
       softwareSkills: [
-        { skillName: "C++", iconifyTag: "logos:c-plusplus" },
+        { skillName: "C++", iconifyTag: "gg:c-plus-plus" }
         {
           skillName: "Python",
           iconifyTag: "logos:python",
