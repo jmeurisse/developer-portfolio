@@ -56,11 +56,11 @@ export const skillsSection: SkillsSectionType = {
             ),
       ],
       softwareSkills: [
-        { skillName: "C++", iconifyTag: "logos:c-plusplus" },
+        { skillName: "C++", iconifyTag: "simple-icons:c-plusplus" },
         { skillName: "Python", iconifyTag: "logos:python" },
         { skillName: "MPI", iconifyTag: "simple-icons:mpich" },
         { skillName: "OpenMP", iconifyTag: "logos:openmp" },
-        { skillName: "Fortran", iconifyTag: "simple-icons:fortran" },
+        { skillName: "Fortran", iconifyTag: "logos:fortran" },
         { skillName: "Java", iconifyTag: "logos:java" },
         { skillName: "JavaScript", iconifyTag: "logos:javascript" },
         { skillName: "PyTorch", iconifyTag: "logos:pytorch-icon" },
