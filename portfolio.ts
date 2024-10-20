@@ -42,9 +42,9 @@ export const skillsSection: SkillsSectionType = {
       title: "Lead Software Engineer",
       lottieAnimationFile: "/lottie/skills/space_suit_mac.json", // Path of Lottie Animation JSON File
       skills: [
-        emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
-        emoji("⚡ Building responsive static websites using Next.js"),
-        emoji("⚡ Building RESTful APIs in Django & Django REST Framework"),
+        emoji("⚡ Predictive Simulation Tools Design & Development"),
+        emoji("⚡ ML/AI Integration"),
+        emoji("⚡ Software Testing, Maintenance & Launch"),
       ],
       softwareSkills: [
         {
