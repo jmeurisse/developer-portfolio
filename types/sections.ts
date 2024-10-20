@@ -49,6 +49,13 @@ export type SkillBarsType = {
   progressPercentage: string;
 };
 
+export type CoreSkillsType = {
+  name: string;
+  desc: string;
+  github?: string;
+  link?: string;
+};
+
 // * EDUCATION SECTION
 
 export type EducationType = {
