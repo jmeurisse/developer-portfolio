@@ -43,12 +43,16 @@ export const skillsSection: SkillsSectionType = {
       lottieAnimationFile: "/lottie/skills/space_suit_mac.json", // Path of Lottie Animation JSON File
       skills: [
         emoji("🚀 Predictive Simulation Tools Design & Development"),
-        emoji("🤖 ML/AI Integration"),
-        emoji("🛠️ Software Testing, Maintenance & Launch"),
-        emoji("📊 Data-driven Model Validation & Telemetry-based Statistical Analysis"),
-        emoji("🌐 Large-Scale Distributed Systems, HPC Expertisem, & Cloud Proficiency"),
+        emoji("🤖 ML/AI Integration                               "),
+        emoji("🛠️ Software Testing, Maintenance & Launch          "),
+        emoji("📊 Data-driven Model Validation                    \nTelemetry-based Statistical Analysis             "),
+        emoji("🌐 Large-Scale Distributed Systems                 \nHPC Expertise                                    \nCloud Proficiency                                 "),
       ],
       softwareSkills: [
+        {
+          skillName: "C/C++",
+          iconifyTag: "logos:cpluscplus",
+        },
         {
           skillName: "Python",
           iconifyTag: "logos:python",
