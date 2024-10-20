@@ -28,7 +28,7 @@ const Skills = () => {
                             className="icon icon-lg icon-shape shadow-sm rounded-circle m-1"
                             id={skill.skillName.replace(/\s/g, "")}
                           >
-                            <Icon icon={skill.iconifyTag} data-inline="false"></Icon>
+                            <Icon icon={skill.iconifyTag} width="40" height="40"></Icon>
                           </div>
                           <UncontrolledTooltip delay={0} placement="bottom" target={skill.skillName.replace(/\s/g, "")}>
                             {skill.skillName}
