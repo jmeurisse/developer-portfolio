@@ -8,31 +8,23 @@ const ExperienceCard = ({ companyLogo, company, role, date, desc, descBullets }:
     <Col lg="6">
       <Card style={{ flex: 1 }} className="shadow-lg--hover my-4 shadow border-0 text-center rounded h-100">
         <CardBody className="">
-          <div
+          <img
+            src={companyLogo}
             style={{
+              objectFit: "contain",  // Ensures the image fits without cropping
+              position: "relative",  // Ensures positioning works properly
+              display: "block",      // Centers the image horizontally
+              marginLeft: "auto",
+              marginRight: "auto",
               width: "8rem",
               height: "8rem",
-              borderRadius: "50%",  // Creates the circular frame
-              overflow: "hidden",   // Ensures content stays within the circle
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              backgroundColor: "white",  // Optional: Background color to enhance visibility
-              boxShadow: "0 0 15px rgba(0, 0, 0, 0.1)",  // Aesthetic shadow
+              borderRadius: "50%",   // Creates a circular shape
+              overflow: "hidden",    // Ensures no content overflows the circle
+              boxShadow: "0 0 15px rgba(0, 0, 0, 0.1)" // Optional shadow for aesthetics
             }}
-          >
-            <img
-              src={companyLogo}
-              alt="Company Logo"
-              style={{
-                width: "100%",
-                height: "100%",
-                objectFit: "contain",  // Ensures the image scales without cropping
-                backgroundColor: "transparent",  // Keeps the transparency intact
-              }}
-              className="mb-3"
-            />
-          </div>
+            className="mb-3"
+            alt="Company Logo"
+          />
           <CardTitle tag="h4" className="mb-2">
             {company}
           </CardTitle>
