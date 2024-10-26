@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 import { CoreSkillsType } from "../types/sections";
 import GreetingLottie from "../components/DisplayLottie";
 
-const CoreSkillsCard = ({ lottie, name, desc, github, link }: CoreSkillsType) => {
+const CoreSkillsCard = ({ img, name, desc, github, link }: CoreSkillsType) => {
   return (
     <Col lg="6">
       <Card className="shadow-lg--hover shadow mt-4">

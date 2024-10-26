@@ -50,7 +50,7 @@ export type SkillBarsType = {
 };
 
 export type CoreSkillsType = {
-  lottie: string;
+  img: string;
   name: string;
   desc: string;
   github?: string;

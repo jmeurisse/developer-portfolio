@@ -84,12 +84,12 @@ export const SkillBars: SkillBarsType[] = [
 
 export const coreSkills: CoreSkillsType[] = [
   {
-    lottie: "/lottie/software_dev.json",
+    img: "/img/icons/programming.png",
     name: "Software Development",
     desc: "9 years of software development. Built 6 simulation software from scracth to launch.",
   },
   {
-    lottie: "/lottie/team_management.json",
+    img: "/img/icons/management.png",
     name: "Technical Leadership and Team Management",
     desc: "7 years of management. Directed 12 NASA projects with 8 engineers, overseeing code development, \
 research, milestones, and long-term planning. Secured $3M in research funding. Coordinated with NASA leadership, \
@@ -97,7 +97,7 @@ managed team administration, organized 30 annual visits for professors and stude
 agreements with research institutes.",
   },
   {
-    lottie: "/lottie/ML.json",
+    img: "/img/icons/deep-learning.png",
     name: "Machine Learning Integration",
     desc: "Developed deep learning segmentation modules for video and 3D imaging data. Trained physics-informed neural \
 networks to create surrogate models for statistical analysis. Fine-tuned generative AI model GPT-NeoX (1.3B) to enhance \
@@ -105,7 +105,7 @@ knowledge management systems. Participated in ML training and conferences and in
 sessions to strengthen team's proficiency in ML applications."
    },
   {
-    lottie: "/lottie/innovations.json",
+    img: "/img/icons/innovation.png",
     name: "Innovation and R&D ",
     desc: "Published journal papers and presented at leading conferences using large-scale simulation data to drive scientific \
 advancements. Developed novel multiscale models to address critical NASA challenges such as micro-tomography analysis, \
