@@ -10,27 +10,26 @@ const CoreSkillsCard = ({ img, name, desc, github, link }: CoreSkillsType) => {
       <Card className="shadow-lg--hover shadow mt-4">
         <CardBody>
           <div className="d-flex px-3">
-              <div className="pl-4">
-                <div 
+            <div className="pl-4">
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  height: "20vh", // Adjust the height as needed
+                }}
+              >
+                <img
+                  src={img}
+                  alt="Icon"
                   style={{
-                    display: 'flex',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                    height: '20vh',  // Adjust the height as needed
+                    maxWidth: "100%", // Ensures the image scales responsively
+                    maxHeight: "100%", // Prevents overflow from the container
+                    width: "150px", // Adjust size as needed
+                    height: "150px", // Adjust size as needed
+                    objectFit: "contain", // Keeps the aspect ratio of the image
                   }}
-                >
-                  <img 
-                    src={img}
-                    alt="Icon" 
-                    style={{
-                      maxWidth: '100%',  // Ensures the image scales responsively
-                      maxHeight: '100%', // Prevents overflow from the container
-                      width: '150px',    // Adjust size as needed
-                      height: '150px',   // Adjust size as needed
-                      objectFit: 'contain' // Keeps the aspect ratio of the image
-                    }} 
-                  />
-                </div>
+                />
               </div>
               <h3>{name}</h3>
               <p className="description mt-3">{desc}</p>
