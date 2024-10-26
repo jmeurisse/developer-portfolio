@@ -11,15 +11,27 @@ const CoreSkillsCard = ({ lottie, name, desc, github, link }: CoreSkillsType) =>
         <CardBody>
           <div className="d-flex px-3">
             <div className="pl-4">
-              <div 
-                style={{
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  height: '20vh'  // Adjust the height as needed
-                }}
-              >
-                <GreetingLottie animationPath={lottie} />
+              <div className="pl-4">
+                <div 
+                  style={{
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    height: '20vh',  // Adjust the height as needed
+                  }}
+                >
+                  <img 
+                    src={lottie}
+                    alt="Icon" 
+                    style={{
+                      maxWidth: '100%',  // Ensures the image scales responsively
+                      maxHeight: '100%', // Prevents overflow from the container
+                      width: '150px',    // Adjust size as needed
+                      height: '150px',   // Adjust size as needed
+                      objectFit: 'contain' // Keeps the aspect ratio of the image
+                    }} 
+                  />
+                </div>
               </div>
               <h3>{name}</h3>
               <p className="description mt-3">{desc}</p>
