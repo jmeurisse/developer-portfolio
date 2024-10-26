@@ -20,7 +20,7 @@ const CoreSkillsCard = ({ img, name, desc, github, link }: CoreSkillsType) => {
                   }}
                 >
                   <img 
-                    src={lottie}
+                    src={img}
                     alt="Icon" 
                     style={{
                       maxWidth: '100%',  // Ensures the image scales responsively
