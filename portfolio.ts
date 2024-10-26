@@ -68,18 +68,18 @@ export const skillsSection: SkillsSectionType = {
 };
 
 export const SkillBars: SkillBarsType[] = [
-  {
-    Stack: "Frontend/Design", //Insert stack or technology you have experience in
-    progressPercentage: "85", //Insert relative proficiency in percentage
-  },
-  {
-    Stack: "Backend",
-    progressPercentage: "90",
-  },
-  {
-    Stack: "Programming",
-    progressPercentage: "95",
-  },
+  // {
+  //   Stack: "Frontend/Design", //Insert stack or technology you have experience in
+  //   progressPercentage: "85", //Insert relative proficiency in percentage
+  // },
+  // {
+  //   Stack: "Backend",
+  //   progressPercentage: "90",
+  // },
+  // {
+  //   Stack: "Programming",
+  //   progressPercentage: "95",
+  // },
 ];
 
 export const coreSkills: CoreSkillsType[] = [
@@ -145,14 +145,14 @@ export const experience: ExperienceType[] = [
   {
     role: "Lead Software Engineer",
     company: "NASA Ames Research Center (AMA, Inc.)",
-    companyLogo: "/img/nasa/NASA_logo.png",
+    companyLogo: "/img/nasa/nasa-logo.png",
     date: "Jan 2024 - Present",
     desc: "Drive strategic initiatives and lead the development of predictive simulation products while maintaining a strong technical focus.",
   },
   {
     role: "Senior Software Engineer",
     company: "NASA Ames Research Center (AMA, Inc.)",
-    companyLogo: "/img/nasa/NASA_logo.png",
+    companyLogo: "/img/nasa/nasa-logo.png",
     date: "Nov 2020 - Jan 2024",
     desc: "Led engineering team developing physics-based simulation tools for critical NASA missions, creating advanced \
 software, improving user experience, and building open-source infrastructure to support large-scale simulations and foster collaboration.",
@@ -160,7 +160,7 @@ software, improving user experience, and building open-source infrastructure to 
   {
     role: "Software Engineer",
     company: "NASA Ames Research Center (STC & UIUC)",
-    companyLogo: "/img/nasa/NASA_logo.png",
+    companyLogo: "/img/nasa/nasa-logo.png",
     date: "Jan 2016 - Oct 2020",
     desc: "Led development of 2 complex simulation software in C/C++ from scratch, including feature integration, testing \
 frameworks, and model validation through rigorous experiments. Managed an engineering team, delivering high-quality, \
@@ -169,7 +169,7 @@ scalable solutions.",
   {
     role: "Software Engineer Intern",
     company: "NASA Ames Research Center (UIUC)",
-    companyLogo: "/img/nasa/NASA_logo.png",
+    companyLogo: "/img/nasa/nasa-logo.png",
     date: "Jun 2015 - Dec 2015",
     desc: "Executed projects on CubeSat constellation for solar observation and developed critical software for space weather missions.",
   },
@@ -196,7 +196,7 @@ acceleration using CUDA and Kokkos during NVIDIA hackathon, enhancing 3D radiati
     name: "PuMA",
     desc: "Supervised PuMA (micro-structure analysis), overseeing code development, research, milestones, and long- \
 term planning. PuMA won the 2022 NASA Software of the Year Award.",
-    link: "https://github.com/nasa/puma",
+    github: "https://github.com/nasa/puma",
   },
   {
     name: "Machine Learning",
@@ -224,7 +224,7 @@ export const feedbacks: FeedbackType[] = [
   },
   {
     name: "Federico Semeraro",
-    role: "",
+    role: "Past Employee",
     feedback:
       "Very skilled at what he does and has an in depth knowledge of Django and he's always ready to handle any challenges thrown at him. He's been a valuable member of my team and i look forward to working with him in the years to come",
   },
