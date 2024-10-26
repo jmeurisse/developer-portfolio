@@ -10,7 +10,6 @@ const CoreSkillsCard = ({ lottie, name, desc, github, link }: CoreSkillsType) =>
       <Card className="shadow-lg--hover shadow mt-4">
         <CardBody>
           <div className="d-flex px-3">
-            <div className="pl-4">
               <div className="pl-4">
                 <div 
                   style={{
