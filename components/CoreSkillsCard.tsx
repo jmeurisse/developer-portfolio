@@ -16,7 +16,7 @@ const CoreSkillsCard = ({ lottie, name, desc, github, link }: CoreSkillsType) =>
                   display: 'flex',
                   justifyContent: 'center',
                   alignItems: 'center',
-                  height: '50vh'  // Adjust the height as needed
+                  height: '20vh'  // Adjust the height as needed
                 }}
               >
                 <GreetingLottie animationPath={lottie} />
