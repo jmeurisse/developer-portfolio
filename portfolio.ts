@@ -193,7 +193,6 @@ Created Python tools for enhanced visualization, optimization, and multi-physics
 acceleration using CUDA and Kokkos during NVIDIA hackathon, enhancing 3D radiation model performance by 100x.",
     link: "https://doi.org/10.1016/j.ast.2022.107465",
     videoSrc: "/img/nasa/arches.mp4",
-    demo: "https://mybinder.org/v2/gl/jcfergus%2Fpuma-dev/main",
   },
   {
     name: "PuMA",
@@ -202,6 +201,7 @@ term planning. PuMA won the 2022 NASA Software of the Year Award.",
     github: "https://github.com/nasa/puma",
     link: "https://doi.org/10.1016/j.softx.2018.03.001",
     videoSrc: "/img/nasa/puma.mp4",
+    demo: "https://mybinder.org/v2/gl/jcfergus%2Fpuma-dev/main",
   },
   {
     name: "TomoSAM",
@@ -228,30 +228,28 @@ term planning. PuMA won the 2022 NASA Software of the Year Award.",
 
 export const projects: ProjectType[] = [
   {
-    name: "PICA-NuSil Validation",
+    name: "Silicon-coated TPS material",
     desc: "",
-    github: "",
-    link: "",
+    link: "https://doi.org/10.1016/j.ijheatmasstransfer.2022.123523",
     imageSrc: "",
   },
   {
     name: "Venus Mission Concept",
     desc: "",
-    link: "",
+    link: "https://ntrs.nasa.gov/api/citations/20240009219/downloads/GentryNaughtonMeurisse_AERACEPT_final.pdf",
     imageSrc: "",
   },
   {
     name: "Martian Flight Data Comparison",
     desc: "Optimized and analyzed experimental and Martian flight data to validate simulations. \
 Performed uncertainty quantification, ensuring accurate predictions to support NASA missions with data-driven decisions.",
-    github: "",
-    link: "",
+    link: "https://doi.org/10.2514/6.2023-2720",
     imageSrc: ""
   },
   {
     name: "Embedded Flight Software",
     desc: "",
-    github: "",
+    link: "https://www.researchgate.net/profile/Amir-Caspi-2/publication/303875839_First_flight_of_SMASH_the_SwRI_Miniature_Assembly_for_Solar_Hard_X-rays/links/5759c99d08ae9a9c954f261a/First-flight-of-SMASH-the-SwRI-Miniature-Assembly-for-Solar-Hard-X-rays.pdf",
     imageSrc: "",
   },
 ];
