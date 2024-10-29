@@ -94,14 +94,14 @@ export const coreSkills: CoreSkillsType[] = [
   {
     img: "/img/icons/programming.png",
     name: "Software Development",
-    desc: "9 years of software development. Built 6 simulation software in C/C++ and Python from scracth to launch. \
-Improved UX by adding conda packages, HPC modules, user guides, Google Cloud integration, and SQL web database using Django and JavaScript. \
+    desc: "9 years of software development. Built 6 CAE simulation software in C/C++ and Python from scracth to launch. \
+Improved UX by adding conda packages, HPC modules, user guides, cloud integration, and SQL web database using Django. \
 Developed a tailored testing framework integrated with CI/CD, ensuring high-quality, automated tests. \
 Created unit and regression tests while supporting developers by maintaining code integrity and promptly addressing issues.",
   },
   {
     img: "/img/icons/management.png",
-    name: "Leadership and Collaboration",
+    name: "Leadership & Collaboration",
     desc: "7 years of management. Led 12 NASA projects with 8 engineers, overseeing code development, \
 research, milestones, and long-term planning. Secured $3M in research funding. Coordinated with NASA leadership, \
 managed team administration, organized 30 annual visits for professors and students, and established 2 international \
@@ -109,7 +109,7 @@ agreements with research institutes.",
   },
   {
     img: "/img/icons/deep-learning.png",
-    name: "Machine Learning Integration",
+    name: "Machine Learning",
     desc: "Developed deep learning segmentation modules for video and 3D imaging data. Trained physics-informed neural \
 networks to create surrogate models for statistical analysis. Fine-tuned generative AI model GPT-NeoX (1.3B) to enhance \
 knowledge management systems. Participated in ML training and conferences and invited external experts to lead collaborative \
@@ -117,7 +117,7 @@ sessions to strengthen team's proficiency in ML applications."
    },
   {
     img: "/img/icons/innovation.png",
-    name: "Innovation and R&D ",
+    name: "Research & Innovation",
     desc: "Published journal papers and presented at leading conferences using large-scale simulation data to drive scientific \
 advancements. Developed novel multiscale models to address critical NASA challenges such as micro-tomography analysis, \
 material response, particle tracking, turbulence, hypersonic CFD, radiation, and plasma physics.",
