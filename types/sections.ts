@@ -90,6 +90,7 @@ export type SoftwareType = {
   videoSrc?: string;
   gifSrc?: string;
   imageSrc?: string;
+  demo?: string;
 };
 
 // * PROJECT SECTION

@@ -182,8 +182,9 @@ export const software: SoftwareType[] = [
 government paperwork. Expanded testing to ensure ongoing software integrity. Improved UX by adding conda packages, \
 supercomputer modules, user guides, Google Cloud integration, and SQL web database using Django and JavaScript.",
     github: "https://github.com/nasa/pato",
-    link: "https://doi.org/10.1016/j.ast.2018.01.013",
+    link: "https://pato.ac/index.php/engineering-design/",
     videoSrc: "/img/nasa/pato.mp4",
+    demo: "https://colab.research.google.com/drive/1yFm3BRhPpf15Tu6C77qLd4l-xQn71GBB?usp=sharing",
   },
   {
     name: "ARCHeS",
@@ -192,6 +193,7 @@ Created Python tools for enhanced visualization, optimization, and multi-physics
 acceleration using CUDA and Kokkos during NVIDIA hackathon, enhancing 3D radiation model performance by 100x.",
     link: "https://doi.org/10.1016/j.ast.2022.107465",
     videoSrc: "/img/nasa/arches.mp4",
+    demo: "https://mybinder.org/v2/gl/jcfergus%2Fpuma-dev/main",
   },
   {
     name: "PuMA",
@@ -240,16 +242,17 @@ export const projects: ProjectType[] = [
   },
   {
     name: "Martian Flight Data Comparison",
-    desc: "",
+    desc: "Optimized and analyzed experimental and Martian flight data to validate simulations. \
+Performed uncertainty quantification, ensuring accurate predictions to support NASA missions with data-driven decisions.",
     github: "",
     link: "",
-    videoSrc: ""
+    imageSrc: ""
   },
   {
     name: "Embedded Flight Software",
     desc: "",
     github: "",
-    videoSrc: "/img/nasa/puma.mp4",
+    videoSrc: "",
   },
 ];
 

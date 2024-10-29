@@ -3,7 +3,7 @@ import { Card, CardBody, Col, Button } from "reactstrap";
 import Fade from "react-reveal/Fade";
 import { SoftwareType } from "../types/sections";
 
-const SoftwareCard = ({ name, desc, github, link, videoSrc, gifSrc, imageSrc }: SoftwareType) => {
+const SoftwareCard = ({ name, desc, github, link, videoSrc, gifSrc, imageSrc, demo }: SoftwareType) => {
   return (
     <Col lg="6">
       <Card className="shadow-lg--hover shadow mt-4">
@@ -63,6 +63,21 @@ const SoftwareCard = ({ name, desc, github, link, videoSrc, gifSrc, imageSrc }: 
                     aria-label="Paper Link"
                   >
                     <span className="nav-link-inner--text ml-1">View Research</span>
+                  </Button>
+                ) : null}
+                {demo ? (
+                  <Button
+                    className="btn-icon"
+                    color="success"
+                    href={link}
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Demo"
+                  >
+                    <span className="btn-inner--icon">
+                      <i className="fa fa-arrow-right mr-2" />
+                    </span>
+                    <span className="nav-link-inner--text ml-1">Demo</span>
                   </Button>
                 ) : null}
               </div>
