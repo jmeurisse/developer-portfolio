@@ -1,12 +1,12 @@
 import React from "react";
-import { projects } from "../portfolio";
+import { software } from "../portfolio";
 import { Container, Row } from "reactstrap";
-import ProjectsCard from "../components/ProjectsCard";
+import SoftwareCard from "../components/SoftwareCard";
 import Fade from "react-reveal/Fade";
 
 const Software = () => {
   return (
-    projects && (
+    software && (
       <Fade bottom duration={2000}>
         <section className="section section-lg">
           <Container>
@@ -21,8 +21,8 @@ const Software = () => {
               </div>
             </div>
             <Row className="row-grid align-items-center">
-              {projects.map((data, i) => {
-                return <ProjectsCard key={i} {...data} />;
+              {software.map((data, i) => {
+                return <SoftwareCard key={i} {...data} />;
               })}
             </Row>
           </Container>
