@@ -95,13 +95,14 @@ export const coreSkills: CoreSkillsType[] = [
     img: "/img/icons/programming.png",
     name: "Software Development",
     desc: "9 years of software development. Built 6 simulation software in C/C++ and Python from scracth to launch. \
+Improved UX by adding conda packages, HPC modules, user guides, Google Cloud integration, and SQL web database using Django and JavaScript. \
 Developed a tailored testing framework integrated with CI/CD, ensuring high-quality, automated tests. \
 Created unit and regression tests while supporting developers by maintaining code integrity and promptly addressing issues.",
   },
   {
     img: "/img/icons/management.png",
-    name: "Technical Leadership and Team Management",
-    desc: "7 years of management. Directed 12 NASA projects with 8 engineers, overseeing code development, \
+    name: "Leadership and Collaboration",
+    desc: "7 years of management. Led 12 NASA projects with 8 engineers, overseeing code development, \
 research, milestones, and long-term planning. Secured $3M in research funding. Coordinated with NASA leadership, \
 managed team administration, organized 30 annual visits for professors and students, and established 2 international \
 agreements with research institutes.",
