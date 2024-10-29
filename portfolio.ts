@@ -37,14 +37,14 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: "What I do",
-  subTitle: "Developing, testing, deploying, and directing predictive simulation software products with ML/AI integration",
+  subTitle: "Developing, testing, deploying, and leading predictive CAE simulation software products",
   data: [
     {
       title: "Lead Software Engineer",
       lottieAnimationFile: "/lottie/coding.json", // Path of Lottie Animation JSON File
       imagePath: "/img/nasa/nasa_tools.png",
       skills: [
-        emoji("🚀 Predictive Simulation Tools Design & Development"),
+        emoji("🚀 Predictive CAE Simulation Tools Design & Development"),
         emoji("🛠️ Software Testing, Maintenance & Launch"),
         emoji("📊 Data-driven Model Validation & Statistical Analysis"),
         emoji("🌐 Large-Scale Distributed Systems & HPC Expertise"),
