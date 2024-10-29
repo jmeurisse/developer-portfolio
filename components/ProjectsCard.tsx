@@ -35,8 +35,9 @@ const ProjectsCard = ({ name, desc, github, link, videoSrc, gifSrc, imageSrc }: 
                   alt="Project"
                   style={{ 
                     width: "100%", 
-                    height: "50px",  // Set a fixed height or adjust as needed
-                    objectFit: "cover",  // Ensures the image maintains aspect ratio and fills the area
+                    height: "auto",  // Keeps aspect ratio intact
+                    maxHeight: "200px",  // Restricts maximum height without distortion
+                    objectFit: "contain",  // Ensures the whole image fits within the area
                     borderRadius: "10px", 
                     marginBottom: "15px" 
                   }}
