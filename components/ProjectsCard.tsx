@@ -3,7 +3,7 @@ import { Card, CardBody, Col, Button } from "reactstrap";
 import Fade from "react-reveal/Fade";
 import { ProjectType } from "../types/sections";
 
-const ProjectsCard = ({ name, desc, github, link, videoSrc, gifSrc }: ProjectType) => {
+const ProjectsCard = ({ name, desc, github, link, videoSrc, gifSrc, imageSrc }: ProjectType) => {
   return (
     <Col lg="6">
       <Card className="shadow-lg--hover shadow mt-4">
@@ -30,7 +30,7 @@ const ProjectsCard = ({ name, desc, github, link, videoSrc, gifSrc }: ProjectTyp
                   style={{ width: "100%", borderRadius: "10px", marginBottom: "15px" }}
                 />
               ) : null}
-              <h3>{name}</h3>
+              <h3 className="text-center">{name}</h3>
               <p className="description mt-3">{desc}</p>
               {github ? (
                 <Button
