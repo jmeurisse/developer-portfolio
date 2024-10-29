@@ -32,35 +32,37 @@ const ProjectsCard = ({ name, desc, github, link, videoSrc, gifSrc, imageSrc }: 
               ) : null}
               <h3 className="text-center">{name}</h3>
               <p className="description mt-3">{desc}</p>
-              {github ? (
-                <Button
-                  className="btn-icon"
-                  color="github"
-                  href={github}
-                  target="_blank"
-                  rel="noopener"
-                  aria-label="Github"
-                >
-                  <span className="btn-inner--icon">
-                    <i className="fa fa-github" />
-                  </span>
-                </Button>
-              ) : null}
-              {link ? (
-                <Button
-                  className="btn-icon"
-                  color="success"
-                  href={link}
-                  target="_blank"
-                  rel="noopener"
-                  aria-label="Paper Link"
-                >
-                  <span className="btn-inner--icon">
-                    <i className="ni ni-collection mr-2" />
-                  </span>
-                  <span className="nav-link-inner--text ml-1">View Research</span>
-                </Button>
-              ) : null}
+              <div className="d-flex justify-content-center mt-3">
+                {github ? (
+                  <Button
+                    className="btn-icon"
+                    color="github"
+                    href={github}
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Github"
+                  >
+                    <span className="btn-inner--icon">
+                      <i className="fa fa-github" />
+                    </span>
+                  </Button>
+                ) : null}
+                {link ? (
+                  <Button
+                    className="btn-icon"
+                    color="success"
+                    href={link}
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Paper Link"
+                  >
+                    <span className="btn-inner--icon">
+                      <i className="ni ni-collection mr-2" />
+                    </span>
+                    <span className="nav-link-inner--text ml-1">View Research</span>
+                  </Button>
+                ) : null}
+              </div>
             </div>
           </div>
         </CardBody>
