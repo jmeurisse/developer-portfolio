@@ -190,7 +190,7 @@ supercomputer modules, user guides, Google Cloud integration, and SQL web databa
     desc: "Designed and implemented ARCHeS (arc heater digital twin) for NASA's entry systems. \
 Created Python tools for enhanced visualization, optimization, and multi-physics integration. Optimized ARCHeS with GPU \
 acceleration using CUDA and Kokkos during NVIDIA hackathon, enhancing 3D radiation model performance by 100x.",
-    link: "https://www.sciencedirect.com/science/article/abs/pii/S1270963822001390",
+    link: "https://doi.org/10.1016/j.ast.2022.107465",
     videoSrc: "/img/nasa/arches.mp4",
   },
   {
@@ -198,26 +198,28 @@ acceleration using CUDA and Kokkos during NVIDIA hackathon, enhancing 3D radiati
     desc: "Supervised PuMA (micro-structure analysis), overseeing code development, research, milestones, and long- \
 term planning. PuMA won the 2022 NASA Software of the Year Award.",
     github: "https://github.com/nasa/puma",
+    link: "https://doi.org/10.1016/j.softx.2018.03.001",
     videoSrc: "/img/nasa/puma.mp4",
   },
   {
     name: "TomoSAM",
     desc: "Supervised development of deep learning segmentation tools for 3D imaging data (PuMA|TomoSAM).",
     github: "https://github.com/fedesemeraro/SlicerTomoSAM",
-    link: "https://github.com/fedesemeraro/SlicerTomoSAM",
+    link: "https://doi.org/10.48550/arXiv.2306.08609",
     videoSrc: "/img/nasa/tomosam.mp4"
   },
   {
     name: "arcjetCV",
     desc: "Supervised development of deep learning segmentation tools for video (arcjetCV).",
     github: "https://github.com/magnus-haw/arcjetCV",
-    link: "https://github.com/magnus-haw/arcjetCV",
+    link: "https://doi.org/10.48550/arXiv.2404.11492",
     gifSrc: "/img/nasa/arcjet_video.gif"
   },
   {
     name: "SPARTA",
     desc: "Supervised entry systems applications using SPARTA (DSMC code developed by Sandia), overseeing research, milestones, and long-term planning.",
-    github: "https://github.com/nasa/puma",
+    github: "https://github.com/sparta/sparta",
+    link: "https://ntrs.nasa.gov/api/citations/20220008045/downloads/FAR_paper_PMM.pdf",
     videoSrc: "/img/nasa/sparta.mp4",
   },
 ];
@@ -226,41 +228,28 @@ export const projects: ProjectType[] = [
   {
     name: "PICA-NuSil Validation",
     desc: "",
-    github: "https://github.com/nasa/pato",
-    link: "https://pato.ac/index.php/about/",
-    videoSrc: "/img/nasa/pato.mp4",
+    github: "",
+    link: "",
+    videoSrc: "",
   },
   {
     name: "Venus Mission Concept",
     desc: "",
-    link: "https://www.sciencedirect.com/science/article/abs/pii/S1270963822001390",
-    videoSrc: "/img/nasa/arches.mp4",
+    link: "",
+    videoSrc: "",
+  },
+  {
+    name: "Martian Flight Data Comparison",
+    desc: "",
+    github: "",
+    link: "",
+    videoSrc: ""
   },
   {
     name: "Embedded Flight Software",
     desc: "",
-    github: "https://github.com/nasa/puma",
+    github: "",
     videoSrc: "/img/nasa/puma.mp4",
-  },
-  {
-    name: "TomoSAM",
-    desc: "Supervised development of deep learning segmentation tools for 3D imaging data (PuMA|TomoSAM).",
-    github: "https://github.com/fedesemeraro/SlicerTomoSAM",
-    link: "https://github.com/fedesemeraro/SlicerTomoSAM",
-    videoSrc: "/img/nasa/tomosam.mp4"
-  },
-  {
-    name: "arcjetCV",
-    desc: "Supervised development of deep learning segmentation tools for video (arcjetCV).",
-    github: "https://github.com/magnus-haw/arcjetCV",
-    link: "https://github.com/magnus-haw/arcjetCV",
-    gifSrc: "/img/nasa/arcjet_video.gif"
-  },
-  {
-    name: "SPARTA",
-    desc: "Supervised entry systems applications using SPARTA (DSMC code developed by Sandia), overseeing research, milestones, and long-term planning.",
-    github: "https://github.com/nasa/puma",
-    videoSrc: "/img/nasa/sparta.mp4",
   },
 ];
 
