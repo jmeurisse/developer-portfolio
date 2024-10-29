@@ -3,27 +3,33 @@ import { Card, CardBody, Col, Button } from "reactstrap";
 import Fade from "react-reveal/Fade";
 import { ProjectType } from "../types/sections";
 
-const ProjectsCard = ({ name, desc, github, link, videoSrc }: ProjectType) => {
+const ProjectsCard = ({ name, desc, github, link, videoSrc, gifSrc }: ProjectType) => {
   return (
     <Col lg="6">
       <Card className="shadow-lg--hover shadow mt-4">
         <CardBody>
           <div className="d-flex px-3">
             <div className="pl-4">
-              {videoSrc && (
+              {videoSrc ? (
                 <video
                   autoPlay
                   loop
                   muted
                   playsInline
-                  preload="auto"
+                  preload="metadata"
                   width="100%"
                   style={{ borderRadius: "10px", marginBottom: "15px", outline: "none" }}
                 >
                   <source src={videoSrc} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
-              )}
+              ) : gifSrc ? (
+                <img
+                  src={gifSrc}
+                  alt="Project GIF"
+                  style={{ width: "100%", borderRadius: "10px", marginBottom: "15px" }}
+                />
+              ) : null}
               <h3>{name}</h3>
               <p className="description mt-3">{desc}</p>
               {github ? (

@@ -206,12 +206,14 @@ term planning. PuMA won the 2022 NASA Software of the Year Award.",
     desc: "Supervised development of deep learning segmentation tools for 3D imaging data (PuMA|TomoSAM).",
     github: "https://github.com/fedesemeraro/SlicerTomoSAM",
     link: "https://github.com/fedesemeraro/SlicerTomoSAM",
+    videoSrc: "/img/nasa/tomosam.mp4"
   },
   {
     name: "arcjetCV",
     desc: "Supervised development of deep learning segmentation tools for video (arcjetCV).",
     github: "https://github.com/magnus-haw/arcjetCV",
     link: "https://github.com/magnus-haw/arcjetCV",
+    gifSrc: "/img/nasa/arcjet_video.gif"
   },
   {
     name: "SPARTA",

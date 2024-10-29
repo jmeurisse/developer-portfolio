@@ -87,6 +87,7 @@ export type ProjectType = {
   github?: string;
   link?: string;
   videoSrc?: string;
+  gifSrc?: string;
 };
 
 // * FEEDBACK SECTION
