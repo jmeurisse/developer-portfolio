@@ -184,6 +184,7 @@ government paperwork. Expanded testing to ensure ongoing software integrity. Imp
 supercomputer modules, user guides, Google Cloud integration, and SQL web database using Django and JavaScript.",
     github: "https://github.com/nasa/pato",
     link: "https://pato.ac/index.php/about/",
+    videoSrc: "/img/nasa/pato.mp4",
   },
   {
     name: "ARCHeS",
@@ -191,12 +192,14 @@ supercomputer modules, user guides, Google Cloud integration, and SQL web databa
 Created Python tools for enhanced visualization, optimization, and multi-physics integration. Optimized ARCHeS with GPU \
 acceleration using CUDA and Kokkos during NVIDIA hackathon, enhancing 3D radiation model performance by 100x.",
     link: "https://www.sciencedirect.com/science/article/abs/pii/S1270963822001390",
+    videoSrc: "/img/nasa/arches.mp4",
   },
   {
     name: "PuMA",
     desc: "Supervised PuMA (micro-structure analysis), overseeing code development, research, milestones, and long- \
 term planning. PuMA won the 2022 NASA Software of the Year Award.",
     github: "https://github.com/nasa/puma",
+    videoSrc: "/img/nasa/puma.mp4",
   },
   {
     name: "Machine Learning",
@@ -206,6 +209,12 @@ tuned generative AI model GPT-NeoX (1.3B) to enhance knowledge management system
 conferences and invited external experts to lead collaborative sessions to strengthen team's proficiency in ML applications.",
     github: "https://github.com/fedesemeraro/SlicerTomoSAM",
     link: "https://github.com/magnus-haw/arcjetCV",
+  },
+  {
+    name: "SPARTA",
+    desc: "Supervised SPARTA (DSMC code developed by Sandia), overseeing research, milestones, and long-term planning.",
+    github: "https://github.com/nasa/puma",
+    videoSrc: "/img/nasa/sparta.mp4",
   },
 ];
 
