@@ -94,7 +94,9 @@ export const coreSkills: CoreSkillsType[] = [
   {
     img: "/img/icons/programming.png",
     name: "Software Development",
-    desc: "9 years of software development. Built 6 simulation software from scracth to launch.",
+    desc: "9 years of software development. Built 6 simulation software in C/C++ and Python from scracth to launch. \
+Developed a tailored testing framework integrated with CI/CD, ensuring high-quality, automated tests. \
+Created unit and regression tests while supporting developers by maintaining code integrity and promptly addressing issues.",
   },
   {
     img: "/img/icons/management.png",
