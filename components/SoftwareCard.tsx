@@ -69,7 +69,7 @@ const SoftwareCard = ({ name, desc, github, link, videoSrc, gifSrc, imageSrc, de
                   <Button
                     className="btn-icon"
                     color="success"
-                    href={link}
+                    href={demo}
                     target="_blank"
                     rel="noopener"
                     aria-label="Demo"

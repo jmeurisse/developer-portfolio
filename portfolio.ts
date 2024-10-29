@@ -232,13 +232,13 @@ export const projects: ProjectType[] = [
     desc: "",
     github: "",
     link: "",
-    videoSrc: "",
+    imageSrc: "",
   },
   {
     name: "Venus Mission Concept",
     desc: "",
     link: "",
-    videoSrc: "",
+    imageSrc: "",
   },
   {
     name: "Martian Flight Data Comparison",
@@ -252,7 +252,7 @@ Performed uncertainty quantification, ensuring accurate predictions to support N
     name: "Embedded Flight Software",
     desc: "",
     github: "",
-    videoSrc: "",
+    imageSrc: "",
   },
 ];
 
