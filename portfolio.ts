@@ -110,15 +110,15 @@ agreements with research institutes.",
   {
     img: "/img/icons/deep-learning.png",
     name: "Machine Learning",
-    desc: "Developed deep learning segmentation modules for video and 3D imaging data. Trained physics-informed neural \
-networks to create surrogate models for statistical analysis. Fine-tuned generative AI model GPT-NeoX (1.3B) to enhance \
-knowledge management systems. Participated in ML training and conferences and invited external experts to lead collaborative \
-sessions to strengthen team's proficiency in ML applications."
+    desc: "3 years of ML experience. Supervised development of deep learning segmentation tools for video and 3D imaging \
+data. Trained physics-informed neural networks to create surrogate models for statistical analysis. Fine-\
+tuned generative AI model GPT-NeoX (1.3B) to enhance knowledge management systems. Participated in ML trainings and \
+industry conferences. Facilitated collaborative sessions with external experts, enhancing team proficiency in ML."
    },
   {
     img: "/img/icons/innovation.png",
     name: "Research & Innovation",
-    desc: "Published journal papers and presented at leading conferences using large-scale simulation data to drive scientific \
+    desc: "Published 19 journal papers and presented at 20 leading conferences using large-scale CAE simulation data to drive scientific \
 advancements. Developed novel multiscale models to address critical NASA challenges such as micro-tomography analysis, \
 material response, particle tracking, turbulence, hypersonic CFD, radiation, and plasma physics.",
   },
