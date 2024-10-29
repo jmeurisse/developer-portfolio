@@ -98,10 +98,10 @@ agreements with research institutes.",
   {
     img: "/img/icons/deep-learning.png",
     name: "Machine Learning",
-    desc: "3 years of leading ML integration. Supervised development of DL segmentation tools for video and 3D imaging \
-data. Trained PINNs to create surrogate models for statistical analysis. Fine-\
-tuned generative AI model GPT-NeoX (1.3B) to enhance knowledge management systems. Participated in ML trainings and conferences. \
-Facilitated collaborative sessions with external experts, enhancing team proficiency in ML."
+    desc: "3 years of leading ML integration. Supervised development of deep learning segmentation tools for video and 3D imaging data. \
+Trained physics-informed neural networks to create surrogate models for statistical analysis. \
+Fine-tuned generative AI model GPT-NeoX (1.3B) to enhance knowledge management systems. \
+Participated in ML trainings and industry conferences. Facilitated collaborative sessions with external experts, enhancing team proficiency in ML."
    },
   {
     img: "/img/icons/innovation.png",
