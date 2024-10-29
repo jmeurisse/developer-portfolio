@@ -120,7 +120,8 @@ Facilitated collaborative sessions with external experts, enhancing team profici
     name: "Research & Innovation",
     desc: "Published 19 journal papers and presented at 20 leading conferences using large-scale simulation data to drive scientific \
 advancements. Developed novel multiscale models to address critical NASA challenges such as micro-tomography analysis, \
-material response, particle tracking, turbulence, hypersonic CFD, radiation, and plasma physics.",
+material response, particle tracking, turbulence, hypersonic CFD, radiation, and plasma physics. \
+The full list of papers is available <a href='https://scholar.google.com/citations?user=1OfvQk8AAAAJ&hl=en&oi=sra' target='_blank'>here</a>.",
   },
 ];
 
