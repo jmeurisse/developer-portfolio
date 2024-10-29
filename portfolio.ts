@@ -48,7 +48,8 @@ export const skillsSection: SkillsSectionType = {
         emoji("🛠️ Software Testing, Maintenance & Launch"),
         emoji("📊 Data-driven Model Validation & Statistical Analysis"),
         emoji("🌐 Large-Scale Distributed Systems & HPC Expertise"),
-        emoji("🤖 ML/AI Integration"),
+        emoji("🤖 ML/AI Integration & SDK/API Deployment"),
+        emoji("📣 Technical Community Advocacy"),
       ],
       softwareSkills: [
         { skillName: "C/C++", iconifyTag: "bxl:c-plus-plus" },
