@@ -182,7 +182,7 @@ export const software: SoftwareType[] = [
 government paperwork. Expanded testing to ensure ongoing software integrity. Improved UX by adding conda packages, \
 supercomputer modules, user guides, Google Cloud integration, and SQL web database using Django and JavaScript.",
     github: "https://github.com/nasa/pato",
-    link: "https://pato.ac/index.php/about/",
+    link: "https://doi.org/10.1016/j.ast.2018.01.013",
     videoSrc: "/img/nasa/pato.mp4",
   },
   {
