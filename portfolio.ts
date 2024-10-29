@@ -240,7 +240,7 @@ export const projects: ProjectType[] = [
     imageSrc: "",
   },
   {
-    name: "Martian Flight Data Comparison",
+    name: "Validation using Martian Entry Data",
     desc: "Optimized and analyzed experimental and Martian flight data to validate simulations. \
 Performed uncertainty quantification, ensuring accurate predictions to support NASA missions with data-driven decisions.",
     link: "https://doi.org/10.2514/6.2023-2720",
