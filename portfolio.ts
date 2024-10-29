@@ -202,17 +202,20 @@ term planning. PuMA won the 2022 NASA Software of the Year Award.",
     videoSrc: "/img/nasa/puma.mp4",
   },
   {
-    name: "Machine Learning",
-    desc: "Supervised development of deep learning segmentation tools for video (arcjetCV) and 3D imaging \
-data (PuMA|TomoSAM). Trained physics-informed neural networks to create surrogate models for statistical analysis. Fine- \
-tuned generative AI model GPT-NeoX (1.3B) to enhance knowledge management systems. Participated in ML training and \
-conferences and invited external experts to lead collaborative sessions to strengthen team's proficiency in ML applications.",
+    name: "TomoSAM",
+    desc: "Supervised development of deep learning segmentation tools for 3D imaging data (PuMA|TomoSAM).",
     github: "https://github.com/fedesemeraro/SlicerTomoSAM",
+    link: "https://github.com/fedesemeraro/SlicerTomoSAM",
+  },
+  {
+    name: "arcjetCV",
+    desc: "Supervised development of deep learning segmentation tools for video (arcjetCV).",
+    github: "https://github.com/magnus-haw/arcjetCV",
     link: "https://github.com/magnus-haw/arcjetCV",
   },
   {
     name: "SPARTA",
-    desc: "Supervised SPARTA (DSMC code developed by Sandia), overseeing research, milestones, and long-term planning.",
+    desc: "Supervised entry systems applications using SPARTA (DSMC code developed by Sandia), overseeing research, milestones, and long-term planning.",
     github: "https://github.com/nasa/puma",
     videoSrc: "/img/nasa/sparta.mp4",
   },
