@@ -12,7 +12,10 @@ const ProjectsCard = ({ name, desc, github, link, videoSrc }: ProjectType) => {
             <div className="pl-4">
               {videoSrc && (
                 <video
-                  controls
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
                   preload="auto"
                   width="100%"
                   style={{ borderRadius: "10px", marginBottom: "15px", outline: "none" }}
