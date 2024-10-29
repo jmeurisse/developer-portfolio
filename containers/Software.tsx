@@ -13,7 +13,7 @@ const Software = () => {
             <div className="d-flex p-4">
               <div>
                 <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
-                  <i className="ni ni-laptop text-info" />
+                  <i className="fas fa-code text-info" />
                 </div>
               </div>
               <div className="pl-4">

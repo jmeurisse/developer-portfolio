@@ -89,6 +89,7 @@ export type SoftwareType = {
   link?: string;
   videoSrc?: string;
   gifSrc?: string;
+  imageSrc?: string;
 };
 
 // * PROJECT SECTION
@@ -100,6 +101,7 @@ export type ProjectType = {
   link?: string;
   videoSrc?: string;
   gifSrc?: string;
+  imageSrc?: string;
 };
 
 // * FEEDBACK SECTION
