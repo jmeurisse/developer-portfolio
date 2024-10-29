@@ -32,6 +32,7 @@ type SoftwareSkillType = {
 type SkillType = {
   title: string;
   lottieAnimationFile: string;
+  imagePath: string;
   skills: React.ReactNode[] | string[];
   softwareSkills: SoftwareSkillType[];
 };
