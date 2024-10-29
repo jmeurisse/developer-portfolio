@@ -224,27 +224,21 @@ term planning. PuMA won the 2022 NASA Software of the Year Award.",
 
 export const projects: ProjectType[] = [
   {
-    name: "PATO",
-    desc: "Led development of PATO (ablation analysis R&D platform in C/C++), coordinating with \
-100+ developers and 200+ users. Released PATO as open-source by collaborating with cross-functional teams and navigating \
-government paperwork. Expanded testing to ensure ongoing software integrity. Improved UX by adding conda packages, \
-supercomputer modules, user guides, Google Cloud integration, and SQL web database using Django and JavaScript.",
+    name: "PICA-NuSil Validation",
+    desc: "",
     github: "https://github.com/nasa/pato",
     link: "https://pato.ac/index.php/about/",
     videoSrc: "/img/nasa/pato.mp4",
   },
   {
-    name: "ARCHeS",
-    desc: "Designed and implemented ARCHeS (arc heater digital twin) for NASA's entry systems. \
-Created Python tools for enhanced visualization, optimization, and multi-physics integration. Optimized ARCHeS with GPU \
-acceleration using CUDA and Kokkos during NVIDIA hackathon, enhancing 3D radiation model performance by 100x.",
+    name: "Venus Mission Concept",
+    desc: "",
     link: "https://www.sciencedirect.com/science/article/abs/pii/S1270963822001390",
     videoSrc: "/img/nasa/arches.mp4",
   },
   {
-    name: "PuMA",
-    desc: "Supervised PuMA (micro-structure analysis), overseeing code development, research, milestones, and long- \
-term planning. PuMA won the 2022 NASA Software of the Year Award.",
+    name: "Embedded Flight Software",
+    desc: "",
     github: "https://github.com/nasa/puma",
     videoSrc: "/img/nasa/puma.mp4",
   },

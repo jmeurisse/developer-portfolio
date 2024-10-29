@@ -53,12 +53,12 @@ const ProjectsCard = ({ name, desc, github, link, videoSrc, gifSrc, imageSrc }: 
                   href={link}
                   target="_blank"
                   rel="noopener"
-                  aria-label="Twitter"
+                  aria-label="Paper Link"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-arrow-right mr-2" />
+                    <i className="ni ni-collection mr-2" />
                   </span>
-                  <span className="nav-link-inner--text ml-1">Demo</span>
+                  <span className="nav-link-inner--text ml-1">View Research</span>
                 </Button>
               ) : null}
             </div>
