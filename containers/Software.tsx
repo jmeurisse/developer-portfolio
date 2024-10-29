@@ -4,7 +4,7 @@ import { Container, Row } from "reactstrap";
 import ProjectsCard from "../components/ProjectsCard";
 import Fade from "react-reveal/Fade";
 
-const Projects = () => {
+const Software = () => {
   return (
     projects && (
       <Fade bottom duration={2000}>
@@ -17,7 +17,7 @@ const Projects = () => {
                 </div>
               </div>
               <div className="pl-4">
-                <h4 className="display-3 text-info">Projects</h4>
+                <h4 className="display-3 text-info">Simulation Software</h4>
               </div>
             </div>
             <Row className="row-grid align-items-center">
@@ -32,4 +32,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Software;

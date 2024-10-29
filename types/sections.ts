@@ -80,6 +80,17 @@ export type ExperienceType = {
   descBullets?: string[];
 };
 
+// * SOFTWARE SECTION
+
+export type SoftwareType = {
+  name: string;
+  desc: string;
+  github?: string;
+  link?: string;
+  videoSrc?: string;
+  gifSrc?: string;
+};
+
 // * PROJECT SECTION
 
 export type ProjectType = {

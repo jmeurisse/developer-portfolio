@@ -3,6 +3,7 @@ import {
   EducationType,
   ExperienceType,
   FeedbackType,
+  SoftwareType,
   ProjectType,
   SkillsSectionType,
   SkillBarsType,
@@ -30,9 +31,6 @@ export const socialLinks: SocialLinksType = {
   email: "mailto:jeremie.meurisse@gmail.com",
   linkedin: "https://www.linkedin.com/in/jeremie-meurisse-70578787/",
   github: "https://github.com/jmeurisse",
-  // instagram: "https://www.instagram.com/__hanzla100",
-  // facebook: 'https://www.facebook.com/1hanzla100',
-  // twitter: 'https://twitter.com/1hanzla100',
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -176,6 +174,54 @@ scalable solutions.",
   },
 ];
 
+export const software: SoftwareType[] = [
+  {
+    name: "PATO",
+    desc: "Led development of PATO (ablation analysis R&D platform in C/C++), coordinating with \
+100+ developers and 200+ users. Released PATO as open-source by collaborating with cross-functional teams and navigating \
+government paperwork. Expanded testing to ensure ongoing software integrity. Improved UX by adding conda packages, \
+supercomputer modules, user guides, Google Cloud integration, and SQL web database using Django and JavaScript.",
+    github: "https://github.com/nasa/pato",
+    link: "https://pato.ac/index.php/about/",
+    videoSrc: "/img/nasa/pato.mp4",
+  },
+  {
+    name: "ARCHeS",
+    desc: "Designed and implemented ARCHeS (arc heater digital twin) for NASA's entry systems. \
+Created Python tools for enhanced visualization, optimization, and multi-physics integration. Optimized ARCHeS with GPU \
+acceleration using CUDA and Kokkos during NVIDIA hackathon, enhancing 3D radiation model performance by 100x.",
+    link: "https://www.sciencedirect.com/science/article/abs/pii/S1270963822001390",
+    videoSrc: "/img/nasa/arches.mp4",
+  },
+  {
+    name: "PuMA",
+    desc: "Supervised PuMA (micro-structure analysis), overseeing code development, research, milestones, and long- \
+term planning. PuMA won the 2022 NASA Software of the Year Award.",
+    github: "https://github.com/nasa/puma",
+    videoSrc: "/img/nasa/puma.mp4",
+  },
+  {
+    name: "TomoSAM",
+    desc: "Supervised development of deep learning segmentation tools for 3D imaging data (PuMA|TomoSAM).",
+    github: "https://github.com/fedesemeraro/SlicerTomoSAM",
+    link: "https://github.com/fedesemeraro/SlicerTomoSAM",
+    videoSrc: "/img/nasa/tomosam.mp4"
+  },
+  {
+    name: "arcjetCV",
+    desc: "Supervised development of deep learning segmentation tools for video (arcjetCV).",
+    github: "https://github.com/magnus-haw/arcjetCV",
+    link: "https://github.com/magnus-haw/arcjetCV",
+    gifSrc: "/img/nasa/arcjet_video.gif"
+  },
+  {
+    name: "SPARTA",
+    desc: "Supervised entry systems applications using SPARTA (DSMC code developed by Sandia), overseeing research, milestones, and long-term planning.",
+    github: "https://github.com/nasa/puma",
+    videoSrc: "/img/nasa/sparta.mp4",
+  },
+];
+
 export const projects: ProjectType[] = [
   {
     name: "PATO",
@@ -223,6 +269,8 @@ term planning. PuMA won the 2022 NASA Software of the Year Award.",
     videoSrc: "/img/nasa/sparta.mp4",
   },
 ];
+
+
 
 export const feedbacks: FeedbackType[] = [
   {
