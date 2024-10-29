@@ -46,7 +46,7 @@ export const skillsSection: SkillsSectionType = {
       skills: [
         emoji("🚀 Predictive Simulation Tools Design & Development"),
         emoji("🛠️ Software Testing, Maintenance & Launch"),
-        emoji("`📊 Data-driven Model Validation & Statistical Analysis"),
+        emoji("📊 Data-driven Model Validation & Statistical Analysis"),
         emoji("🌐 Large-Scale Distributed Systems & HPC Expertise"),
         emoji("🤖 ML/AI Integration"),
       ],
