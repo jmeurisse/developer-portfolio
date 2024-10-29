@@ -29,6 +29,12 @@ const ProjectsCard = ({ name, desc, github, link, videoSrc, gifSrc, imageSrc }: 
                   alt="Project GIF"
                   style={{ width: "100%", borderRadius: "10px", marginBottom: "15px" }}
                 />
+              ) : imageSrc ? (
+                <img
+                  src={imageSrc}
+                  alt="Project"
+                  style={{ width: "100%", borderRadius: "10px", marginBottom: "15px" }}
+                />
               ) : null}
               <h3 className="text-center">{name}</h3>
               <p className="description mt-3">{desc}</p>
