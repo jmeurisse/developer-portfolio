@@ -32,7 +32,7 @@ const SoftwareCard = ({ name, desc, github, link, videoSrc, gifSrc, imageSrc }: 
               ) : null}
               <h3 className="text-center">{name}</h3>
               <p className="description mt-3">{desc}</p>
-              <div className="d-flex justify-content-center mt-3"></div>
+              <div className="d-flex justify-content-center mt-3">
                 {github ? (
                   <Button
                     className="btn-icon"
