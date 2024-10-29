@@ -37,7 +37,7 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: "What I do",
-  subTitle: "Developing, testing, deploying, and leading predictive CAE simulation software products",
+  subTitle: "Developing, testing, deploying, and leading predictive CAE simulation software products.",
   data: [
     {
       title: "Lead Software Engineer",
@@ -76,18 +76,6 @@ export const skillsSection: SkillsSectionType = {
 };
 
 export const SkillBars: SkillBarsType[] = [
-  // {
-  //   Stack: "Frontend/Design", //Insert stack or technology you have experience in
-  //   progressPercentage: "85", //Insert relative proficiency in percentage
-  // },
-  // {
-  //   Stack: "Backend",
-  //   progressPercentage: "90",
-  // },
-  // {
-  //   Stack: "Programming",
-  //   progressPercentage: "95",
-  // },
 ];
 
 export const coreSkills: CoreSkillsType[] = [
@@ -118,10 +106,11 @@ Facilitated collaborative sessions with external experts, enhancing team profici
   {
     img: "/img/icons/innovation.png",
     name: "Research & Innovation",
-    desc: "Published 19 journal papers and presented at 20 leading conferences using large-scale simulation data to drive scientific \
+    desc: "Lead applied science projects in physics-based material modeling \
+to support cutting-edge NASA missions and technologies. \
+Published 19 journal papers and presented at 20 leading conferences using large-scale simulation data to drive scientific \
 advancements. Developed novel multiscale models to address critical NASA challenges such as micro-tomography analysis, \
-material response, particle tracking, turbulence, hypersonic CFD, radiation, and plasma physics. \
-The full list of papers is available <a href='https://scholar.google.com/citations?user=1OfvQk8AAAAJ&hl=en&oi=sra' target='_blank'>here</a>.",
+material response, particle tracking, turbulence, hypersonic CFD, radiation, and plasma physics."
   },
 ];
 
