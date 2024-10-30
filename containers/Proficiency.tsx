@@ -8,7 +8,7 @@ const CoreSkills = () => {
   return (
     coreSkills && (
       <Fade bottom duration={2000}>
-        <section className="section section-lg">
+        <section className="section pb-0 bg-gradient-info my-5">
           <Container>
             <div className="d-flex p-4">
               <div>
