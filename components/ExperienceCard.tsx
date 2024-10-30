@@ -59,10 +59,17 @@ const ExperienceCard = ({ companyLogo, company, contractor, role, date, titles, 
             >
               {titles.map((title, index) => (
                 <div key={index} style={{ width: "48%" }}>  {/* Increase width slightly */}
-                  <h6>{title}</h6>
+                  <h6><strong>{title}</strong></h6>
                   <ul style={{ paddingLeft: "1rem", marginBottom: "0" }}>  {/* Reduce padding */}
                     {desc[index]?.map((task, taskIndex) => (
-                      <li key={taskIndex}>{task}</li>
+                      <li key={taskIndex}>
+                        <p 
+                          className="description mt-2"
+                          style={{ wordBreak: "break-word", padding: "0 0.5rem" }} // Prevent text overflow and add padding
+                        >
+                          {task}
+                        </p>
+                      </li>
                     ))}
                   </ul>
                 </div>
