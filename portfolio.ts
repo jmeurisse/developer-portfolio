@@ -116,7 +116,7 @@ material response, particle tracking, turbulence, hypersonic CFD, radiation, and
 export const educationInfo: EducationType[] = [
   {
     schoolName: "ISAE - Supaero (France)",
-    subHeader: "Master of Engineering in Aerospace",
+    subHeader: "M.S. in Aerospace",
     duration: "2013 - 2015",
     desc: "",
     grade: "",
@@ -124,7 +124,7 @@ export const educationInfo: EducationType[] = [
   },
   {
     schoolName: "HEC Paris",
-    subHeader: "Certificate, Innovation Management in Aviation & Aerospace",
+    subHeader: "Certificate in Innovation Management",
     duration: "2015",
     desc: "",
     grade: "",
@@ -132,7 +132,7 @@ export const educationInfo: EducationType[] = [
   },
   {
     schoolName: "UCLouvain - EPL (Belgium)",
-    subHeader: "Bachelor & Master of Engineering in Electro-Mechanics",
+    subHeader: "B.S. & M.S. in Electromechanics",
     duration: "2009 - 2013",
     desc: "",
     grade: "",
