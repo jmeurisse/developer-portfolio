@@ -17,7 +17,7 @@ const Software = () => {
                 </div>
               </div>
               <div className="pl-4">
-                <h4 className="display-3 text-info">Simulation Software</h4>
+                <h4 className="display-3 text-info">Simulation Tools</h4>
               </div>
             </div>
             <Row className="row-grid align-items-center">
