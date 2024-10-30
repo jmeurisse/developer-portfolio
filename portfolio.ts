@@ -179,9 +179,11 @@ export const software: SoftwareType[] = [
     name: "PATO",
     desc: ["Description: R&D platform to analyze porous reactive materials",
            "Language: C/C++ and Python",
+           "Dependencies: OpenFOAM and foam-extend",
            "My Role: Main developer since 2017",
            "Community: 100+ developers and 200+ users",
            "Release: NASA Open Source",
+           "NASA Missions: MSL, Mars2020, MSR, Orion",
            "Deployement: CI/CD testing framework, conda packages, HPC modules, user guides, cloud integration, and SQL web database"],
     github: "https://github.com/nasa/pato",
     link: "https://pato.ac/index.php/engineering-design/",
@@ -190,9 +192,12 @@ export const software: SoftwareType[] = [
   },
   {
     name: "ARCHeS",
-    desc: ["Designed and implemented ARCHeS (arc heater digital twin) for NASA's entry systems. \
-Created Python tools for enhanced visualization, optimization, and multi-physics integration. Optimized ARCHeS with GPU \
-acceleration using CUDA and Kokkos during NVIDIA hackathon, enhancing 3D radiation model performance by 100x."],
+    desc: ["Description: arc heater digital twin",
+           "Language: C/C++ and Python",
+           "Dependencies: OpenFOAM",
+           "My Role: Main developer since 2016",
+           "Release: Deployed internally within NASA for use in mission-critical simulations and analysis",
+           "Deployement: GPU-accelerated radiation optimization, Python tools for enhanced visualization, optimization, and multi-physics integration"],
     link: "https://doi.org/10.1016/j.ast.2022.107465",
     gifSrc: "/img/nasa/arches.gif",
   },
