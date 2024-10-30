@@ -36,8 +36,13 @@ const CoreSkillsCard = ({ img, name, desc }: CoreSkillsType) => {
           </div>
           <h3 className="text-center mt-3">{name}</h3>
           <p 
-            className="description mt-2 text-center"
-            style={{ wordBreak: "break-word", padding: "0 0.5rem" }} // Prevent text overflow and add padding
+            className="description mt-2"
+            style={{ 
+              wordBreak: "break-word", 
+              padding: "0 0.5rem", 
+              textAlign: "justify",  // Ensures justified alignment
+              marginBottom: "1rem", // Adds space between elements
+            }}
           >
             {desc}
           </p>
