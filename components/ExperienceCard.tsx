@@ -43,6 +43,7 @@ const ExperienceCard = ({ companyLogo, company, contractor, role, date, titles, 
           <CardSubtitle tag="h6" className="mb-2">
             {contractor}
           </CardSubtitle>
+          <div style={{ height: "1rem" }}></div>
           <CardSubtitle tag="h5" className="mb-2">
             {role}
           </CardSubtitle>
@@ -52,7 +53,7 @@ const ExperienceCard = ({ companyLogo, company, contractor, role, date, titles, 
               {titles.map((title, index) => (
                 <div key={index} style={{ width: "45%" }}>
                   <h6>{title}</h6>
-                  <ul style={{ paddingLeft: "1.2rem" }}>
+                  <ul style={{ paddingLeft: "2rem" }}>
                     {desc[index]?.map((task, taskIndex) => (
                       <li key={taskIndex}>{task}</li>
                     ))}
