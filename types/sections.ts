@@ -76,8 +76,8 @@ export type ExperienceType = {
   company: string;
   companyLogo: string;
   date: string;
-  desc: string;
-  descBullets?: string[];
+  titles: string[];
+  desc: string[][];
 };
 
 // * SOFTWARE SECTION

@@ -146,31 +146,44 @@ export const experience: ExperienceType[] = [
     company: "NASA Ames Research Center",
     companyLogo: "/img/nasa/nasa-logo.png",
     date: "Jan 2024 - Present",
-    desc: "Drive strategic initiatives and lead the development of predictive simulation products while maintaining a strong technical focus.",
+    titles: ["20% Management", "80% Technical"],
+    desc: [
+      ["Team leadership and mentoring", "Resource allocation", "Project coordination"],
+      ["Developing predictive simulation tools", "Performance optimizations", "Writing code"],
+    ],
   },
   {
     role: "Senior Software Engineer",
     company: "NASA Ames Research Center",
     companyLogo: "/img/nasa/nasa-logo.png",
     date: "Nov 2020 - Jan 2024",
-    desc: "Led engineering team developing physics-based simulation tools for critical NASA missions, creating advanced \
-software, improving user experience, and building open-source infrastructure to support large-scale simulations and foster collaboration.",
+    titles: ["20% Management", "80% Technical"],
+    desc: [
+      ["Team leadership and mentoring", "Resource allocation", "Project coordination"],
+      ["Developing predictive simulation tools", "Performance optimizations", "Writing code"],
+    ],
   },
   {
     role: "Software Engineer",
     company: "NASA Ames Research Center",
     companyLogo: "/img/nasa/nasa-logo.png",
     date: "Jan 2016 - Oct 2020",
-    desc: "Led development of 2 complex simulation software in C/C++ from scratch, including feature integration, testing \
-frameworks, and model validation through rigorous experiments. Managed an engineering team, delivering high-quality, \
-scalable solutions.",
+    titles: ["20% Management", "80% Technical"],
+    desc: [
+      ["Team leadership and mentoring", "Resource allocation", "Project coordination"],
+      ["Developing predictive simulation tools", "Performance optimizations", "Writing code"],
+    ],
   },
   {
     role: "Software Engineer Intern",
     company: "NASA Ames Research Center",
     companyLogo: "/img/nasa/nasa-logo.png",
     date: "Jun 2015 - Dec 2015",
-    desc: "Executed projects on CubeSat constellation for solar observation and developed critical software for space weather missions.",
+    titles: ["20% Management", "80% Technical"],
+    desc: [
+      ["Team leadership and mentoring", "Resource allocation", "Project coordination"],
+      ["Developing predictive simulation tools", "Performance optimizations", "Writing code"],
+    ],
   },
 ];
 
