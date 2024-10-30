@@ -99,7 +99,7 @@ const SocialLinks = () => {
           aria-label="ResearchGate"
         >
           <span className="btn-inner--icon">
-            <i className="fa-brands fa-researchgate" />
+            <i className="fa fa-flask" />
           </span>
         </Button>
       )}
