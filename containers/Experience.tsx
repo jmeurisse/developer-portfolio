@@ -26,7 +26,7 @@ const Experience = () => {
               })}
             </Row>
           </Container>
-          <div className="separator separator-bottom separator-skew zindex-100">
+          <div className="separator separator-bottom separator-skew zindex-100" style={{ marginBottom: "-3px" }}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               preserveAspectRatio="none"
