@@ -26,8 +26,8 @@ const CoreSkillsCard = ({ img, name, desc }: CoreSkillsType) => {
               style={{
                 maxWidth: "100%", 
                 maxHeight: "100%", 
-                width: "130px", 
-                height: "130px", 
+                width: "110px", 
+                height: "110px", 
                 objectFit: "contain", 
                 borderRadius: "10px", 
                 marginBottom: "15px" 
@@ -41,7 +41,6 @@ const CoreSkillsCard = ({ img, name, desc }: CoreSkillsType) => {
               wordBreak: "break-word", 
               padding: "0 0.5rem", 
               textAlign: "justify",  // Ensures justified alignment
-              marginBottom: "1rem", // Adds space between elements
             }}
           >
             {desc}
