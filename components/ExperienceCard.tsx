@@ -53,15 +53,29 @@ const ExperienceCard = ({ companyLogo, company, role, date, desc, descBullets }:
                   })
                 : null}
             </ul>
+            <div style={{ display: "flex", justifyContent: "space-between", marginTop: "1rem" }}>
+              {/* Management Tasks - 20% */}
+              <div style={{ width: "45%" }}>
+                <h6>20% Management</h6>
+                <ul style={{ paddingLeft: "1.2rem" }}>
+                  <li>Team leadership and mentoring</li>
+                  <li>Resource allocation and planning</li>
+                  <li>Project coordination</li>
+                </ul>
+              </div>
+
+              {/* Technical Tasks - 80% */}
+              <div style={{ width: "45%" }}>
+                <h6>80% Technical</h6>
+                <ul style={{ paddingLeft: "1.2rem" }}>
+                  <li>Developing predictive simulation tools</li>
+                  <li>Running performance optimizations</li>
+                  <li>Writing and maintaining code</li>
+                  <li>Conducting technical research</li>
+                </ul>
+              </div>
+            </div>
           </CardText>
-          <div style="width: 100%; background-color: #e0e0e0; border-radius: 5px; overflow: hidden; height: 20px;">
-            <div style="width: 80%; background-color: #4CAF50; float: left; height: 100%; text-align: center; color: white;">
-              80% Technical
-            </div>
-            <div style="width: 20%; background-color: #2196F3; float: left; height: 100%; text-align: center; color: white;">
-              20% Management
-            </div>
-          </div>
         </CardBody>
       </Card>
     </Col>
