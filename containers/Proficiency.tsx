@@ -13,7 +13,7 @@ const CoreSkills = () => {
             <div className="d-flex p-4">
               <div>
                 <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
-                  <i className="ni ni-settings-gear-65 text-info" />
+                  <i className="ni ni-ui-04 text-info" />
                 </div>
               </div>
               <div className="pl-4">
