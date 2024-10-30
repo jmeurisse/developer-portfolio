@@ -254,19 +254,16 @@ export const projects: ProjectType[] = [
     desc: "Developed a novel equilibrium thermal response model in PATO. \
 This model accounts for the impact of NuSil, a silicone overcoat used for \
 contamination control during assembly, testing, and launch. \
-The coating was applied to heatshields of the MSL and Mars 2020 missions",
+The coating was applied to heatshields of the MSL and Mars 2020 missions.",
     link: "https://doi.org/10.1016/j.ijheatmasstransfer.2022.123523",
     imageSrc: "/img/nasa/pica-n.png",
   },
   {
     name: "Venus Mission Concept",
-    desc: "Aerosols are essential components in the dynamics of planetary systems, influencing energy and material circulation, \
-    which in turn impacts climate, weather patterns, surface evolution, and habitability. Next-generation planetary missions aim \
-    to explore aerosols across multiple celestial bodies, unlocking deeper insights into these critical components of planetary atmospheres. \
-    A novel technology concept developed at NASA Ames Research Center combines aerosol-sampling inlets with thermal protection materials and rapid optical analysis, \
-    providing a more compact and efficient alternative to conventional large descent probes that rely on parachutes or aeroshell separation. \
-    Innovative internal flow paths were developed and validated within a hybrid entry system and atmospheric sonde, supporting advanced aerosol exploration on Venus. \
-    This work highlights the development and application of an extensive suite of modeling tools custom-built for simulating aerosol chemistry in planetary missions using streamlined, single-body probes.",
+    desc: "Developed a suite of modeling tools that integrate aerosol-sampling inlets, \
+thermal protection systems, and optical analysis into a compact, single-body probe. \
+These tools predict the thermal environment, simulate internal flow dynamics, and assess \
+particle capture efficiency during atmospheric entry.",
     link: "https://ntrs.nasa.gov/api/citations/20240009219/downloads/GentryNaughtonMeurisse_AERACEPT_final.pdf",
     imageSrc: "/img/nasa/aeracept.png",
   },
