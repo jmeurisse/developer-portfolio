@@ -183,7 +183,6 @@ export const software: SoftwareType[] = [
            "My Role: Lead developer since 2017",
            "Community: 100+ developers and 200+ users",
            "Release: NASA Open Source",
-           "NASA Missions: MSL, Mars2020, MSR, Orion",
            "Deployement: CI/CD testing framework, conda packages, HPC modules, user guides, cloud integration, and SQL web database"],
     github: "https://github.com/nasa/pato",
     link: "https://pato.ac/index.php/engineering-design/",
