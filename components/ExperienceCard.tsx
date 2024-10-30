@@ -54,6 +54,14 @@ const ExperienceCard = ({ companyLogo, company, role, date, desc, descBullets }:
                 : null}
             </ul>
           </CardText>
+          <div style="width: 100%; background-color: #e0e0e0; border-radius: 5px; overflow: hidden; height: 20px;">
+            <div style="width: 80%; background-color: #4CAF50; float: left; height: 100%; text-align: center; color: white;">
+              80% Technical
+            </div>
+            <div style="width: 20%; background-color: #2196F3; float: left; height: 100%; text-align: center; color: white;">
+              20% Management
+            </div>
+          </div>
         </CardBody>
       </Card>
     </Col>
