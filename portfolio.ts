@@ -159,7 +159,7 @@ export const experience: ExperienceType[] = [
     contractor: "contracted by AMA, Inc.",
     companyLogo: "/img/nasa/nasa-logo.png",
     date: "Nov 2020 - Jan 2024",
-    titles: ["20% Management", "80% Technical"],
+    titles: ["10% Management", "90% Technical"],
     desc: [
       ["Team leadership and mentoring", "Resource allocation", "Project coordination"],
       ["Developing predictive simulation tools", "Performance optimizations", "Writing code"],
@@ -171,7 +171,7 @@ export const experience: ExperienceType[] = [
     contractor: "contracted by STC and UIUC",
     companyLogo: "/img/nasa/nasa-logo.png",
     date: "Jan 2016 - Oct 2020",
-    titles: ["20% Management", "80% Technical"],
+    titles: ["5% Management", "95% Technical"],
     desc: [
       ["Team leadership and mentoring", "Resource allocation", "Project coordination"],
       ["Developing predictive simulation tools", "Performance optimizations", "Writing code"],
@@ -183,7 +183,7 @@ export const experience: ExperienceType[] = [
     contractor: "contracted by UIUC",
     companyLogo: "/img/nasa/nasa-logo.png",
     date: "Jun 2015 - Dec 2015",
-    titles: ["20% Management", "80% Technical"],
+    titles: ["20% Hardware", "80% Software"],
     desc: [
       ["Team leadership and mentoring", "Resource allocation", "Project coordination"],
       ["Developing predictive simulation tools", "Performance optimizations", "Writing code"],
