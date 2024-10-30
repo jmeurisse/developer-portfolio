@@ -47,7 +47,7 @@ const ExperienceCard = ({ companyLogo, company, role, date, titles, desc }: Expe
           <CardText tag="div" className="description my-3 text-left">
             <div style={{ display: "flex", justifyContent: "space-between", marginTop: "1rem" }}>
               {titles.map((title, index) => (
-                <div key={index} style={{ width: "45%" }}>
+                <div key={index} style={{ width: "48%" }}>
                   <h6>{title}</h6>
                   <ul style={{ paddingLeft: "1.2rem" }}>
                     {desc[index]?.map((task, taskIndex) => (
