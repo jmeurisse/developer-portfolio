@@ -269,8 +269,9 @@ particle capture efficiency during atmospheric entry.",
   },
   {
     name: "Validation using Martian Data",
-    desc: "Optimized and analyzed experimental and Martian flight data to validate simulations. \
-Performed uncertainty quantification, ensuring accurate predictions to support NASA missions with data-driven decisions.",
+    desc: "Validated the ablation models in PATO using comparisons with Mars Science Laboratory and Mars 2020 data \
+and experimental results. The models were rigorously benchmarked against both arc-jet tests and in-flight \
+data to ensure accurate predictions of material response during atmospheric entry, ensuring reliability for mission-critical design decisions​.",
     link: "https://doi.org/10.2514/6.2023-2720",
     imageSrc: "/img/nasa/mars2020.png"
   },
