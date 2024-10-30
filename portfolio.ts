@@ -250,7 +250,7 @@ export const software: SoftwareType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: "PICA-NuSil Model Development",
+    name: "PICA-NuSil Model",
     desc: "Developed a novel equilibrium thermal response model in PATO. \
 This model accounts for the impact of NuSil, a silicone overcoat used for \
 contamination control during assembly, testing, and launch. \
