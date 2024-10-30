@@ -262,10 +262,10 @@ providing accurate predictions to support NASA missions with data-driven decisio
   {
     name: "Venus Mission Concept",
     desc: "Developed a suite of modeling tools that integrate aerosol-sampling inlets, \
-thermal protection systems, and optical analysis into a compact, single-body probe. \
+thermal protection systems, and optical analysis into a compact probe. \
 These tools predict the thermal environment, simulate flow dynamics, and assess \
 particle capture efficiency to guide design improvements, safeguarding sample \
-integrity for scientific analysis in extreme environments.",
+integrity for a Venus mission concept.",
     link: "https://ntrs.nasa.gov/api/citations/20240009219/downloads/GentryNaughtonMeurisse_AERACEPT_final.pdf",
     imageSrc: "/img/nasa/aeracept.png",
   },
@@ -278,7 +278,7 @@ data to ensure accurate predictions of material response during atmospheric entr
     imageSrc: "/img/nasa/mars2020.png"
   },
   {
-    name: "CubSat Embedded Software",
+    name: "CubeSat Embedded Software",
     desc: "Developed embedded flight software to manage CubeSat science data and built a \
 Python-based ground control interface. This interface was successfully tested during an Antarctica balloon flight, \
 calibrating a high-energy X-ray detector for solar observations.",
