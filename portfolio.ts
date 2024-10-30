@@ -93,8 +93,7 @@ product quality and performance. Improved UX by adding Conda packages, HPC modul
     name: "Leadership & Collaboration",
     desc: "7 years of management. Led 12 NASA projects with 8 engineers, overseeing code development, \
 research, milestones, and long-term planning. Secured $3M in research funding. Coordinated with NASA leadership, \
-managed team administration, organized 30 annual visits for professors and students, and established 2 international \
-agreements with research institutes.",
+managed team administration, hosted 30 annual academic visits, and established 2 international research agreements.",
   },
   {
     img: "/img/icons/deep-learning.png",
