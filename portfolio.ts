@@ -218,7 +218,7 @@ export const software: SoftwareType[] = [
            "Language: C/C++ and Python",
            "Dependencies: OpenFOAM",
            "Physics: Magnetohydrodynamics and 3D radiation",
-           "Release: internal deployment for NASA analysis",
+           "Release: Internal deployment for NASA analysis",
            ],
     link: "https://doi.org/10.1016/j.ast.2022.107465",
     gifSrc: "/img/nasa/arches.gif",
