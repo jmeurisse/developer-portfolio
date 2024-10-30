@@ -200,7 +200,7 @@ acceleration using CUDA and Kokkos during NVIDIA hackathon, enhancing 3D radiati
 term planning. PuMA won the 2022 NASA Software of the Year Award.",
     github: "https://github.com/nasa/puma",
     link: "https://doi.org/10.1016/j.softx.2018.03.001",
-    videoSrc: "/img/nasa/puma.mp4",
+    gifSrc: "/img/nasa/puma.gif",
     demo: "https://mybinder.org/v2/gl/jcfergus%2Fpuma-dev/main",
   },
   {
@@ -208,7 +208,7 @@ term planning. PuMA won the 2022 NASA Software of the Year Award.",
     desc: "Supervised development of deep learning segmentation tools for 3D imaging data (PuMA|TomoSAM).",
     github: "https://github.com/fedesemeraro/SlicerTomoSAM",
     link: "https://doi.org/10.48550/arXiv.2306.08609",
-    videoSrc: "/img/nasa/tomosam.mp4"
+    gifSrc: "/img/nasa/tomosam.gif"
   },
   {
     name: "arcjetCV",
@@ -222,7 +222,7 @@ term planning. PuMA won the 2022 NASA Software of the Year Award.",
     desc: "Supervised entry systems applications using SPARTA (DSMC code developed by Sandia), overseeing research, milestones, and long-term planning.",
     github: "https://github.com/sparta/sparta",
     link: "https://ntrs.nasa.gov/api/citations/20220008045/downloads/FAR_paper_PMM.pdf",
-    videoSrc: "/img/nasa/sparta.mp4",
+    gifSrc: "/img/nasa/sparta.gif",
   },
 ];
 
@@ -233,7 +233,7 @@ export const projects: ProjectType[] = [
 The model accounts for the effect of NuSil, a silicone overcoat applied as contamination control \
 during assembly, test, and launch operations for both the Mars Science Laboratory and the Mars 2020 heatshields.",
     link: "https://doi.org/10.1016/j.ijheatmasstransfer.2022.123523",
-    imageSrc: "/img/nasa/pica-n.gif",
+    imageSrc: "/img/nasa/pica-n.png",
   },
   {
     name: "Venus Mission Concept",
@@ -245,21 +245,21 @@ during assembly, test, and launch operations for both the Mars Science Laborator
     Innovative internal flow paths were developed and validated within a hybrid entry system and atmospheric sonde, supporting advanced aerosol exploration on Venus. \
     This work highlights the development and application of an extensive suite of modeling tools custom-built for simulating aerosol chemistry in planetary missions using streamlined, single-body probes.",
     link: "https://ntrs.nasa.gov/api/citations/20240009219/downloads/GentryNaughtonMeurisse_AERACEPT_final.pdf",
-    imageSrc: "/img/nasa/aeracept.gif",
+    imageSrc: "/img/nasa/aeracept.png",
   },
   {
     name: "Validation using Martian Data",
     desc: "Optimized and analyzed experimental and Martian flight data to validate simulations. \
 Performed uncertainty quantification, ensuring accurate predictions to support NASA missions with data-driven decisions.",
     link: "https://doi.org/10.2514/6.2023-2720",
-    imageSrc: "/img/nasa/mars2020.gif"
+    imageSrc: "/img/nasa/mars2020.png"
   },
   {
     name: "Embedded Flight Software",
     desc: "Implemented embedded flight software in C/C++ to manage CubeSat science data during flight. \
 Developed Python ground control interface, used successfully in an Antarctica balloon test to calibrate high X-ray detector.",
     link: "https://www.researchgate.net/profile/Amir-Caspi-2/publication/303875839_First_flight_of_SMASH_the_SwRI_Miniature_Assembly_for_Solar_Hard_X-rays/links/5759c99d08ae9a9c954f261a/First-flight-of-SMASH-the-SwRI-Miniature-Assembly-for-Solar-Hard-X-rays.pdf",
-    imageSrc: "/img/nasa/cubesat.gif",
+    imageSrc: "/img/nasa/cubesat.png",
   },
 ];
 
