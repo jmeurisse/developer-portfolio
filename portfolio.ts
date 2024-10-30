@@ -95,7 +95,7 @@ agreements with research institutes.",
   },
   {
     img: "/img/icons/deep-learning.png",
-    name: "Machine Learning",
+    name: "Machine Learning Integration",
     desc: "3 years of leading ML integration. Supervised development of deep learning segmentation tools for video and 3D imaging data. \
 Trained physics-informed neural networks to create surrogate models for statistical analysis. \
 Fine-tuned generative AI model GPT-NeoX (1.3B) to enhance knowledge management systems. \
@@ -271,8 +271,8 @@ integrity for a Venus mission concept.",
   },
   {
     name: "Validation using Martian Data",
-    desc: "Validated the ablation models in PATO using comparisons with Mars Science Laboratory and Mars 2020 data \
-and experimental results. The models were rigorously benchmarked against both arc-jet tests and in-flight \
+    desc: "Validated the ablation models in PATO using comparisons with MSL and Mars 2020 data \
+and experimental results. The models were benchmarked against both arc-jet tests and in-flight \
 data to ensure accurate predictions of material response during atmospheric entry, ensuring reliability for mission-critical design decisions​.",
     link: "https://doi.org/10.2514/6.2023-2720",
     imageSrc: "/img/nasa/mars2020.png"
