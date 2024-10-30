@@ -17,9 +17,10 @@ const ExperienceCard = ({ companyLogo, company, role, date, desc, descBullets }:
               marginRight: "auto",
               width: "8rem",
               height: "8rem",
-              overflow: "hidden",      // Prevents content overflow
-              backgroundColor: "transparent",  // Ensures no background color
-              boxShadow: "0 0 15px rgba(0, 0, 0, 0.1)"  // Optional shadow for aesthetics
+              overflow: "visible",     // Ensures the image isn’t clipped
+              backgroundColor: "transparent",  // No background color
+              boxShadow: "none",       // Removes shadow for a clean look
+              borderRadius: "0"        // Removes the circular crop
             }}
             className="mb-3"
             alt="Company Logo"
