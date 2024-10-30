@@ -51,7 +51,7 @@ const SoftwareCard = ({ name, desc, github, link, videoSrc, gifSrc, imageSrc, de
                   return (
                     <li 
                       key={index} 
-                      style={{ marginBottom: '4px', lineHeight: '1.5' }}
+                      style={{ marginBottom: '3px', lineHeight: '1.5' }}
                     >
                       <p 
                         className="description mt-2"
