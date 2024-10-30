@@ -29,7 +29,7 @@ const SoftwareCard = ({ name, desc, github, link, videoSrc, gifSrc, imageSrc, de
                   alt="Project GIF"
                   style={{ 
                     width: "100%", 
-                    maxHeight: "200px",  // Sets a maximum height 
+                    maxHeight: "150px",  // Sets a maximum height 
                     objectFit: "contain",  // Ensures the entire GIF fits without cropping
                     borderRadius: "10px", 
                     marginBottom: "15px" 

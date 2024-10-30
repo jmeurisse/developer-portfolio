@@ -221,7 +221,7 @@ export const software: SoftwareType[] = [
            "Language: C/C++",
            "My Role: Supervisor since 2019, overseeing code development, research, and long-term planning. ",
            "Release: Sandia Open Source",
-           "Deployement: CI/CD testing framework, conda packages, HPC modules, user guides, cloud integration, and SQL web database"],
+           "Deployement: HPC modules, user guides"],
     github: "https://github.com/sparta/sparta",
     link: "https://ntrs.nasa.gov/api/citations/20220008045/downloads/FAR_paper_PMM.pdf",
     gifSrc: "/img/nasa/sparta.gif",
