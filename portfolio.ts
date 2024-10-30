@@ -254,7 +254,8 @@ export const projects: ProjectType[] = [
     desc: "Developed a novel equilibrium thermal response model in PATO. \
 This model accounts for the impact of NuSil, a silicone overcoat used for \
 contamination control during assembly, testing, and launch. \
-The coating was applied to heatshields of the MSL and Mars 2020 missions.",
+The model was applied to heatshields of the MSL and Mars 2020 missions, \
+providing accurate predictions to support NASA missions with data-driven decisions.",
     link: "https://doi.org/10.1016/j.ijheatmasstransfer.2022.123523",
     imageSrc: "/img/nasa/pica-n.png",
   },
