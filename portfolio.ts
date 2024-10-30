@@ -251,10 +251,10 @@ export const software: SoftwareType[] = [
 export const projects: ProjectType[] = [
   {
     name: "PICA-NuSil Model",
-    desc: "Developed a novel equilibrium thermal response model in PATO. \
+    desc: "Developed a novel equilibrium material response model in PATO. \
 This model accounts for the impact of NuSil, a silicone overcoat used for \
 contamination control during assembly, testing, and launch. \
-The model was applied to heatshields of the MSL and Mars 2020 missions, \
+The model was applied to heatshields of MSL and Mars 2020 missions, \
 providing accurate predictions to support NASA missions with data-driven decisions.",
     link: "https://doi.org/10.1016/j.ijheatmasstransfer.2022.123523",
     imageSrc: "/img/nasa/pica-n.png",
@@ -264,7 +264,7 @@ providing accurate predictions to support NASA missions with data-driven decisio
     desc: "Developed a suite of modeling tools that integrate aerosol-sampling inlets, \
 thermal protection systems, and optical analysis into a compact, single-body probe. \
 These tools predict the thermal environment, simulate flow dynamics, and assess \
-particle capture efficiency.",
+particle capture efficiency during entry.",
     link: "https://ntrs.nasa.gov/api/citations/20240009219/downloads/GentryNaughtonMeurisse_AERACEPT_final.pdf",
     imageSrc: "/img/nasa/aeracept.png",
   },
