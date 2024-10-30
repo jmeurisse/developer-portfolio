@@ -238,7 +238,7 @@ export const software: SoftwareType[] = [
   },
   {
     name: "arcjetCV",
-    desc: ["Description: Deep learning segmentation tool for isolating shocks and samples in arc-jet video analysis",
+    desc: ["Description: Deep learning tool for segmenting shocks and samples in arc-jet video analysis",
            "Language: C/C++ and Python",
            "My Role: Supervisor since 2019, overseeing code development, research, and long-term planning. ",
            "Release: NASA Open Source"],
