@@ -5,7 +5,8 @@ import SocialLinks from "./SocialLinks";
 
 const GithubProfileCard = ({ avatar_url, bio, location }: GithubUserType) => {
   const msg1 = `Let's Collaborate!`;
-  const msg2 = `Have an exciting project, collaboration idea, or just want to connect? I'd be happy to chat. Feel free to reach out — I'll respond promptly.`;
+  const msg2 = `Have an exciting project, collaboration idea, or just want to connect? 
+  I'd be happy to chat. Feel free to reach out — I'll respond promptly.`;
 
   return (
     <Card className="section-lg bg-gradient-info shadow-lg border-0">
