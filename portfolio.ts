@@ -149,9 +149,9 @@ export const experience: ExperienceType[] = [
     date: "Jan 2024 - Present",
     titles: ["20% Management", "80% Technical"],
     desc: [
-      ["Managed 8-people team across 5 NASA projects", "Coordinated with 100+ developers and partners", "Directed product complete lifecycle for 6 simulation tools"],
-      ["Developed GPU-integrated CAE tools", "Ran key NASA simulations", "Integrated ML to optimize workflows"],
-    ],    
+      ["Executive-level team leadership and mentoring", "Strategic resource allocation and planning", "Cross-organizational project coordination"],
+      ["Developing ML-integrated CAE simulation platforms", "Driving performance optimizations across NASA projects", "Architecting and maintaining scalable codebases"],
+    ],   
   },
   {
     role: "Senior Software Engineer",
@@ -161,9 +161,9 @@ export const experience: ExperienceType[] = [
     date: "Nov 2020 - Jan 2024",
     titles: ["10% Management", "90% Technical"],
     desc: [
-      ["Managed 8-people team across 12 NASA projects", "Secured $3M in funding", "Organized 30 academic visits annually"],
-      ["Main open-source PATO developer", "Optimized testing with HPC and cloud tools", "Published"],
-    ],    
+      ["Managed 8-people engineering team", "Led project planning and resource allocation", "Coordinated cross-functional collaborations"],
+      ["Developed ML-integrated CAE simulation tools", "Optimized performance for HPC environments", "Wrote and reviewed production code"],
+    ],        
   },
   {
     role: "Software Engineer",
@@ -173,9 +173,9 @@ export const experience: ExperienceType[] = [
     date: "Jan 2016 - Oct 2020",
     titles: ["5% Management", "95% Technical"],
     desc: [
-      ["Team leadership and mentoring", "Resource allocation", "Project coordination"],
-      ["Developing predictive simulation tools", "Performance optimizations", "Writing code"],
-    ],
+      ["Led small teams on targeted projects", "Handled project planning and goal setting", "Collaborated with external partners"],
+      ["Developed simulation tools and pipelines", "Implemented performance tuning strategies", "Contributed to core code development"],
+    ],    
   },
   {
     role: "Software Engineer Intern",
@@ -185,8 +185,12 @@ export const experience: ExperienceType[] = [
     date: "Jun 2015 - Dec 2015",
     titles: ["20% Hardware", "80% Software"],
     desc: [
-      ["Team leadership and mentoring", "Resource allocation", "Project coordination"],
-      ["Developing predictive simulation tools", "Performance optimizations", "Writing code"],
+      ["Setting up CubeSat hardware components", 
+       "Calibrated onboard sensors during Antarctica balloon test", 
+       "Integrated IMU system"],
+      ["Developed embedded software", 
+       "Built GUI for real-time telemetry", 
+       "Tested code for onboard data processing"],
     ],
   },
 ];
