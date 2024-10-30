@@ -98,19 +98,16 @@ managed team administration, hosted 30 annual academic visits, and established 2
   {
     img: "/img/icons/deep-learning.png",
     name: "Machine Learning Integration",
-    desc: "3 years of leading ML integration. Supervised development of deep learning segmentation tools for video and 3D imaging data. \
-Trained physics-informed neural networks to create surrogate models for statistical analysis. \
-Fine-tuned generative AI model GPT-NeoX (1.3B) to enhance knowledge management systems. \
-Participated in ML trainings and industry conferences. Facilitated collaborative sessions with external experts, enhancing team proficiency in ML."
+    desc: "3 years leading ML integration. Supervised deep learning tools for video and 3D imaging segmentation. \
+Trained physics-informed neural networks to develop surrogate models. Fine-tuned GPT-NeoX (1.3B) for knowledge management systems. \
+Organized ML training sessions and facilitated collaborations with external experts to elevate team proficiency."
    },
   {
     img: "/img/icons/innovation.png",
     name: "Research & Innovation",
-    desc: "Lead applied science projects in physics-based material modeling \
-to support cutting-edge NASA missions and technologies. \
-Published 19 journal papers and presented at 20 leading conferences using large-scale simulation data to drive scientific \
-advancements. Developed novel multiscale models to address critical NASA challenges such as micro-tomography analysis, \
-material response, particle tracking, turbulence, hypersonic CFD, radiation, and plasma physics."
+    desc: "Led applied science projects in physics-based material modeling to support NASA missions and technologies. \
+Published 19 journal papers and presented at 20 conferences using large-scale simulation data. \
+Developed multiscale models addressing NASA’s challenges in micro-tomography, material response, turbulence, hypersonic CFD, radiation, and plasma physics."
   },
 ];
 
