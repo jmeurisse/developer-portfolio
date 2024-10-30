@@ -143,14 +143,14 @@ export const educationInfo: EducationType[] = [
 export const experience: ExperienceType[] = [
   {
     role: "Lead Software Engineer",
-    company: "NASA Ames Research Center (AMA, Inc.)",
+    company: "NASA Ames Research Center, CA    AMA, Inc.",
     companyLogo: "/img/nasa/nasa-logo.png",
     date: "Jan 2024 - Present",
     desc: "Drive strategic initiatives and lead the development of predictive simulation products while maintaining a strong technical focus.",
   },
   {
     role: "Senior Software Engineer",
-    company: "NASA Ames Research Center (AMA, Inc.)",
+    company: "NASA Ames Research Center, CA    AMA, Inc.",
     companyLogo: "/img/nasa/nasa-logo.png",
     date: "Nov 2020 - Jan 2024",
     desc: "Led engineering team developing physics-based simulation tools for critical NASA missions, creating advanced \
@@ -158,7 +158,7 @@ software, improving user experience, and building open-source infrastructure to 
   },
   {
     role: "Software Engineer",
-    company: "NASA Ames Research Center (STC & UIUC)",
+    company: "NASA Ames Research Center, CA    STC & UIUC",
     companyLogo: "/img/nasa/nasa-logo.png",
     date: "Jan 2016 - Oct 2020",
     desc: "Led development of 2 complex simulation software in C/C++ from scratch, including feature integration, testing \
@@ -167,7 +167,7 @@ scalable solutions.",
   },
   {
     role: "Software Engineer Intern",
-    company: "NASA Ames Research Center (UIUC)",
+    company: "NASA Ames Research Center, CA    UIUC",
     companyLogo: "/img/nasa/nasa-logo.png",
     date: "Jun 2015 - Dec 2015",
     desc: "Executed projects on CubeSat constellation for solar observation and developed critical software for space weather missions.",
@@ -229,7 +229,7 @@ export const software: SoftwareType[] = [
   {
     name: "TomoSAM",
     desc: ["Description: Deep learning segmentation tool for 3D imaging data used in micro-structural analysis",
-           "Language: C/C++ and Python",
+           "Language: Python",
            "My Role: Supervisor since 2019, overseeing code development, research, and long-term planning. ",
            "Release: NASA Open Source (PuMA plug-in)"],
     github: "https://github.com/fedesemeraro/SlicerTomoSAM",
@@ -239,7 +239,7 @@ export const software: SoftwareType[] = [
   {
     name: "arcjetCV",
     desc: ["Description: Deep learning tool for segmenting shocks and samples in arc-jet video analysis",
-           "Language: C/C++ and Python",
+           "Language: Python",
            "My Role: Supervisor since 2019, overseeing code development, research, and long-term planning. ",
            "Release: NASA Open Source"],
     github: "https://github.com/magnus-haw/arcjetCV",
