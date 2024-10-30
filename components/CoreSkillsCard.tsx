@@ -16,7 +16,7 @@ const CoreSkillsCard = ({ img, name, desc }: CoreSkillsType) => {
               justifyContent: "center",
               alignItems: "center",
               height: "20vh", 
-              padding: "1rem", // Ensure spacing within the container
+              padding: "0rem", // Ensure spacing within the container
               overflow: "hidden", // Prevent image overflow
             }}
           >
@@ -26,9 +26,11 @@ const CoreSkillsCard = ({ img, name, desc }: CoreSkillsType) => {
               style={{
                 maxWidth: "100%", 
                 maxHeight: "100%", 
-                width: "150px", 
-                height: "150px", 
+                width: "100px", 
+                height: "100px", 
                 objectFit: "contain", 
+                borderRadius: "10px", 
+                marginBottom: "15px" 
               }}
             />
           </div>
