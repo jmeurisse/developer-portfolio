@@ -11,7 +11,7 @@ const SocialLinks = () => {
           color="white"
           rel="noopener"
           aria-label="URL"
-          href={socialLinks.url}
+          href={`mailto:${socialLinks.email}`}
           target="_blank"
         >
           <span className="btn-inner--icon">
