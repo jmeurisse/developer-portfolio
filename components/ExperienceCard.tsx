@@ -62,7 +62,7 @@ const ExperienceCard = ({ companyLogo, company, contractor, role, date, titles, 
                   <h6><strong>{title}</strong></h6>
                   <ul style={{ paddingLeft: "1rem", marginBottom: "0" }}>  {/* Reduce padding */}
                     {desc[index]?.map((task, taskIndex) => (
-                      <li key={taskIndex}>
+                      <li key={taskIndex} style={{ marginBottom: '8px', lineHeight: '1.5' }}>
                         <p 
                           className="description mt-2"
                           style={{ wordBreak: "break-word", padding: "0 0.5rem" }} // Prevent text overflow and add padding
