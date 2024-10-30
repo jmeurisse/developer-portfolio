@@ -224,7 +224,7 @@ export const software: SoftwareType[] = [
     name: "PuMA",
     desc: ["Description: R&D platforms for analyzing micro-structural properties of porous materials",
            "My Role: Supervisor since 2019, overseeing code development, research, and long-term planning",
-           "Deployment: CI/CD framework, Conda packages, HPC modules, user guides",
+           "Deployment: CI/CD framework, Conda packages, HPC modules, docs, video tutorials",
            "Award: 2022 NASA Software of the Year",
            "Language: C/C++ and Python",
            "Release: NASA Open Source",
