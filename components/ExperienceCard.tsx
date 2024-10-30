@@ -7,7 +7,7 @@ const ExperienceCard = ({ companyLogo, company, role, date, desc, descBullets }:
   return (
     <Col lg="6">
       <Card style={{ flex: 1 }} className="shadow-lg--hover my-4 shadow border-0 text-center rounded h-100">
-        <CardBody className="">
+        <CardBody style={{ backgroundColor: "transparent" }}>
           <img
             src={companyLogo}
             style={{
