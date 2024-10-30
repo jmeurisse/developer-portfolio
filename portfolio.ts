@@ -150,7 +150,7 @@ export const experience: ExperienceType[] = [
     titles: ["20% Management", "80% Technical"],
     desc: [
       ["Executive-level team leadership and mentoring", "Strategic resource allocation and planning", "Cross-organizational project coordination"],
-      ["Developing ML-integrated CAE simulation platforms", "Driving performance optimizations across NASA projects", "Architecting and maintaining scalable codebases"],
+      ["Developing ML-integrated CAE simulation platforms", "Driving performance optimizations", "Architecting and maintaining scalable codebases"],
     ],   
   },
   {
