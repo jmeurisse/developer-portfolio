@@ -21,9 +21,15 @@ const CoreSkills = () => {
               </div>
             </div>
             <Row className="row-grid align-items-center">
-              {coreSkills.map((data, i) => {
-                return <CoreSkillsCard key={i} {...data} />;
-              })}
+              {coreSkills.map((data, i) => (
+                <div 
+                  key={i} 
+                  className="mb-4"  // Adds margin-bottom to each card
+                  style={{ width: '100%' }}
+                >
+                  <CoreSkillsCard {...data} />
+                </div>
+              ))}
             </Row>
           </Container>
           <div className="separator separator-bottom separator-skew zindex-100">
