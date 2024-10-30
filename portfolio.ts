@@ -177,7 +177,7 @@ scalable solutions.",
 export const software: SoftwareType[] = [
   {
     name: "PATO",
-    desc: ["Description: R&D platform to analyze porous reactive materials",
+    desc: ["Description: R&D platform for analyzing multiphase porous reactive materials in high-temperature environments",
            "Language: C/C++ and Python",
            "Dependencies: OpenFOAM and foam-extend",
            "My Role: Lead developer since 2017",
