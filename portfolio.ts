@@ -227,7 +227,7 @@ export const software: SoftwareType[] = [
   },
   {
     name: "TomoSAM",
-    desc: ["Description: Deep learning segmentation tool for 3D imaging data used in advanced microstructural analysis",
+    desc: ["Description: Deep learning segmentation tool for 3D imaging data used in micro-structural analysis",
            "Language: C/C++ and Python",
            "My Role: Supervisor since 2019, overseeing code development, research, and long-term planning. ",
            "Release: NASA Open Source (PuMA plug-in)"],
@@ -237,7 +237,7 @@ export const software: SoftwareType[] = [
   },
   {
     name: "arcjetCV",
-    desc: ["Description: Deep learning segmentation tool for isolating shock waves and material samples in arc-jet video analysis",
+    desc: ["Description: Deep learning segmentation tool for isolating shocks and samples in arc-jet video analysis",
            "Language: C/C++ and Python",
            "My Role: Supervisor since 2019, overseeing code development, research, and long-term planning. ",
            "Release: NASA Open Source"],
