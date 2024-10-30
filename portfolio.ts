@@ -216,7 +216,7 @@ export const software: SoftwareType[] = [
   },
   {
     name: "SPARTA",
-    desc: ["Description: DSMC code for simulating rarefied gas flows",
+    desc: ["Description: DSMC code for simulating rarefied gas flows during hypersonic atmospheric entry",
            "Language: C/C++",
            "My Role: Supervisor since 2019, overseeing code development, research, and long-term planning.",
            "Release: Sandia Open Source",
