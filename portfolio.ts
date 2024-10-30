@@ -83,10 +83,10 @@ export const coreSkills: CoreSkillsType[] = [
   {
     img: "/img/icons/programming.png",
     name: "Software Development",
-    desc: "9 years of software development. Built 6 CAE simulation software from scracth to launch. \
-Developed a CI/CD testing framework for high-quality, automated tests. \
-Led feature integration, code optimization, and open-source transitions to enhance \
-product quality and performance. Improved UX by adding Conda packages, HPC modules, cloud integration, and an SQL web database."
+    desc: "9 years of software development. Built 6 CAE simulation tools from scracth to launch. \
+Developed CI/CD framework for automated tests. \
+Led code optimization, and open-source transitions to enhance \
+product quality and performance. Improved UX by adding Conda packages, HPC modules, cloud integration, and SQL web database."
   },
   {
     img: "/img/icons/management.png",
