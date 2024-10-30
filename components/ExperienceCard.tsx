@@ -3,7 +3,7 @@ import { Card, CardBody, CardTitle, CardSubtitle, CardText, Col } from "reactstr
 import Fade from "react-reveal/Fade";
 import { ExperienceType } from "../types/sections";
 
-const ExperienceCard = ({ companyLogo, company, role, date, title, desc }: ExperienceType) => {
+const ExperienceCard = ({ companyLogo, company, role, date, titles, desc }: ExperienceType) => {
   return (
     <Col lg="6">
       <Card 
