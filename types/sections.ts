@@ -54,8 +54,6 @@ export type CoreSkillsType = {
   img: string;
   name: string;
   desc: string;
-  github?: string;
-  link?: string;
 };
 
 // * EDUCATION SECTION
