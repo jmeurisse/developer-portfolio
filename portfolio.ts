@@ -197,7 +197,7 @@ export const software: SoftwareType[] = [
            "Dependencies: OpenFOAM",
            "My Role: Lead developer since 2016",
            "Physics: Magnetohydrodynamics and 3D radiation",
-           "Release: Deployed internally within NASA for use in mission-critical simulations and analysis",
+           "Release: internal deployment for NASA analysis",
            "Deployement: GPU-accelerated radiation optimization, Python tools for visualization, optimization, and multi-physics integration"],
     link: "https://doi.org/10.1016/j.ast.2022.107465",
     gifSrc: "/img/nasa/arches.gif",
@@ -208,12 +208,24 @@ export const software: SoftwareType[] = [
            "Language: C/C++ and Python",
            "My Role: Supervisor since 2019, overseeing code development, research, and long-term planning. ",
            "Release: NASA Open Source",
-           "Deployement: CI/CD testing framework, conda packages, HPC modules, user guides, cloud integration, and SQL web database",
+           "Deployement: CI/CD testing framework, conda packages, HPC modules, user guides, ML integration",
            "Award: 2022 NASA Software of the Year Award"],
     github: "https://github.com/nasa/puma",
     link: "https://doi.org/10.1016/j.softx.2018.03.001",
     gifSrc: "/img/nasa/puma.gif",
     demo: "https://mybinder.org/v2/gl/jcfergus%2Fpuma-dev/main",
+  },
+  {
+    name: "SPARTA",
+    desc: ["Description: DSMC code for simulating rarefied gas flows",
+           "Language: C/C++",
+           "My Role: Supervisor since 2019, overseeing code development, research, and long-term planning. ",
+           "Release: Sandia Open Source",
+           "Deployement: CI/CD testing framework, conda packages, HPC modules, user guides, cloud integration, and SQL web database"],
+    desc: ["Supervised entry systems applications using SPARTA (DSMC code developed by Sandia), overseeing research, milestones, and long-term planning."],
+    github: "https://github.com/sparta/sparta",
+    link: "https://ntrs.nasa.gov/api/citations/20220008045/downloads/FAR_paper_PMM.pdf",
+    gifSrc: "/img/nasa/sparta.gif",
   },
   {
     name: "TomoSAM",
@@ -228,13 +240,6 @@ export const software: SoftwareType[] = [
     github: "https://github.com/magnus-haw/arcjetCV",
     link: "https://doi.org/10.48550/arXiv.2404.11492",
     gifSrc: "/img/nasa/arcjet_video.gif"
-  },
-  {
-    name: "SPARTA",
-    desc: ["Supervised entry systems applications using SPARTA (DSMC code developed by Sandia), overseeing research, milestones, and long-term planning."],
-    github: "https://github.com/sparta/sparta",
-    link: "https://ntrs.nasa.gov/api/citations/20220008045/downloads/FAR_paper_PMM.pdf",
-    gifSrc: "/img/nasa/sparta.gif",
   },
 ];
 
