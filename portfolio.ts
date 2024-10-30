@@ -162,7 +162,7 @@ export const experience: ExperienceType[] = [
     titles: ["10% Management", "90% Software"],
     desc: [
       ["Managed 8-member engineering team", "Coordinated 12 projects and engaged with external developers", "Led strategic planning and resource allocation"],
-      ["Developed ML-integrated CAE simulation tools", "Optimized performance for HPC environments", "Wrote and reviewed CAE simulation production code"],
+      ["Developed ML-integrated CAE simulation tools", "Optimized performance for HPC environments", "Wrote, tested, and reviewed production code"],
     ],        
   },
   {
