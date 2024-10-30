@@ -150,7 +150,7 @@ export const experience: ExperienceType[] = [
     titles: ["20% Management", "80% Software"],
     desc: [
       ["Managed 8-member engineering team", "Coordinated 5 projects and foster collaboration with external partners", " Shape and execute strategic roadmaps"],
-      ["Developing ML-integrated CAE simulation platforms", "Driving HPC performance optimizations", "Architecting and maintaining scalable codebases"],
+      ["Developing ML-integrated CAE simulation platforms", "Architecting and maintaining scalable codebases", "Driving HPC performance optimizations"],
     ],   
   },
   {
@@ -162,7 +162,7 @@ export const experience: ExperienceType[] = [
     titles: ["10% Management", "90% Software"],
     desc: [
       ["Managed 8-member engineering team", "Coordinated 12 projects and engaged with external developers", "Led strategic planning and resource allocation"],
-      ["Developed ML-integrated CAE simulation tools", "Optimized performance for HPC environments", "Wrote, tested, and reviewed production code"],
+      ["Developed ML-integrated CAE simulation tools", "Wrote, tested, and reviewed production code", "Optimized performance for HPC environments"],
     ],        
   },
   {
