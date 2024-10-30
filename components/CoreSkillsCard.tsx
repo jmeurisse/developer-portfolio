@@ -7,8 +7,8 @@ import GreetingLottie from "../components/DisplayLottie";
 const CoreSkillsCard = ({ img, name, desc, github, link }: CoreSkillsType) => {
   return (
     <Col lg="6">
-      <Card className="shadow-lg--hover shadow mt-4">
-        <CardBody>
+      <Card className="shadow-lg--hover shadow mt-4 h-100">
+        <CardBody className="d-flex flex-column justify-content-between">
           <div className="d-flex px-3">
             <div className="pl-4">
               <div
@@ -17,6 +17,7 @@ const CoreSkillsCard = ({ img, name, desc, github, link }: CoreSkillsType) => {
                   justifyContent: "center",
                   alignItems: "center",
                   height: "20vh", // Adjust the height as needed
+                  paddingBottom: "1rem", // Add space below the image to avoid overlap
                 }}
               >
                 <img
