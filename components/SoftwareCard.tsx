@@ -51,11 +51,11 @@ const SoftwareCard = ({ name, desc, github, link, videoSrc, gifSrc, imageSrc, de
                   return (
                     <li 
                       key={index} 
-                      style={{ marginBottom: '8px', fontSize: '16px', lineHeight: '1.5', color: '#333' }}
+                      style={{ marginBottom: '8px' }}
                     >
                       <strong>{title}:</strong> 
                       <p 
-                        className="description mt-2 text-center"
+                        className="description mt-2"
                         style={{ wordBreak: "break-word", padding: "0 0.5rem" }} // Prevent text overflow and add padding
                       >
                         {content}
