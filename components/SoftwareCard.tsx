@@ -1,6 +1,5 @@
 import React from "react";
 import { Card, CardBody, Col, Button } from "reactstrap";
-import Fade from "react-reveal/Fade";
 import { SoftwareType } from "../types/sections";
 
 const SoftwareCard = ({ name, desc, github, link, videoSrc, gifSrc, imageSrc, demo }: SoftwareType) => {

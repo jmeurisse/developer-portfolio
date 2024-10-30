@@ -1,6 +1,5 @@
 import React from "react";
 import { Card, CardBody, Col } from "reactstrap";
-import Fade from "react-reveal/Fade";
 import { CoreSkillsType } from "../types/sections";
 
 const CoreSkillsCard = ({ img, name, desc }: CoreSkillsType) => {
