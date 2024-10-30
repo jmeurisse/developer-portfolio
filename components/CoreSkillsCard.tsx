@@ -26,8 +26,8 @@ const CoreSkillsCard = ({ img, name, desc }: CoreSkillsType) => {
               style={{
                 maxWidth: "100%", 
                 maxHeight: "100%", 
-                width: "100px", 
-                height: "100px", 
+                width: "130px", 
+                height: "130px", 
                 objectFit: "contain", 
                 borderRadius: "10px", 
                 marginBottom: "15px" 
