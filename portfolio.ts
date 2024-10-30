@@ -264,7 +264,8 @@ providing accurate predictions to support NASA missions with data-driven decisio
     desc: "Developed a suite of modeling tools that integrate aerosol-sampling inlets, \
 thermal protection systems, and optical analysis into a compact, single-body probe. \
 These tools predict the thermal environment, simulate flow dynamics, and assess \
-particle capture efficiency during entry.",
+particle capture efficiency to guide design improvements, safeguarding sample \
+integrity for scientific analysis in extreme environments.",
     link: "https://ntrs.nasa.gov/api/citations/20240009219/downloads/GentryNaughtonMeurisse_AERACEPT_final.pdf",
     imageSrc: "/img/nasa/aeracept.png",
   },
@@ -277,8 +278,8 @@ data to ensure accurate predictions of material response during atmospheric entr
     imageSrc: "/img/nasa/mars2020.png"
   },
   {
-    name: "Embedded Software for CubeSats",
-    desc: "Developed embedded flight software in C/C++ to manage CubeSat science data during flight and built a \
+    name: "CubSat Embedded Software",
+    desc: "Developed embedded flight software to manage CubeSat science data during flight and built a \
 Python-based ground control interface. This interface was successfully tested during an Antarctica balloon flight, \
 calibrating a high-energy X-ray detector for solar observations. Executed projects on CubeSat constellations for \
 space weather missions, delivering research on CubeSat instrumentation presented to NASA’s Heliophysics division \
