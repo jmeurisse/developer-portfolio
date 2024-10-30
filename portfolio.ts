@@ -18,7 +18,7 @@ export const greetings: GreetingsType = {
   title: "Hi, I'm Jeremie!",
   description:
     "I am a software engineer with 9 years of experience at NASA, I specialize in developing and leading complex multi-physics simulation projects. My journey from Intern to Lead Software Engineer has equipped me with a robust technical background and strong leadership capabilities, including 7 years of management experience.",
-  resumeLink: "/2024-08-08_Jeremie_Meurisse_Resume.pdf",
+  resumeLink: "/2024-10-30_Jeremie_Meurisse_Resume.pdf",
 };
 
 export const openSource = {
