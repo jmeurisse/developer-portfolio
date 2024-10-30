@@ -177,10 +177,13 @@ scalable solutions.",
 export const software: SoftwareType[] = [
   {
     name: "PATO",
-    desc: ["Led development of PATO (ablation analysis R&D platform in C/C++), coordinating with","\
-100+ developers and 200+ users. Released PATO as open-source by collaborating with cross-functional teams and navigating \
-government paperwork. Expanded testing to ensure ongoing software integrity. Improved UX by adding conda packages, \
-supercomputer modules, user guides, Google Cloud integration, and SQL web database using Django and JavaScript."],
+    desc: ["Description: R&D platform to analyze porous reactive materials",
+           "Language: C/C++ and Python",
+           "My Role: Main developer since 2017",
+           "Community: 100+ developers and 200+ users",
+           "Release: NASA Open Source",
+           "Deployement: CI/CD testing framework, conda packages, \
+supercomputer modules, user guides, cloud integration, and SQL web database."],
     github: "https://github.com/nasa/pato",
     link: "https://pato.ac/index.php/engineering-design/",
     gifSrc: "/img/nasa/pato.gif",
