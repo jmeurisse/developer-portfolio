@@ -5,8 +5,8 @@ import { SoftwareType } from "../types/sections";
 const SoftwareCard = ({ name, desc, github, link, videoSrc, gifSrc, imageSrc, demo }: SoftwareType) => {
   return (
     <Col lg="6">
-      <Card className="shadow-lg--hover shadow mt-4">
-        <CardBody>
+      <Card className="shadow-lg--hover shadow mt-4 h-100">
+        <CardBody className="d-flex flex-column justify-content-between">
           <div className="d-flex px-3">
             <div className="pl-4">
               {videoSrc ? (
@@ -28,8 +28,8 @@ const SoftwareCard = ({ name, desc, github, link, videoSrc, gifSrc, imageSrc, de
                   alt="Project GIF"
                   style={{ 
                     width: "100%", 
-                    maxHeight: "150px",  // Sets a maximum height 
-                    objectFit: "contain",  // Ensures the entire GIF fits without cropping
+                    maxHeight: "150px", 
+                    objectFit: "contain", 
                     borderRadius: "10px", 
                     marginBottom: "15px" 
                   }}
@@ -38,28 +38,34 @@ const SoftwareCard = ({ name, desc, github, link, videoSrc, gifSrc, imageSrc, de
                 <img
                   src={imageSrc}
                   alt="Project"
-                  style={{ width: "100%", borderRadius: "10px", marginBottom: "15px" }}
+                  style={{ 
+                    width: "100%", 
+                    borderRadius: "10px", 
+                    marginBottom: "15px" 
+                  }}
                 />
               ) : null}
-              <h3 className="text-center">{name}</h3>
+              <h3 className="text-center mt-3">{name}</h3>
               <ul 
                 className="description-list mt-3" 
                 style={{ paddingLeft: '20px', listStyleType: 'disc', margin: 0 }}
               >
-                {desc.map((item, index) => {
-                  const [title, content] = item.split(': ');  // Splitting at the colon
-                  return (
-                    <li 
-                      key={index} 
-                      style={{ marginBottom: '8px', fontSize: '16px', lineHeight: '1.5', color: '#333' }}
-                    >
-                      <strong>{title}:</strong> {content}
-                    </li>
-                  );
-                })}
+                {desc.map((item, index) => (
+                  <li 
+                    key={index} 
+                    style={{ 
+                      marginBottom: '8px', 
+                      fontSize: '16px', 
+                      lineHeight: '1.5', 
+                      color: '#333' 
+                    }}
+                  >
+                    <strong>{item[0]}</strong>: {item[1]}
+                  </li>
+                ))}
               </ul>
               <div className="d-flex justify-content-center mt-3">
-                {github ? (
+                {github && (
                   <Button
                     className="btn-icon"
                     color="github"
@@ -72,8 +78,8 @@ const SoftwareCard = ({ name, desc, github, link, videoSrc, gifSrc, imageSrc, de
                       <i className="fa fa-github" />
                     </span>
                   </Button>
-                ) : null}
-                {link ? (
+                )}
+                {link && (
                   <Button
                     className="btn-icon"
                     color="success"
@@ -84,8 +90,8 @@ const SoftwareCard = ({ name, desc, github, link, videoSrc, gifSrc, imageSrc, de
                   >
                     <span className="nav-link-inner--text ml-1">View Research</span>
                   </Button>
-                ) : null}
-                {demo ? (
+                )}
+                {demo && (
                   <Button
                     className="btn-icon"
                     color="success"
@@ -99,7 +105,7 @@ const SoftwareCard = ({ name, desc, github, link, videoSrc, gifSrc, imageSrc, de
                     </span>
                     <span className="nav-link-inner--text ml-1">Demo</span>
                   </Button>
-                ) : null}
+                )}
               </div>
             </div>
           </div>
