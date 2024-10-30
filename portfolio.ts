@@ -227,14 +227,20 @@ export const software: SoftwareType[] = [
   },
   {
     name: "TomoSAM",
-    desc: ["Supervised development of deep learning segmentation tools for 3D imaging data (PuMA|TomoSAM)."],
+    desc: ["Description: deep learning segmentation tool for 3D imaging data used in advanced microstructural analysis",
+           "Language: C/C++ and Python",
+           "My Role: Supervisor since 2019, overseeing code development, research, and long-term planning. ",
+           "Release: NASA Open Source (PuMA plug-in)"],
     github: "https://github.com/fedesemeraro/SlicerTomoSAM",
     link: "https://doi.org/10.48550/arXiv.2306.08609",
     gifSrc: "/img/nasa/tomosam.gif"
   },
   {
     name: "arcjetCV",
-    desc: ["Supervised development of deep learning segmentation tools for video (arcjetCV)."],
+    desc: ["Description: deep learning segmentation tool for video used in arc-jet analysis",
+           "Language: C/C++ and Python",
+           "My Role: Supervisor since 2019, overseeing code development, research, and long-term planning. ",
+           "Release: NASA Open Source"],
     github: "https://github.com/magnus-haw/arcjetCV",
     link: "https://doi.org/10.48550/arXiv.2404.11492",
     gifSrc: "/img/nasa/arcjet_video.gif"
