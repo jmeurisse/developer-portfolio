@@ -222,7 +222,6 @@ export const software: SoftwareType[] = [
            "My Role: Supervisor since 2019, overseeing code development, research, and long-term planning. ",
            "Release: Sandia Open Source",
            "Deployement: CI/CD testing framework, conda packages, HPC modules, user guides, cloud integration, and SQL web database"],
-    desc: ["Supervised entry systems applications using SPARTA (DSMC code developed by Sandia), overseeing research, milestones, and long-term planning."],
     github: "https://github.com/sparta/sparta",
     link: "https://ntrs.nasa.gov/api/citations/20220008045/downloads/FAR_paper_PMM.pdf",
     gifSrc: "/img/nasa/sparta.gif",
