@@ -147,7 +147,7 @@ export const experience: ExperienceType[] = [
     contractor: "contracted by AMA, Inc.",
     companyLogo: "/img/nasa/nasa-logo.png",
     date: "Jan 2024 - Present",
-    titles: ["20% Management", "80% Technical"],
+    titles: ["20% Management", "80% Software"],
     desc: [
       ["Managed 8-member engineering team", "Strategic resource allocation and planning", "Coordinated projects and built external partnerships"],
       ["Developing ML-integrated CAE simulation platforms", "Driving HPC performance optimizations", "Architecting and maintaining scalable codebases"],
@@ -159,7 +159,7 @@ export const experience: ExperienceType[] = [
     contractor: "contracted by AMA, Inc.",
     companyLogo: "/img/nasa/nasa-logo.png",
     date: "Nov 2020 - Jan 2024",
-    titles: ["10% Management", "90% Technical"],
+    titles: ["10% Management", "90% Software"],
     desc: [
       ["Managed 8-member engineering team", "Led project planning and resource allocation", "Coordinated cross-functional collaborations"],
       ["Developed ML-integrated CAE simulation tools", "Optimized performance for HPC environments", "Wrote and reviewed production code"],
@@ -171,7 +171,7 @@ export const experience: ExperienceType[] = [
     contractor: "contracted by STC and UIUC",
     companyLogo: "/img/nasa/nasa-logo.png",
     date: "Jan 2016 - Oct 2020",
-    titles: ["5% Management", "95% Technical"],
+    titles: ["5% Management", "95% Software"],
     desc: [
       ["Led 4-member team on targeted NASA projects", "Handled project planning and goal setting", "Collaborated with 10+ external partners"],
       ["Developed simulation tools and pipelines", "Implemented performance tuning strategies", "Contributed to core code development"],
