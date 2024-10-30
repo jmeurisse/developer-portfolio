@@ -192,7 +192,7 @@ export const software: SoftwareType[] = [
   },
   {
     name: "ARCHeS",
-    desc: ["Description: arc heater digital twin",
+    desc: ["Description: Digital twin of arc heaters, simulating unsteady plasma flows to support aerothermal, electromagnetic, and radiative analysis for entry systems",
            "Language: C/C++ and Python",
            "Dependencies: OpenFOAM",
            "My Role: Lead developer since 2016",
