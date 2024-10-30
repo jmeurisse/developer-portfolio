@@ -5,7 +5,7 @@ import SocialLinks from "./SocialLinks";
 
 const GithubProfileCard = ({ avatar_url, bio, location }: GithubUserType) => {
   const msg1 = `Let's Collaborate!`;
-  const msg2 = `Have an exciting project, collaboration idea, or just want to connect?<br />I'd be happy to chat. Feel free to reach out — I'll respond promptly.`;
+  const msg2 = `Have an exciting project, collaboration idea, or just want to connect?\nI'd be happy to chat. Feel free to reach out — I'll respond promptly.`;
 
   return (
     <Card className="section-lg bg-gradient-info shadow-lg border-0">
@@ -22,7 +22,7 @@ const GithubProfileCard = ({ avatar_url, bio, location }: GithubUserType) => {
             </Col>
             <Col lg="8" className="order-lg-1">
               <h2 className="text-white">{msg1}</h2>
-              <p className="lead text-white mt-3">{msg2}</p>
+              <p className="lead text-white mt-3" style={{ whiteSpace: "pre-line" }}> {msg2}</p>
               <p className="text-white mt-3">{bio}</p>
               <div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">
                 <i className="ni ni-pin-3 text-info mr-2" />
