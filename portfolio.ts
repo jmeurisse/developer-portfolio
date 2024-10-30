@@ -149,7 +149,7 @@ export const experience: ExperienceType[] = [
     date: "Jan 2024 - Present",
     titles: ["20% Management", "80% Software"],
     desc: [
-      ["Managed 8-member engineering team", "Strategic resource allocation and planning", "Coordinated projects and built external partnerships"],
+      ["Managed 8-member engineering team", " Shape and execute strategic roadmaps for entry systems", "Coordinated 5 projects and built external partnerships"],
       ["Developing ML-integrated CAE simulation platforms", "Driving HPC performance optimizations", "Architecting and maintaining scalable codebases"],
     ],   
   },
@@ -161,7 +161,7 @@ export const experience: ExperienceType[] = [
     date: "Nov 2020 - Jan 2024",
     titles: ["10% Management", "90% Software"],
     desc: [
-      ["Managed 8-member engineering team", "Led project planning and resource allocation", "Coordinated cross-functional collaborations"],
+      ["Managed 8-member engineering team", "Led project planning and resource allocation", "Coordinated 12 projects and built external partnerships"],
       ["Developed ML-integrated CAE simulation tools", "Optimized performance for HPC environments", "Wrote and reviewed production code"],
     ],        
   },
