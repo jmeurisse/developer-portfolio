@@ -149,9 +149,9 @@ export const experience: ExperienceType[] = [
     date: "Jan 2024 - Present",
     titles: ["20% Management", "80% Technical"],
     desc: [
-      ["Team leadership and mentoring", "Resource allocation", "Project coordination"],
-      ["Developing predictive simulation tools", "Performance optimizations", "Writing code"],
-    ],
+      ["Managed 8-people team across 5 NASA projects", "Coordinated with 100+ developers and partners", "Directed product complete lifecycle for 6 simulation tools"],
+      ["Developed GPU-integrated CAE tools", "Ran key NASA simulations", "Integrated ML to optimize workflows"],
+    ],    
   },
   {
     role: "Senior Software Engineer",
@@ -161,9 +161,9 @@ export const experience: ExperienceType[] = [
     date: "Nov 2020 - Jan 2024",
     titles: ["10% Management", "90% Technical"],
     desc: [
-      ["Team leadership and mentoring", "Resource allocation", "Project coordination"],
-      ["Developing predictive simulation tools", "Performance optimizations", "Writing code"],
-    ],
+      ["Managed 8-people team across 12 NASA projects", "Secured $3M in funding", "Organized 30 academic visits annually"],
+      ["Main open-source PATO developer", "Optimized testing with HPC and cloud tools", "Published"],
+    ],    
   },
   {
     role: "Software Engineer",

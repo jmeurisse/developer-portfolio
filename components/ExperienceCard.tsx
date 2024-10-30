@@ -54,7 +54,7 @@ const ExperienceCard = ({ companyLogo, company, contractor, role, date, titles, 
                 display: "flex", 
                 justifyContent: "space-between", 
                 marginTop: "1rem", 
-                gap: "0.3rem",  // Adjust gap between columns
+                gap: "0.1rem",  // Adjust gap between columns
                 padding: "0 0.5rem"  // External padding for the container
               }}
             >
