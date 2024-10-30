@@ -31,6 +31,7 @@ export const socialLinks: SocialLinksType = {
   email: "jeremie.meurisse@gmail.com",
   linkedin: "https://www.linkedin.com/in/jeremie-meurisse-70578787/",
   github: "https://github.com/jmeurisse",
+  researchgate: "https://www.researchgate.net/profile/Jeremie-Meurisse", 
 };
 
 export const skillsSection: SkillsSectionType = {

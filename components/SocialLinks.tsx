@@ -89,6 +89,20 @@ const SocialLinks = () => {
           </span>
         </Button>
       )}
+      {socialLinks.researchgate && (
+        <Button
+          className="btn-icon-only rounded-circle ml-1"
+          color="success"
+          href={socialLinks.researchgate}
+          target="_blank"
+          rel="noopener"
+          aria-label="ResearchGate"
+        >
+          <span className="btn-inner--icon">
+            <i className="fa-brands fa-researchgate" />
+          </span>
+        </Button>
+      )}
     </div>
   );
 };
