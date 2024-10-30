@@ -42,7 +42,7 @@ const Skills = () => {
                     })}
                   </div>
                   <div 
-                    style={{ marginTop: "16px", marginLeft: "16px" }}
+                    style={{ marginTop: "32px", marginLeft: "32px" }}
                   >
                     {section.skills.map((skill, i) => (
                       <p key={i} style={{ textAlign: 'left', paddingLeft: '20px' }}>{skill}</p>
