@@ -263,8 +263,8 @@ providing accurate predictions to support NASA missions with data-driven decisio
     name: "Venus Mission Concept",
     desc: "Developed a suite of modeling tools that integrate aerosol-sampling inlets, \
 thermal protection systems, and optical analysis into a compact, single-body probe. \
-These tools predict the thermal environment, simulate internal flow dynamics, and assess \
-particle capture efficiency during atmospheric entry.",
+These tools predict the thermal environment, simulate flow dynamics, and assess \
+particle capture efficiency.",
     link: "https://ntrs.nasa.gov/api/citations/20240009219/downloads/GentryNaughtonMeurisse_AERACEPT_final.pdf",
     imageSrc: "/img/nasa/aeracept.png",
   },
