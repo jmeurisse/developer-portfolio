@@ -17,8 +17,8 @@ const ExperienceCard = ({ companyLogo, company, contractor, role, date, titles, 
         <CardBody className="">
           <div 
             style={{
-              width: "8rem",
-              height: "8rem",
+              width: "6rem",
+              height: "6rem",
               margin: "0 auto", 
               position: "relative", // Allows layering with transparency
             }}
