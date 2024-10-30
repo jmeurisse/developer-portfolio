@@ -6,8 +6,23 @@ import { ExperienceType } from "../types/sections";
 const ExperienceCard = ({ companyLogo, company, role, date, desc, descBullets }: ExperienceType) => {
   return (
     <Col lg="6">
-      <Card style={{ flex: 1 }} className="shadow-lg--hover my-4 shadow border-0 text-center rounded h-100">
-        <CardBody className="">
+      <Card 
+        style={{ 
+          display: "block",         // Ensure block-level rendering
+          width: "100%",            // Full width for consistency
+          height: "100%",           // Full height within the container
+          backgroundColor: "transparent", 
+          border: "none" 
+        }} 
+        className="shadow-lg--hover my-4 shadow border-0 text-center rounded h-100"
+      >
+        <CardBody 
+          style={{ 
+            textAlign: "center", 
+            backgroundColor: "transparent", 
+            height: "100%" 
+          }}
+        >
           <img
             src={companyLogo}
             style={{
