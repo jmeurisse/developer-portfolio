@@ -107,17 +107,17 @@ const Navigation = () => {
                     </NavLink>
                   </NavItem>
                 )}
-                {socialLinks.twitter && (
+                {socialLinks.researchgate && (
                   <NavItem>
                     <NavLink
                       rel="noopener"
-                      aria-label="Twitter"
+                      aria-label="ResearchGate"
                       className="nav-link-icon"
-                      href={socialLinks.twitter}
+                      href={socialLinks.researchgate}
                       target="_blank"
                     >
-                      <i className="fa fa-twitter-square" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">Twitter</span>
+                      <i className="fa fa-flask" /> {/* Using flask icon as a placeholder */}
+                      <span className="nav-link-inner--text d-lg-none ml-2">ResearchGate</span>
                     </NavLink>
                   </NavItem>
                 )}
