@@ -3,7 +3,7 @@ import { Card, CardBody, CardTitle, CardSubtitle, CardText, Col } from "reactstr
 import Fade from "react-reveal/Fade";
 import { ExperienceType } from "../types/sections";
 
-const ExperienceCard = ({ companyLogo, company, role, date, titles, desc }: ExperienceType) => {
+const ExperienceCard = ({ companyLogo, company, contractor, role, date, titles, desc }: ExperienceType) => {
   return (
     <Col lg="6">
       <Card 
@@ -40,6 +40,9 @@ const ExperienceCard = ({ companyLogo, company, role, date, titles, desc }: Expe
           <CardTitle tag="h4" className="mb-2">
             {company}
           </CardTitle>
+          <CardSubtitle tag="h6" className="mb-2">
+            {contractor}
+          </CardSubtitle>
           <CardSubtitle tag="h5" className="mb-2">
             {role}
           </CardSubtitle>
@@ -47,7 +50,7 @@ const ExperienceCard = ({ companyLogo, company, role, date, titles, desc }: Expe
           <CardText tag="div" className="description my-3 text-left">
             <div style={{ display: "flex", justifyContent: "space-between", marginTop: "1rem" }}>
               {titles.map((title, index) => (
-                <div key={index} style={{ width: "48%" }}>
+                <div key={index} style={{ width: "45%" }}>
                   <h6>{title}</h6>
                   <ul style={{ paddingLeft: "1.2rem" }}>
                     {desc[index]?.map((task, taskIndex) => (

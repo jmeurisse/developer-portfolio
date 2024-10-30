@@ -144,6 +144,7 @@ export const experience: ExperienceType[] = [
   {
     role: "Lead Software Engineer",
     company: "NASA Ames Research Center",
+    contractor: "contracted by AMA, Inc.",
     companyLogo: "/img/nasa/nasa-logo.png",
     date: "Jan 2024 - Present",
     titles: ["20% Management", "80% Technical"],
@@ -155,6 +156,7 @@ export const experience: ExperienceType[] = [
   {
     role: "Senior Software Engineer",
     company: "NASA Ames Research Center",
+    contractor: "contracted by AMA, Inc.",
     companyLogo: "/img/nasa/nasa-logo.png",
     date: "Nov 2020 - Jan 2024",
     titles: ["20% Management", "80% Technical"],
@@ -166,6 +168,7 @@ export const experience: ExperienceType[] = [
   {
     role: "Software Engineer",
     company: "NASA Ames Research Center",
+    contractor: "contracted by STC and UIUC",
     companyLogo: "/img/nasa/nasa-logo.png",
     date: "Jan 2016 - Oct 2020",
     titles: ["20% Management", "80% Technical"],
@@ -177,6 +180,7 @@ export const experience: ExperienceType[] = [
   {
     role: "Software Engineer Intern",
     company: "NASA Ames Research Center",
+    contractor: "contracted by UIUC",
     companyLogo: "/img/nasa/nasa-logo.png",
     date: "Jun 2015 - Dec 2015",
     titles: ["20% Management", "80% Technical"],

@@ -74,6 +74,7 @@ export type EducationType = {
 export type ExperienceType = {
   role: string;
   company: string;
+  contractor: string;
   companyLogo: string;
   date: string;
   titles: string[];
