@@ -150,7 +150,7 @@ export const experience: ExperienceType[] = [
     titles: ["20% Management", "80% Technical"],
     desc: [
       ["Executive-level team leadership and mentoring", "Strategic resource allocation and planning", "Cross-organizational project coordination"],
-      ["Developing ML-integrated CAE simulation platforms", "Driving performance optimizations", "Architecting and maintaining scalable codebases"],
+      ["Developing ML-integrated CAE simulation platforms", "Driving HPC performance optimizations", "Architecting and maintaining scalable codebases"],
     ],   
   },
   {
@@ -185,7 +185,7 @@ export const experience: ExperienceType[] = [
     date: "Jun 2015 - Dec 2015",
     titles: ["20% Hardware", "80% Software"],
     desc: [
-      ["Assisted in setting up CubeSat hardware components", 
+      ["Assisted in setting up CubeSat components", 
        "Calibrated onboard sensors during Antarctica balloon test", 
        "Collaborated with partners on IMU system integration"],
       ["Developed embedded flight software", 
