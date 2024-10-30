@@ -43,7 +43,19 @@ const SoftwareCard = ({ name, desc, github, link, videoSrc, gifSrc, imageSrc, de
                 />
               ) : null}
               <h3 className="text-center">{name}</h3>
-              <p className="description mt-3">{desc}</p>
+              <ul 
+                className="description-list mt-3" 
+                style={{ paddingLeft: '20px', listStyleType: 'disc', margin: 0 }}
+              >
+                {desc.map((item, index) => (
+                  <li 
+                    key={index} 
+                    style={{ marginBottom: '8px', fontSize: '16px', lineHeight: '1.5', color: '#333' }}
+                  >
+                    {item}
+                  </li>
+                ))}
+              </ul>
               <div className="d-flex justify-content-center mt-3">
                 {github ? (
                   <Button

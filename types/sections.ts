@@ -84,7 +84,7 @@ export type ExperienceType = {
 
 export type SoftwareType = {
   name: string;
-  desc: string;
+  desc: string[];
   github?: string;
   link?: string;
   videoSrc?: string;
