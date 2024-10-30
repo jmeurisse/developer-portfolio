@@ -173,7 +173,7 @@ export const experience: ExperienceType[] = [
     date: "Jan 2016 - Oct 2020",
     titles: ["5% Management", "95% Technical"],
     desc: [
-      ["Led small teams on targeted projects", "Handled project planning and goal setting", "Collaborated with external partners"],
+      ["Led 4-people teams on targeted NASA projects", "Handled project planning and goal setting", "Collaborated with 10+ external partners"],
       ["Developed simulation tools and pipelines", "Implemented performance tuning strategies", "Contributed to core code development"],
     ],    
   },
@@ -185,10 +185,10 @@ export const experience: ExperienceType[] = [
     date: "Jun 2015 - Dec 2015",
     titles: ["20% Hardware", "80% Software"],
     desc: [
-      ["Setting up CubeSat hardware components", 
+      ["Assisted in setting up CubeSat hardware components", 
        "Calibrated onboard sensors during Antarctica balloon test", 
        "Collaborated with partners on IMU system integration"],
-      ["Developed embedded software", 
+      ["Developed embedded flight software", 
        "Built GUI for real-time telemetry", 
        "Tested code for onboard data processing"],
     ],
