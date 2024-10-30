@@ -8,7 +8,7 @@ const CoreSkillsCard = ({ img, name, desc }: CoreSkillsType) => {
       <Card className="shadow-lg--hover shadow mt-4 h-100">
         <CardBody 
           className="d-flex flex-column justify-content-between"
-          style={{ padding: "1rem", paddingBottom: "3rem" }} // Add padding to the CardBody to prevent content cutoff
+          style={{ padding: "1rem", paddingBottom: "2.5rem" }} // Add padding to the CardBody to prevent content cutoff
         >
           <div
             style={{
@@ -35,7 +35,7 @@ const CoreSkillsCard = ({ img, name, desc }: CoreSkillsType) => {
           <h3 className="text-center mt-3">{name}</h3>
           <p 
             className="description mt-2 text-center"
-            style={{ wordBreak: "break-word", padding: "0 0.5rem", marginBottom: "2rem" }} // Prevent text overflow and add padding
+            style={{ wordBreak: "break-word", padding: "0 0.5rem", marginBottom: "1.5rem" }} // Prevent text overflow and add padding
           >
             {desc}
           </p>
