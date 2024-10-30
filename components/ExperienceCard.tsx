@@ -6,24 +6,37 @@ import { ExperienceType } from "../types/sections";
 const ExperienceCard = ({ companyLogo, company, role, date, desc, descBullets }: ExperienceType) => {
   return (
     <Col lg="6">
-      <Card style={{ flex: 1 }} className="shadow-lg--hover my-4 shadow border-0 text-center rounded h-100">
+      <Card 
+        style={{ 
+          flex: 1, 
+          backgroundColor: "#fff",  // Keep card background white if needed
+          border: "none", 
+        }} 
+        className="shadow-lg--hover my-4 shadow border-0 text-center rounded h-100"
+      >
         <CardBody className="">
-          <img
-            src={companyLogo}
+          <div 
             style={{
-              objectFit: "contain",   // Ensure the logo fits within the bounds
-              display: "block",        // Center the image horizontally
-              marginLeft: "auto",
-              marginRight: "auto",
               width: "8rem",
               height: "8rem",
-              backgroundColor: "transparent",  // Make sure no background is applied
-              boxShadow: "0 0 15px rgba(0, 0, 0, 0.1)",  // Optional shadow
-              border: "none",           // Ensure no border
+              margin: "0 auto", 
+              position: "relative", // Allows layering with transparency
             }}
-            className="mb-3"
-            alt="Company Logo"
-          />
+          >
+            <img
+              src={companyLogo}
+              style={{
+                objectFit: "contain",   // Scales the image within its bounds
+                width: "100%",
+                height: "100%",
+                backgroundColor: "transparent",  // Transparent background just for logo
+                borderRadius: "0",  // Ensures the image keeps its original shape
+                border: "none",
+                boxShadow: "none", 
+              }}
+              alt="Company Logo"
+            />
+          </div>
           <CardTitle tag="h4" className="mb-2">
             {company}
           </CardTitle>
