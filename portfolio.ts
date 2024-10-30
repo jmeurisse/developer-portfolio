@@ -93,21 +93,21 @@ product quality and performance. Improved UX by adding Conda packages, HPC modul
     name: "Leadership & Collaboration",
     desc: "7 years of management. Led 12 NASA projects with 8 engineers, overseeing code development, \
 research, milestones, and long-term planning. Secured $3M in research funding. Coordinated with NASA leadership, \
-managed team administration, hosted 30 annual academic visits, and established 2 international research agreements.",
+managed team administration, hosted 30 annual partner visits, and established 2 international research agreements.",
   },
   {
     img: "/img/icons/deep-learning.png",
     name: "Machine Learning Integration",
     desc: "3 years leading ML integration. Supervised deep learning tools for video and 3D imaging segmentation. \
-Trained physics-informed neural networks to develop surrogate models. Fine-tuned GPT-NeoX (1.3B) for knowledge management systems. \
+Trained PINN to develop surrogate models. Fine-tuned GPT-NeoX (1.3B) for knowledge management systems. \
 Organized ML training sessions and facilitated collaborations with external experts to elevate team proficiency."
    },
   {
     img: "/img/icons/innovation.png",
     name: "Research & Innovation",
-    desc: "Led applied science projects in physics-based material modeling to support NASA missions and technologies. \
+    desc: "Led applied science projects in material modeling to support NASA missions and technologies. \
 Published 19 journal papers and presented at 20 conferences using large-scale simulation data. \
-Developed multiscale models addressing NASA’s challenges in micro-tomography, material response, turbulence, hypersonic CFD, radiation, and plasma physics."
+Developed multiscale models addressing NASA’s challenges in micro-tomography, material response, hypersonic CFD, radiation, and plasma physics."
   },
 ];
 
