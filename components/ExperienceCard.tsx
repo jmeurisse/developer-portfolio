@@ -49,11 +49,19 @@ const ExperienceCard = ({ companyLogo, company, contractor, role, date, titles, 
           </CardSubtitle>
           <CardSubtitle>{date}</CardSubtitle>
           <CardText tag="div" className="description my-3 text-left">
-            <div style={{ display: "flex", justifyContent: "space-between", marginTop: "1rem" }}>
+            <div 
+              style={{ 
+                display: "flex", 
+                justifyContent: "space-between", 
+                marginTop: "1rem", 
+                gap: "0.3rem",  // Adjust gap between columns
+                padding: "0 0.5rem"  // External padding for the container
+              }}
+            >
               {titles.map((title, index) => (
-                <div key={index} style={{ width: "45%" }}>
+                <div key={index} style={{ width: "48%" }}>  {/* Increase width slightly */}
                   <h6>{title}</h6>
-                  <ul style={{ paddingLeft: "2rem" }}>
+                  <ul style={{ paddingLeft: "1rem", marginBottom: "0" }}>  {/* Reduce padding */}
                     {desc[index]?.map((task, taskIndex) => (
                       <li key={taskIndex}>{task}</li>
                     ))}
