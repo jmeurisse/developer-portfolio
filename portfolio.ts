@@ -183,7 +183,7 @@ government paperwork. Expanded testing to ensure ongoing software integrity. Imp
 supercomputer modules, user guides, Google Cloud integration, and SQL web database using Django and JavaScript.",
     github: "https://github.com/nasa/pato",
     link: "https://pato.ac/index.php/engineering-design/",
-    videoSrc: "/img/nasa/pato.mp4",
+    gifSrc: "/img/nasa/pato.gif",
     demo: "https://colab.research.google.com/drive/1yFm3BRhPpf15Tu6C77qLd4l-xQn71GBB?usp=sharing",
   },
   {
@@ -192,7 +192,7 @@ supercomputer modules, user guides, Google Cloud integration, and SQL web databa
 Created Python tools for enhanced visualization, optimization, and multi-physics integration. Optimized ARCHeS with GPU \
 acceleration using CUDA and Kokkos during NVIDIA hackathon, enhancing 3D radiation model performance by 100x.",
     link: "https://doi.org/10.1016/j.ast.2022.107465",
-    videoSrc: "/img/nasa/arches.mp4",
+    gifSrc: "/img/nasa/arches.gif",
   },
   {
     name: "PuMA",
