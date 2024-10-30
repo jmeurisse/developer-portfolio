@@ -59,7 +59,14 @@ const ExperienceCard = ({ companyLogo, company, contractor, role, date, titles, 
             >
               {titles.map((title, index) => (
                 <div key={index} style={{ width: "48%" }}>  {/* Increase width slightly */}
-                  <h6><strong>{title}</strong></h6>
+                  <h6 
+                    style={{ 
+                      textAlign: "center",  // Centers the text
+                      margin: "0 auto"       // Ensures the element itself is centered
+                    }}
+                  >
+                    <strong>{title}</strong>
+                  </h6>
                   <ul style={{ paddingLeft: "1rem", marginBottom: "0" }}>  {/* Reduce padding */}
                     {desc[index]?.map((task, taskIndex) => (
                       <li key={taskIndex} style={{ marginBottom: '3px', lineHeight: '1.5' }}>
