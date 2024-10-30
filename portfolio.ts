@@ -198,7 +198,7 @@ export const software: SoftwareType[] = [
            "My Role: Lead developer since 2016",
            "Physics: Magnetohydrodynamics and 3D radiation",
            "Release: Deployed internally within NASA for use in mission-critical simulations and analysis",
-           "Deployement: GPU-accelerated radiation optimization, Python tools for enhanced visualization, optimization, and multi-physics integration"],
+           "Deployement: GPU-accelerated radiation optimization, Python tools for visualization, optimization, and multi-physics integration"],
     link: "https://doi.org/10.1016/j.ast.2022.107465",
     gifSrc: "/img/nasa/arches.gif",
   },
