@@ -42,7 +42,7 @@ export const skillsSection: SkillsSectionType = {
       lottieAnimationFile: "/lottie/coding.json", // Path of Lottie Animation JSON File
       imagePath: "/img/nasa/nasa_tools.png",
       skills: [
-        emoji("🚀 Predictive CAE Simulation Tools Design & Development"),
+        emoji("🚀 Predictive Simulation Tools Design & Development"),
         emoji("🛠️ Software Testing, Maintenance & Launch"),
         emoji("📊 Data-driven Model Validation & Statistical Analysis"),
         emoji("🌐 Large-Scale Distributed Systems & HPC Expertise"),
