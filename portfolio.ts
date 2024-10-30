@@ -279,11 +279,9 @@ data to ensure accurate predictions of material response during atmospheric entr
   },
   {
     name: "CubSat Embedded Software",
-    desc: "Developed embedded flight software to manage CubeSat science data during flight and built a \
+    desc: "Developed embedded flight software to manage CubeSat science data and built a \
 Python-based ground control interface. This interface was successfully tested during an Antarctica balloon flight, \
-calibrating a high-energy X-ray detector for solar observations. Executed projects on CubeSat constellations for \
-space weather missions, delivering research on CubeSat instrumentation presented to NASA’s Heliophysics division \
-for further analysis.",
+calibrating a high-energy X-ray detector for solar observations.",
     link: "https://www.researchgate.net/profile/Amir-Caspi-2/publication/303875839_First_flight_of_SMASH_the_SwRI_Miniature_Assembly_for_Solar_Hard_X-rays/links/5759c99d08ae9a9c954f261a/First-flight-of-SMASH-the-SwRI-Miniature-Assembly-for-Solar-Hard-X-rays.pdf",
     imageSrc: "/img/nasa/cubesat.png",
   },
