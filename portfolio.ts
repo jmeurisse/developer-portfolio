@@ -177,13 +177,12 @@ scalable solutions.",
 export const software: SoftwareType[] = [
   {
     name: "PATO",
-    desc: ["Description: R&D platform to analyze porous reactive materials",
+    desc: ["<strong>Description</strong>: R&D platform to analyze porous reactive materials",
            "Language: C/C++ and Python",
            "My Role: Main developer since 2017",
            "Community: 100+ developers and 200+ users",
            "Release: NASA Open Source",
-           "Deployement: CI/CD testing framework, conda packages, \
-supercomputer modules, user guides, cloud integration, and SQL web database."],
+           "Deployement: CI/CD testing framework, conda packages, HPC modules, user guides, cloud integration, and SQL web database."],
     github: "https://github.com/nasa/pato",
     link: "https://pato.ac/index.php/engineering-design/",
     gifSrc: "/img/nasa/pato.gif",
