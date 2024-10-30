@@ -11,16 +11,15 @@ const ExperienceCard = ({ companyLogo, company, role, date, desc, descBullets }:
           <img
             src={companyLogo}
             style={{
-              objectFit: "contain",  // Ensures the entire image fits inside the circle
-              display: "block",      // Centers the image horizontally
+              objectFit: "contain",   // Ensures the image scales without distortion
+              display: "block",        // Centers the image horizontally
               marginLeft: "auto",
               marginRight: "auto",
               width: "8rem",
               height: "8rem",
-              borderRadius: "50%",   // Creates a circular shape
-              overflow: "hidden",    // Ensures content doesn't exceed the circle
+              overflow: "hidden",      // Prevents content overflow
               backgroundColor: "transparent",  // Ensures no background color
-              boxShadow: "0 0 15px rgba(0, 0, 0, 0.1)" // Optional shadow for aesthetics
+              boxShadow: "0 0 15px rgba(0, 0, 0, 0.1)"  // Optional shadow for aesthetics
             }}
             className="mb-3"
             alt="Company Logo"
