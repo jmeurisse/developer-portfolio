@@ -47,14 +47,17 @@ const SoftwareCard = ({ name, desc, github, link, videoSrc, gifSrc, imageSrc, de
                 className="description-list mt-3" 
                 style={{ paddingLeft: '20px', listStyleType: 'disc', margin: 0 }}
               >
-                {desc.map((item, index) => (
-                  <li 
-                    key={index} 
-                    style={{ marginBottom: '8px', fontSize: '16px', lineHeight: '1.5', color: '#333' }}
-                  >
-                    {item}
-                  </li>
-                ))}
+                {desc.map((item, index) => {
+                  const [title, content] = item.split(': ');  // Splitting at the colon
+                  return (
+                    <li 
+                      key={index} 
+                      style={{ marginBottom: '8px', fontSize: '16px', lineHeight: '1.5', color: '#333' }}
+                    >
+                      <strong>{title}:</strong> {content}
+                    </li>
+                  );
+                })}
               </ul>
               <div className="d-flex justify-content-center mt-3">
                 {github ? (
