@@ -20,18 +20,26 @@ const CoreSkills = () => {
                 <h4 className="display-3 text-white">Key Competencies</h4>
               </div>
             </div>
+
+            {/* Row for 2-column layout */}
             <Row className="row-grid align-items-center">
               {coreSkills.map((data, i) => (
-                <div 
-                  key={i} 
-                  className="mb-4"  // Adds margin-bottom to each card
-                  style={{ width: '100%' }}
-                >
-                  <CoreSkillsCard {...data} />
-                </div>
+                <CoreSkillsCard key={i} {...data} />
               ))}
             </Row>
+
+            {/* Add space after the cards */}
+            <div 
+              style={{ 
+                marginTop: "2rem",  // Adjust this value to control spacing
+                height: "1px", // Keeps it subtle, purely for spacing purposes
+                backgroundColor: "transparent" // Invisible element to just push content
+              }} 
+            />
+
           </Container>
+
+          {/* Separator SVG */}
           <div className="separator separator-bottom separator-skew zindex-100">
             <svg
               xmlns="http://www.w3.org/2000/svg"
