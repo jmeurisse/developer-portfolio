@@ -187,7 +187,7 @@ export const experience: ExperienceType[] = [
     desc: [
       ["Setting up CubeSat hardware components", 
        "Calibrated onboard sensors during Antarctica balloon test", 
-       "Integrated IMU system"],
+       "Collaborated with partners on IMU system integration"],
       ["Developed embedded software", 
        "Built GUI for real-time telemetry", 
        "Tested code for onboard data processing"],
