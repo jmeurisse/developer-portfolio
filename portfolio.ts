@@ -111,89 +111,6 @@ Developed multiscale models addressing NASA’s challenges in material response,
   },
 ];
 
-
-export const educationInfo: EducationType[] = [
-  {
-    schoolName: "ISAE - Supaero",
-    subHeader: "M.S. in Aerospace Engineering",
-    duration: "2013 - 2015",
-    desc: "",
-    grade: "",
-    descBullets: [], // Array of Strings
-  },
-  {
-    schoolName: "HEC Paris",
-    subHeader: "Certificate in Innovation Management",
-    duration: "2015",
-    desc: "",
-    grade: "",
-    descBullets: [], // Array of Strings
-  },
-  {
-    schoolName: "UCLouvain - EPL",
-    subHeader: "B.S. & M.S. in Electromechanical Engineering",
-    duration: "2009 - 2013",
-    desc: "",
-    grade: "",
-    descBullets: [], // Array of Strings
-  },
-];
-
-export const experience: ExperienceType[] = [
-  {
-    role: "Lead Software Engineer",
-    company: "NASA Ames Research Center",
-    contractor: "contracted by AMA, Inc.",
-    companyLogo: "/img/nasa/nasa-logo.png",
-    date: "Jan 2024 - Present",
-    titles: ["20% Management", "80% Software"],
-    desc: [
-      ["Managed 8-member engineering team", "Coordinated 5 projects and foster collaboration with external partners", " Shape and execute strategic roadmaps"],
-      ["Developing ML-integrated CAE simulation platforms", "Architecting and maintaining scalable codebases", "Driving HPC performance optimizations"],
-    ],   
-  },
-  {
-    role: "Senior Software Engineer",
-    company: "NASA Ames Research Center",
-    contractor: "contracted by AMA, Inc.",
-    companyLogo: "/img/nasa/nasa-logo.png",
-    date: "Nov 2020 - Jan 2024",
-    titles: ["10% Management", "90% Software"],
-    desc: [
-      ["Managed 8-member engineering team", "Coordinated 12 projects and engaged with external developers", "Led strategic planning and resource allocation"],
-      ["Developed ML-integrated CAE simulation tools", "Wrote, tested, maintained, and reviewed production code", "Optimized performance for HPC environments"],
-    ],        
-  },
-  {
-    role: "Software Engineer",
-    company: "NASA Ames Research Center",
-    contractor: "contracted by STC and UIUC",
-    companyLogo: "/img/nasa/nasa-logo.png",
-    date: "Jan 2016 - Oct 2020",
-    titles: ["5% Management", "95% Software"],
-    desc: [
-      ["Led 4-member team on targeted NASA projects", "Handled project planning and goal setting", "Collaborated with 10+ external partners"],
-      ["Developed simulation tools and pipelines", "Implemented performance tuning strategies", "Contributed to core code development"],
-    ],    
-  },
-  {
-    role: "Software Engineer Intern",
-    company: "NASA Ames Research Center",
-    contractor: "contracted by UIUC",
-    companyLogo: "/img/nasa/nasa-logo.png",
-    date: "Jun 2015 - Dec 2015",
-    titles: ["20% Hardware", "80% Software"],
-    desc: [
-      ["Assisted in setting up CubeSat components", 
-       "Calibrated sensors for Antarctica balloon test", 
-       "Collaborated with partners on IMU system integration"],
-      ["Developed embedded flight software", 
-       "Built GUI for real-time telemetry", 
-       "Tested code for onboard data processing"],
-    ],
-  },
-];
-
 export const software: SoftwareType[] = [
   {
     name: "PATO",
@@ -310,6 +227,87 @@ It ensures real-time data management and enhances system reliability during flig
 ];
 
 
+export const experience: ExperienceType[] = [
+  {
+    role: "Lead Software Engineer",
+    company: "NASA Ames Research Center",
+    contractor: "contracted by AMA, Inc.",
+    companyLogo: "/img/nasa/nasa-logo.png",
+    date: "Jan 2024 - Present",
+    titles: ["20% Management", "80% Software"],
+    desc: [
+      ["Manage 8-member engineering team", "Coordinate 5 projects and foster collaboration with external partners", "Shape and execute strategic roadmaps"],
+      ["Develop ML-integrated CAE simulation platforms", "Architect and maintain scalable codebases", "Drive HPC performance optimizations"],
+    ],   
+  },
+  {
+    role: "Senior Software Engineer",
+    company: "NASA Ames Research Center",
+    contractor: "contracted by AMA, Inc.",
+    companyLogo: "/img/nasa/nasa-logo.png",
+    date: "Nov 2020 - Jan 2024",
+    titles: ["10% Management", "90% Software"],
+    desc: [
+      ["Managed 8-member engineering team", "Coordinated 12 projects and engaged with external developers", "Led strategic planning and resource allocation"],
+      ["Developed ML-integrated CAE simulation tools", "Wrote, tested, maintained, and reviewed production code", "Optimized performance for HPC environments"],
+    ],        
+  },
+  {
+    role: "Software Engineer",
+    company: "NASA Ames Research Center",
+    contractor: "contracted by STC and UIUC",
+    companyLogo: "/img/nasa/nasa-logo.png",
+    date: "Jan 2016 - Oct 2020",
+    titles: ["5% Management", "95% Software"],
+    desc: [
+      ["Led 4-member team on targeted NASA projects", "Handled project planning and goal setting", "Collaborated with 10+ external partners"],
+      ["Developed simulation tools and pipelines", "Implemented performance tuning strategies", "Contributed to core code development"],
+    ],    
+  },
+  {
+    role: "Software Engineer Intern",
+    company: "NASA Ames Research Center",
+    contractor: "contracted by UIUC",
+    companyLogo: "/img/nasa/nasa-logo.png",
+    date: "Jun 2015 - Dec 2015",
+    titles: ["20% Hardware", "80% Software"],
+    desc: [
+      ["Assisted in setting up CubeSat components", 
+       "Calibrated sensors for Antarctica balloon test", 
+       "Collaborated with partners on IMU system integration"],
+      ["Developed embedded flight software", 
+       "Built GUI for real-time telemetry", 
+       "Tested code for onboard data processing"],
+    ],
+  },
+];
+
+export const educationInfo: EducationType[] = [
+  {
+    schoolName: "ISAE - Supaero",
+    subHeader: "M.S. in Aerospace Engineering",
+    duration: "2013 - 2015",
+    desc: "",
+    grade: "",
+    descBullets: [], // Array of Strings
+  },
+  {
+    schoolName: "HEC Paris",
+    subHeader: "Certificate in Innovation Management",
+    duration: "2015",
+    desc: "",
+    grade: "",
+    descBullets: [], // Array of Strings
+  },
+  {
+    schoolName: "UCLouvain - EPL",
+    subHeader: "B.S. & M.S. in Electromechanical Engineering",
+    duration: "2009 - 2013",
+    desc: "",
+    grade: "",
+    descBullets: [], // Array of Strings
+  },
+];
 
 export const feedbacks: FeedbackType[] = [
   // {
