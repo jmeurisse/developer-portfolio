@@ -61,7 +61,7 @@ const Greetings = () => {
           </div>
 
           {/* SVG separator */}
-          <div className="separator separator-bottom separator-skew" style={{ marginBottom: "-3px" }}>
+          <div className="separator separator-bottom separator-skew" style={{ marginBottom: "0px" }}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               preserveAspectRatio="none"
