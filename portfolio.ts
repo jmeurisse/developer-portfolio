@@ -197,7 +197,7 @@ export const experience: ExperienceType[] = [
 export const software: SoftwareType[] = [
   {
     name: "PATO",
-    desc: ["Description: R&D platform for analyzing multiphase porous reactive materials in high-temperature environments\
+    desc: ["Description: R&D platform for analyzing porous reactive materials in high-temperature environments\
 , advancing next-generation entry systems",
            "My Role: Lead developer since 2017",
            "Deployment: CI/CD framework, Conda packages, HPC modules, docs, cloud integration, and SQL web database",
