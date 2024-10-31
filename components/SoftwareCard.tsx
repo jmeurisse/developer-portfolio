@@ -4,7 +4,7 @@ import { SoftwareType } from "../types/sections";
 
 const SoftwareCard = ({ name, desc, github, link, videoSrc, gifSrc, imageSrc, demo }: SoftwareType) => {
   return (
-    <Col lg="6">
+    <Col xs="12" md="6" lg="6">
       <Card className="shadow-lg--hover shadow mt-4">
         <CardBody>
           <div className="d-flex px-3">
