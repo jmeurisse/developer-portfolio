@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { greetings } from "../portfolio";
 import { Button, Container, Row, Col } from "reactstrap";
 import GreetingLottie from "../components/DisplayLottie";
@@ -9,6 +9,26 @@ const Greetings = () => {
     document.documentElement.scrollTop = 0;
     document.scrollingElement!.scrollTop = 0;
   });
+
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Function to check the current screen size
+    const checkScreenSize = () => setIsMobile(window.innerWidth < 768);
+    checkScreenSize(); // Initial check on component mount
+
+    // Update screen size on resize
+    window.addEventListener("resize", checkScreenSize);
+
+    // Cleanup event listener on component unmount
+    return () => window.removeEventListener("resize", checkScreenSize);
+  }, []);
+
+  // Conditional styles based on screen size
+  const scrollIndicatorStyle = isMobile
+    ? {} // No extra padding or margin on mobile
+    : { paddingTop: "14rem", marginBottom: "-14rem" }; // Extra spacing on desktop
+
 
   return (
     <main>
@@ -55,7 +75,7 @@ const Greetings = () => {
           </Container>
 
           {/* Scroll Indicator */}
-          <div className="scroll-indicator text-center" style={{ paddingTop: "12rem", marginBottom: "-12rem" }}>
+          <div className="scroll-indicator text-center" style={scrollIndicatorStyle}>
             <p className="text-white mb-0">Scroll down</p>
             <i className="fa fa-arrow-down text-white" style={{ fontSize: "1.5rem", animation: "bounce 1s infinite" }}></i>
           </div>
