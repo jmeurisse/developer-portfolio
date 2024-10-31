@@ -27,7 +27,7 @@ const Greetings = () => {
   // Conditional styles based on screen size
   const scrollIndicatorStyle = isMobile
     ? {} // No extra padding or margin on mobile
-    : { paddingTop: "14rem", marginBottom: "-14rem" }; // Extra spacing on desktop
+    : { paddingTop: "13rem", marginBottom: "-13rem" }; // Extra spacing on desktop
 
 
   return (
