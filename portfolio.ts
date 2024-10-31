@@ -236,7 +236,7 @@ export const experience: ExperienceType[] = [
     date: "Jan 2024 - Present",
     titles: ["20% Management", "80% Software"],
     desc: [
-      ["Manage 8-member engineering team", "Coordinate 5 projects and foster collaboration with external partners", "Shape and execute strategic roadmaps"],
+      ["Manage 8-member engineering team, overseeing 5 concurrent projects", "Foster collaboration with external partners", "Shape and execute strategic roadmaps"],
       ["Develop ML-integrated CAE simulation platforms", "Architect and maintain scalable codebases", "Drive HPC performance optimizations"],
     ],   
   },
