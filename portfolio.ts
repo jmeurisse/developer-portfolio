@@ -237,7 +237,7 @@ export const experience: ExperienceType[] = [
     titles: ["20% Management", "80% Software"],
     desc: [
       ["Manage 8-member engineering team, directing 5 concurrent projects", "Foster collaboration with 100+ external partners", "Shape and execute strategic roadmaps"],
-      ["Develop ML-integrated CAE simulation platforms", "Architect and maintain scalable codebases", "Drive HPC performance optimizations for large-scale multi-physics simulations"],
+      ["Develop ML-integrated CAE simulation platforms", "Architect and maintain scalable codebases", "Drive HPC performance optimizations for large-scale simulations"],
     ],   
   },
   {
@@ -248,7 +248,7 @@ export const experience: ExperienceType[] = [
     date: "Nov 2020 - Jan 2024",
     titles: ["10% Management", "90% Software"],
     desc: [
-      ["Managed 8-member engineering team, leading a total of 12 projects", "Coordinated 12 projects and engaged with external developers", "Led strategic planning and resource allocation"],
+      ["Managed 8-member engineering team, leading a total of 12 projects", "Collaborated with 100+ external developers", "Led strategic planning and resource allocation"],
       ["Developed ML-integrated CAE simulation tools", "Wrote, tested, maintained, and reviewed production code", "Optimized performance for HPC environments"],
     ],        
   },
