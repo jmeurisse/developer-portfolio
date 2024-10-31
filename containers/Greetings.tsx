@@ -54,6 +54,7 @@ const Greetings = () => {
             </div>
           </Container>
 
+          <div style={{ height: "5rem" }} />
           {/* Scroll Indicator */}
           <div className="scroll-indicator text-center my-4">
             <p className="text-white mb-0">Scroll down</p>
