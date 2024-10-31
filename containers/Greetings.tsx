@@ -55,7 +55,7 @@ const Greetings = () => {
           </Container>
 
           {/* Scroll Indicator */}
-          <div className="scroll-indicator text-center my-2">
+          <div className="scroll-indicator text-center my-0">
             <p className="text-white mb-0">Scroll down</p>
             <i className="fa fa-arrow-down text-white" style={{ fontSize: "1.5rem", animation: "bounce 1s infinite" }}></i>
           </div>
