@@ -1,11 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { software } from "../portfolio";
 import { Container, Row } from "reactstrap";
 import SoftwareCard from "../components/SoftwareCard";
 import Fade from "react-reveal/Fade";
 
 const Software = () => {
-  return (
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Check screen size on component mount
+    const checkScreenSize = () => setIsMobile(window.innerWidth < 768);
+    checkScreenSize();
+
+    // Add event listener to track screen resizing
+    window.addEventListener("resize", checkScreenSize);
+
+    // Cleanup event listener on component unmount
+    return () => window.removeEventListener("resize", checkScreenSize);
+  }, []);
+
+  const content = (
     software && (
       <section className="section section-lg">
         <Container>
@@ -28,6 +42,8 @@ const Software = () => {
       </section>
     )
   );
+
+  return isMobile ? content : <Fade bottom duration={2000}>{content}</Fade>;
 };
 
 export default Software;
