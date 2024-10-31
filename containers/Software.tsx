@@ -43,7 +43,7 @@ const Software = () => {
     )
   );
 
-  return isMobile ? content : <Fade bottom duration={2000}>{content}</Fade>;
+  return isMobile ? content : <Fade bottom duration={1000}>{content}</Fade>;
 };
 
 export default Software;
