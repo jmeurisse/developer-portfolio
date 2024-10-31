@@ -198,7 +198,7 @@ export const software: SoftwareType[] = [
   {
     name: "PATO",
     desc: ["Description: R&D platform for analyzing porous reactive materials in high-temperature environments\
-, advancing next-generation entry systems",
+, advancing next-generation thermal protection systems",
            "My Role: Lead developer since 2017",
            "Deployment: CI/CD framework, Conda packages, HPC modules, docs, cloud integration, and SQL database",
            "Community: 100+ developers and 200+ users",
@@ -251,7 +251,7 @@ export const software: SoftwareType[] = [
   {
     name: "TomoSAM",
     desc: ["Description: Deep learning segmentation tool for 3D imaging used in micro-structural analysis",
-           "My Role: Supervisor since 2019, overseeing code development, research, and long-term planning. ",
+           "My Role: Supervisor since 2019, overseeing code development, research, and long-term planning",
            "Language: Python",
            "Release: NASA Open Source (PuMA plug-in)"],
     github: "https://github.com/fedesemeraro/SlicerTomoSAM",
@@ -261,7 +261,7 @@ export const software: SoftwareType[] = [
   {
     name: "arcjetCV",
     desc: ["Description: Deep learning tool for segmenting shocks and samples in arc-jet video analysis",
-           "My Role: Supervisor since 2019, overseeing code development, research, and long-term planning. ",
+           "My Role: Supervisor since 2019, overseeing code development, research, and long-term planning",
            "Language: Python",      
            "Release: NASA Open Source"],
     github: "https://github.com/magnus-haw/arcjetCV",
