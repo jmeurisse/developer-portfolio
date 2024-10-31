@@ -286,15 +286,15 @@ providing accurate predictions to support NASA missions with data-driven decisio
     desc: "Developed a suite of modeling tools that integrate aerosol-sampling inlets, \
 thermal protection systems, and optical analysis into a compact probe. \
 These tools predict the aerothermal environment, simulate flow dynamics, and assess \
-particle capture efficiency to guide design improvements and safeguard sample integrity during atmospheric entry.",
+particle capture efficiency to guide design improvements and safeguard sample integrity.",
     link: "https://ntrs.nasa.gov/api/citations/20240009219/downloads/GentryNaughtonMeurisse_AERACEPT_final.pdf",
     imageSrc: "/img/nasa/aeracept.png",
   },
   {
     name: "Validation using Martian Data",
-    desc: "Validated the ablation models in PATO using comparisons with MSL and Mars 2020 data \
+    desc: "Validated the ablation models in PATO using comparisons with MSL/Mars 2020 data \
 and experimental results. The models were benchmarked against both arc-jet tests and in-flight \
-data to ensure accurate predictions of material response during atmospheric entry, ensuring reliability for mission-critical design decisions​.",
+data to ensure accurate predictions of material temperature and recession during atmospheric entry, ensuring reliability for mission-critical design decisions​.",
     link: "https://doi.org/10.2514/6.2023-2720",
     imageSrc: "/img/nasa/mars2020.png"
   },
