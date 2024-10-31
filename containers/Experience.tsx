@@ -26,12 +26,12 @@ const Experience = () => {
               })}
             </Row>
           </Container>
-          <div className="separator separator-bottom separator-skew zindex-100" style={{ marginBottom: "-3px" }}>
+          <div className="separator separator-bottom separator-skew zindex-100" style={{ marginBottom: "-3px", boxShadow: "0px -10px 20px rgba(0, 0, 0, 0.3)" }}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               preserveAspectRatio="none"
               version="1.1"
-              viewBox="0 0 2560 100"
+              viewBox="0 0 2560 120" // Adjusted viewBox height for smoother curve
               x="0"
               y="0"
             >
