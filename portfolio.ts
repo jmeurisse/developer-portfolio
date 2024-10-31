@@ -276,7 +276,7 @@ export const experience: ExperienceType[] = [
        "Calibrated sensors for Antarctica balloon test", 
        "Collaborated with partners on IMU system integration"],
       ["Developed embedded flight software", 
-       "Built GUI for real-time telemetry", 
+       "Built ground interface for real-time telemetry", 
        "Tested code for onboard data processing"],
     ],
   },
