@@ -54,16 +54,14 @@ const Greetings = () => {
             </div>
           </Container>
 
-          <div style={{ height: "4rem" }} />
-
           {/* Scroll Indicator */}
-          <div className="scroll-indicator text-center" style={{ marginTop: "2rem" }}>
+          <div className="scroll-indicator text-center" style={{ marginTop: "2rem", marginBottom: "-2rem" }}>
             <p className="text-white mb-0">Scroll down</p>
             <i className="fa fa-arrow-down text-white" style={{ fontSize: "1.5rem", animation: "bounce 1s infinite" }}></i>
           </div>
 
           {/* SVG separator */}
-          <div className="separator separator-bottom separator-skew" style={{ marginBottom: "100px" }}>
+          <div className="separator separator-bottom separator-skew" style={{ marginBottom: "0px" }}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               preserveAspectRatio="none"
