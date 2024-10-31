@@ -31,7 +31,7 @@ const CoreSkills = () => {
             {/* Add space after the cards */}
             <div 
               style={{ 
-                marginTop: "3rem",  // Adjust this value to control spacing
+                marginTop: "5rem",  // Adjust this value to control spacing
                 height: "1px", // Keeps it subtle, purely for spacing purposes
                 backgroundColor: "transparent" // Invisible element to just push content
               }} 

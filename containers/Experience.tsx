@@ -25,7 +25,7 @@ const Experience = () => {
                 return <ExperienceCard key={i} {...data} />;
               })}
             </Row>
-            <div style={{ height: "2rem" }} />
+            <div style={{ height: "4rem" }} />
           </Container>
           <div className="separator separator-bottom separator-skew zindex-100" style={{ marginBottom: "-3px" }}>
             <svg
