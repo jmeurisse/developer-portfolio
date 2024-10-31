@@ -273,38 +273,33 @@ export const software: SoftwareType[] = [
 export const projects: ProjectType[] = [
   {
     name: "PICA-NuSil Model",
-    desc: "Developed a novel equilibrium material response model in PATO. \
-This model accounts for the impact of NuSil, a silicone overcoat used for \
-contamination control during assembly, testing, and launch. \
-The model was applied to heatshields of MSL and Mars 2020 missions, \
-providing accurate predictions to support NASA missions with data-driven decisions.",
+    desc: "Developed an equilibrium material response model in PATO, accounting for NuSil, a silicone overcoat \
+used for contamination control during assembly, testing, and launch. The model was applied to the heatshields of \
+MSL and Mars 2020, delivering accurate predictions to support NASA missions.",
     link: "https://doi.org/10.1016/j.ijheatmasstransfer.2022.123523",
     imageSrc: "/img/nasa/pica-n.png",
   },
   {
     name: "Venus Mission Concept",
-    desc: "Developed a suite of modeling tools that integrate aerosol-sampling inlets, \
-thermal protection systems, and optical analysis into a compact probe. \
-These tools predict the thermal environment, simulate flow dynamics, and assess \
-particle capture efficiency to guide design improvements, safeguarding sample \
-integrity for a Venus mission concept.",
+    desc: "Developed a suite of modeling tools integrating aerosol-sampling inlets, thermal protection systems, \
+and optical analysis into a compact probe. The tools predict thermal environments, simulate flow dynamics, and \
+assess particle capture efficiency, guiding design improvements and safeguarding sample integrity for the Venus mission concept.",
     link: "https://ntrs.nasa.gov/api/citations/20240009219/downloads/GentryNaughtonMeurisse_AERACEPT_final.pdf",
     imageSrc: "/img/nasa/aeracept.png",
   },
   {
     name: "Validation using Martian Data",
-    desc: "Validated the ablation models in PATO using comparisons with MSL and Mars 2020 data \
-and experimental results. The models were benchmarked against both arc-jet tests and in-flight \
-data to ensure accurate predictions of material response during atmospheric entry, ensuring reliability for mission-critical design decisions​.",
+    desc: "Validated PATO's ablation models using comparisons with MSL, Mars 2020, and experimental results. \
+The models were benchmarked against arc-jet tests and in-flight data, ensuring accurate predictions for \
+mission-critical design decisions​.",
     link: "https://doi.org/10.2514/6.2023-2720",
     imageSrc: "/img/nasa/mars2020.png"
   },
   {
     name: "CubeSat Embedded Software",
-    desc: "Developed embedded flight software to manage CubeSat science data and built a \
-Python-based ground control interface. The code was successfully tested during an Antarctica balloon flight, \
-calibrating a high-energy X-ray detector for solar observations. \
-It ensures real-time data management and enhances system reliability during flight.",
+    desc: "Developed embedded flight software to manage CubeSat science data and built a Python-based ground control interface. \
+The code was successfully tested during an Antarctic balloon flight, calibrating a high-energy X-ray detector for solar observations. \
+Ensured real-time data management and system reliability during flight.",
     link: "https://www.researchgate.net/profile/Amir-Caspi-2/publication/303875839_First_flight_of_SMASH_the_SwRI_Miniature_Assembly_for_Solar_Hard_X-rays/links/5759c99d08ae9a9c954f261a/First-flight-of-SMASH-the-SwRI-Miniature-Assembly-for-Solar-Hard-X-rays.pdf",
     imageSrc: "/img/nasa/cubesat.png",
   },
