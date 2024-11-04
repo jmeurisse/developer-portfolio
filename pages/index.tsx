@@ -8,6 +8,7 @@ const Experience = dynamic(() => import("../containers/Experience"));
 const Software = dynamic(() => import("../containers/Software"));
 const Projects = dynamic(() => import("../containers/Projects"));
 const GithubProfileCard = dynamic(() => import("../components/GithubProfileCard"));
+import { Analytics } from "@vercel/analytics/react";
 import { openSource } from "../portfolio";
 import SEO from "../components/SEO";
 import { GithubUserType } from "../types";
@@ -25,6 +26,7 @@ export default function Home({ githubProfileData }: { githubProfileData: any }) 
       <Experience />
       <Education />
       <GithubProfileCard {...githubProfileData} />
+      <Analytics />
     </div>
   );
 }
