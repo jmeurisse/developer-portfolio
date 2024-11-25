@@ -19,7 +19,8 @@ export const greetings: GreetingsType = {
   description:
     "I am a software engineer with 9 years of experience at NASA, I specialize in developing \
 and leading complex multi-physics simulation platforms. My journey from Intern to Lead Software Engineer \
-has equipped me with a robust technical background and strong leadership capabilities, including 7 years of management experience.",
+has equipped me with a robust technical background and strong leadership capabilities, \
+including 7 years of team management experience.",
   resumeLink: "/2024-10-30_Jeremie_Meurisse_Resume.pdf",
 };
 
