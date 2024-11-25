@@ -86,10 +86,9 @@ export const coreSkills: CoreSkillsType[] = [
   {
     img: "/img/icons/deep-learning.png",
     name: "Machine Learning & AI",
-    desc: "3 years leading AI/ML engineering projects. Directed development of DL tools for video and 3D imaging segmentation. \
+    desc: "3 years of leading AI/ML projects. Directed development of DL tools for video and 3D imaging segmentation. \
 Trained PINNs to develop surrogate models for statistical analysis and fine-tuned GPT-NeoX 1.3B generative AI model \
-to create chatbot for tool documentation. Engaged in latest AI/ML training sessions, workshops, and conferences. \
-Facilitated collaborative sessions with external experts, elevating team proficiency in AI/ML."
+to create chatbot for tool documentation. Facilitated collaborative sessions with external experts, elevating team proficiency in AI/ML."
    },
    {
     img: "/img/icons/programming.png",
@@ -102,7 +101,7 @@ Executed large-scale HPC simulations that deliver critical insights for NASA."
   {
     img: "/img/icons/management.png",
     name: "Leadership & Strategy",
-    desc: "7 years of management. Led 12 NASA projects with 8 engineers, overseeing code development, \
+    desc: "7 years of team management. Led 12 NASA projects with 8 engineers, overseeing code development, \
 research, milestones, and long-term planning. Secured $3M in research funding. Coordinated with NASA leadership, \
 managed team administration, hosted 30 annual partner visits, and established 2 international research agreements."
   },
