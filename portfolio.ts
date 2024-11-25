@@ -263,7 +263,7 @@ export const experience: ExperienceType[] = [
     date: "Jan 2016 - Oct 2020",
     titles: ["95% Software", "5% Management"],
     desc: [
-      ["Simulation platforms and testing pipelines", "Implemented performance tuning strategies", "Contributed to core code development"],
+      ["Built simulation platforms and testing pipelines", "Implemented performance tuning strategies", "Contributed to core code development"],
       ["Led 4-member team on digital twin development", "Handled project planning and goal setting", "Collaborated with 10+ external partners"],
     ],    
   },
