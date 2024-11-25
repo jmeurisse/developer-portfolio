@@ -38,19 +38,21 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: "What I do",
-  subTitle: "Developing, testing, deploying, and leading predictive CAE simulation software products.",
+  subTitle: "Developing, testing, deploying, and leading predictive simulation software products.",
   data: [
     {
       title: "Lead Software Engineer",
       lottieAnimationFile: "/lottie/coding.json", // Path of Lottie Animation JSON File
       imagePath: "/img/nasa/nasa_tools.png",
       skills: [
-        emoji("🚀 Predictive Simulation Tools Design & Development"),
+        emoji("🚀 Predictive Simulation Platforms Design & Development"),
+        emoji("🤖 ML/AI Engineering & SDK/API Deployment"),
         emoji("🛠️ Software Testing, Maintenance & Launch"),
+        emoji("🌐 Scalabe Distributed Systems & HPC Solutions"),
+        emoji("🤝 Technical Leadership & Team Management"),
         emoji("📊 Data-driven Model Validation & Statistical Analysis"),
-        emoji("🌐 Large-Scale Distributed Systems & HPC Expertise"),
-        emoji("🤖 ML/AI Integration & SDK/API Deployment"),
-        emoji("📣 Technical Advocacy & Community Engagement"),
+        // emoji("📣 Technical Advocacy & Community Engagement"),
+        emoji("🔬 Research on Innovative Physics-Based Modeling Projects"),
       ],
       softwareSkills: [
         { skillName: "C/C++", iconifyTag: "bxl:c-plus-plus" },
@@ -65,12 +67,12 @@ export const skillsSection: SkillsSectionType = {
         { skillName: "Kubernetes", iconifyTag: "logos:kubernetes" },
         { skillName: "Google Cloud", iconifyTag: "logos:google-cloud" },
         { skillName: "GitHub", iconifyTag: "fontisto:github" },
-        { skillName: "AutoCAD", iconifyTag: "skill-icons:autocad-light" },
-        { skillName: "Pointwise", iconifyTag: "file-icons:pointwise" },
-        { skillName: "Matlab", iconifyTag: "vscode-icons:file-type-matlab" },
-        { skillName: "OpenFOAM", iconifyTag: "streamline:wind-flow-1" },
-        { skillName: "Ansys", iconifyTag: "simple-icons:ansys" },
-        { skillName: "ParaView", iconifyTag: "lets-icons:3d-box-duotone" },
+        // { skillName: "AutoCAD", iconifyTag: "skill-icons:autocad-light" },
+        // { skillName: "Pointwise", iconifyTag: "file-icons:pointwise" },
+        // { skillName: "Matlab", iconifyTag: "vscode-icons:file-type-matlab" },
+        // { skillName: "OpenFOAM", iconifyTag: "streamline:wind-flow-1" },
+        // { skillName: "Ansys", iconifyTag: "simple-icons:ansys" },
+        // { skillName: "ParaView", iconifyTag: "lets-icons:3d-box-duotone" },
       ],
     },
   ],
