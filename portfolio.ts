@@ -109,7 +109,7 @@ managed team administration, hosted 30 annual partner visits, and established 2 
     img: "/img/icons/innovation.png",
     name: "Research & Innovation",
     desc: "Led applied science projects in material modeling to support NASA missions and technologies. \
-Published 19 journal papers and presented at 20 conferences using large-scale simulation data. \
+Published 19 journal papers and presented at 21 conferences using large-scale simulation data. \
 Developed multiscale models addressing NASA’s challenges in material response, hypersonic CFD, radiation, and plasma physics."
   },
 ];
