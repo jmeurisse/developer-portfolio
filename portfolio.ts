@@ -47,12 +47,12 @@ export const skillsSection: SkillsSectionType = {
       imagePath: "/img/nasa/nasa_tools.png",
       skills: [
         emoji("🚀 Predictive Simulation Platforms Design & Development"),
-        emoji("🤖 ML/AI Engineering & SDK/API Deployment"),
+        emoji("🤖 AI/ML Engineering & SDK/API Deployment"),
         emoji("🛠️ Software Testing, Maintenance & Launch"),
         emoji("🌐 Scalabe Distributed Systems & HPC Solutions"),
         emoji("🤝 Technical Leadership & Team Management"),
         emoji("📊 Data-driven Model Validation & Statistical Analysis"),
-        emoji("📣 Technical Advocacy & Community Engagement"),
+        // emoji("📣 Technical Advocacy & Community Engagement"),
         emoji("🔬 Research on Innovative Physics-Based Modeling"),
       ],
       softwareSkills: [
