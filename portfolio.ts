@@ -47,7 +47,7 @@ export const skillsSection: SkillsSectionType = {
       imagePath: "/img/nasa/nasa_tools.png",
       skills: [
         emoji("🚀 Predictive Simulation Platforms Design & Development"),
-        emoji("🤖 AI/ML: Surrogate Modeling, Chatbots, & Segmentation"),
+        emoji("🤖 AI/ML: Surrogate Modeling, Chatbots & Segmentation"),
         emoji("🛠️ Software Testing, Maintenance & Launch"),
         emoji("🌐 Scalabe Distributed Systems & HPC Solutions"),
         emoji("🤝 Technical Leadership & Team Management"),
@@ -86,9 +86,9 @@ export const coreSkills: CoreSkillsType[] = [
   {
     img: "/img/icons/deep-learning.png",
     name: "Machine Learning & AI",
-    desc: "3 years of AI/ML engineering projects. Directed development of DL tools for video and 3D imaging segmentation. \
+    desc: "3 years of AI/ML engineering. Directed development of DL tools for video and 3D imaging segmentation. \
 Trained PINNs to develop surrogate models for statistical analysis and fine-tuned GPT-NeoX 1.3B generative AI model \
-to create chatbot for tool documentation. Elevated team proficiency in ML through targeted training."
+to create chatbots for tool documentation. Elevated team proficiency in ML through targeted training."
    },
    {
     img: "/img/icons/programming.png",
