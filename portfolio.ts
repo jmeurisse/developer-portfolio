@@ -84,18 +84,19 @@ export const SkillBars: SkillBarsType[] = [
 export const coreSkills: CoreSkillsType[] = [
   {
     img: "/img/icons/deep-learning.png",
-    name: "AI & Machine Learning",
-    desc: "3 years leading ML integration. Supervised deep learning tools for video and 3D imaging segmentation. \
-Trained PINN to develop surrogate models. Fine-tuned GPT-NeoX (1.3B) for knowledge management systems. \
-Organized ML training sessions and facilitated collaborations with external experts to elevate team proficiency."
+    name: "Machine Learning & AI",
+    desc: "3 years leading ML integration. Directed development of deep learning tools for video and 3D imaging segmentation. \
+Trained PINNs to develop surrogate models for statistical analysis and fine-tuned GPT-NeoX 1.3B generative AI model \
+to create chatbot for tool documentation. Engaged in latest AI/ML training sessions, workshops, and conferences. \
+Facilitated collaborative sessions with external experts, elevating team proficiency in ML."
    },
    {
     img: "/img/icons/programming.png",
     name: "Software Development & HPC",
     desc: "9 years of software development. Built 6 simulation platforms from scracth to launch. \
-Led CI/CD development, code optimization, and open-source transitions. \
+Led CI/CD integration, code optimization, and open-source transitions. \
 Improved UX by adding Conda packages, HPC modules, cloud integration, and SQL web database. \
-Drove impactful, large-scale HPC simulations that deliver critical insights for NASA."
+Executed large-scale HPC simulations that deliver critical insights for NASA."
   },
   {
     img: "/img/icons/management.png",
@@ -142,7 +143,7 @@ export const software: SoftwareType[] = [
   },
   {
     name: "PuMA",
-    desc: ["Description: R&D platforms for analyzing micro-structural properties of porous materials",
+    desc: ["Description: R&D platform for analyzing micro-structural properties of porous materials",
            "My Role: Supervisor since 2019, overseeing code development, research, and long-term planning",
            "Deployment: CI/CD framework, Conda packages, HPC modules, docs, video tutorials",
            "Award: 2022 NASA Software of the Year",
@@ -236,10 +237,10 @@ export const experience: ExperienceType[] = [
     contractor: "contracted by AMA, Inc.",
     companyLogo: "/img/nasa/nasa-logo.png",
     date: "Jan 2024 - Present",
-    titles: ["20% Management", "80% Software"],
+    titles: ["80% Software", "20% Management"],
     desc: [
-      ["Manage 8-member engineering team, directing 5 concurrent projects", "Foster collaboration with 100+ external partners", "Shape and execute strategic roadmaps"],
       ["Develop ML-integrated simulation platforms", "Architect and maintain scalable codebases", "Drive HPC performance optimizations for large-scale simulations"],
+      ["Manage 8-member engineering team, directing 5 concurrent projects", "Foster collaboration with 100+ external partners", "Shape and execute strategic roadmaps"],
     ],   
   },
   {
@@ -248,10 +249,10 @@ export const experience: ExperienceType[] = [
     contractor: "contracted by AMA, Inc.",
     companyLogo: "/img/nasa/nasa-logo.png",
     date: "Nov 2020 - Jan 2024",
-    titles: ["10% Management", "90% Software"],
+    titles: ["90% Software", "10% Management"],
     desc: [
+      ["Developed ML-integrated simulation platforms", "Wrote, tested, and reviewed production code", "Drive HPC performance optimizations for large-scale simulations"],
       ["Managed 8-member engineering team, leading a total of 12 projects", "Collaborated with 10+ external developer teams", "Led strategic planning and resource allocation"],
-      ["Developed ML-integrated simulation tools", "Wrote, tested, and reviewed production code", "Drive HPC performance optimizations for large-scale simulations"],
     ],        
   },
   {
@@ -260,10 +261,10 @@ export const experience: ExperienceType[] = [
     contractor: "contracted by STC and UIUC",
     companyLogo: "/img/nasa/nasa-logo.png",
     date: "Jan 2016 - Oct 2020",
-    titles: ["5% Management", "95% Software"],
+    titles: ["95% Software", "5% Management"],
     desc: [
+      ["Developed simulation platforms and testing pipelines", "Implemented performance tuning strategies", "Contributed to core code development"],
       ["Led 4-member team on digital twin development", "Handled project planning and goal setting", "Collaborated with 10+ external partners"],
-      ["Developed simulation tools and testing pipelines", "Implemented performance tuning strategies", "Contributed to core code development"],
     ],    
   },
   {
@@ -272,14 +273,14 @@ export const experience: ExperienceType[] = [
     contractor: "contracted by UIUC",
     companyLogo: "/img/nasa/nasa-logo.png",
     date: "Jun 2015 - Dec 2015",
-    titles: ["20% Hardware", "80% Software"],
+    titles: ["80% Software", "20% Hardware"],
     desc: [
-      ["Assisted in setting up CubeSat components", 
-       "Calibrated sensors for Antarctica balloon test", 
-       "Collaborated with partners on IMU system integration"],
       ["Developed embedded flight software", 
        "Built ground interface for real-time telemetry", 
        "Tested code for onboard data processing"],
+       ["Assisted in setting up CubeSat components", 
+        "Calibrated sensors for Antarctica balloon test", 
+        "Collaborated with partners on IMU system integration"],
     ],
   },
 ];
