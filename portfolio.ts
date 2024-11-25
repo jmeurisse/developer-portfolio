@@ -85,10 +85,10 @@ export const coreSkills: CoreSkillsType[] = [
   {
     img: "/img/icons/deep-learning.png",
     name: "Machine Learning & AI",
-    desc: "3 years leading ML integration. Directed development of deep learning tools for video and 3D imaging segmentation. \
+    desc: "3 years leading AI/ML engineering projects. Directed development of DL tools for video and 3D imaging segmentation. \
 Trained PINNs to develop surrogate models for statistical analysis and fine-tuned GPT-NeoX 1.3B generative AI model \
 to create chatbot for tool documentation. Engaged in latest AI/ML training sessions, workshops, and conferences. \
-Facilitated collaborative sessions with external experts, elevating team proficiency in ML."
+Facilitated collaborative sessions with external experts, elevating team proficiency in AI/ML."
    },
    {
     img: "/img/icons/programming.png",
