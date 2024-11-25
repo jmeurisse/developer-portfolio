@@ -47,7 +47,7 @@ export const skillsSection: SkillsSectionType = {
       imagePath: "/img/nasa/nasa_tools.png",
       skills: [
         emoji("🚀 Predictive Simulation Platforms Design & Development"),
-        emoji("🤖 AI/ML: Surrogate Modeling, Chatbots & Segmentation"),
+        emoji("🤖 AI/ML - Surrogate Modeling, Chatbots & Segmentation"),
         emoji("🛠️ Software Testing, Maintenance & Launch"),
         emoji("🌐 Scalabe Distributed Systems & HPC Solutions"),
         emoji("🤝 Technical Leadership & Team Management"),
@@ -88,7 +88,7 @@ export const coreSkills: CoreSkillsType[] = [
     name: "Machine Learning & AI",
     desc: "3 years of AI/ML engineering. Directed development of DL tools for video and 3D imaging segmentation. \
 Trained PINNs to develop surrogate models for statistical analysis and fine-tuned GPT-NeoX 1.3B generative AI model \
-to create chatbots for tool documentation. Elevated team proficiency in ML through targeted training."
+to create chatbots for tool documentation. Elevated team proficiency in ML through targeted training sessions."
    },
    {
     img: "/img/icons/programming.png",
@@ -96,7 +96,7 @@ to create chatbots for tool documentation. Elevated team proficiency in ML throu
     desc: "9 years of software development. Built 6 simulation platforms from scracth to launch. \
 Led CI/CD integration, code optimization, and open-source transitions. \
 Improved UX by adding Conda packages, HPC modules, cloud integration, and SQL web database. \
-Executed large-scale HPC simulations that deliver critical insights for NASA."
+Executed large-scale HPC simulations that delivered critical insights for NASA."
   },
   {
     img: "/img/icons/management.png",
@@ -263,7 +263,7 @@ export const experience: ExperienceType[] = [
     date: "Jan 2016 - Oct 2020",
     titles: ["95% Software", "5% Management"],
     desc: [
-      ["Developed simulation platforms and testing pipelines", "Implemented performance tuning strategies", "Contributed to core code development"],
+      ["Simulation platforms and testing pipelines", "Implemented performance tuning strategies", "Contributed to core code development"],
       ["Led 4-member team on digital twin development", "Handled project planning and goal setting", "Collaborated with 10+ external partners"],
     ],    
   },
