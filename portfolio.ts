@@ -47,7 +47,7 @@ export const skillsSection: SkillsSectionType = {
       imagePath: "/img/nasa/nasa_tools.png",
       skills: [
         emoji("🚀 Predictive Simulation Platforms Design & Development"),
-        emoji("🤖 AI/ML Engineering & SDK/API Deployment"),
+        emoji("🤖 AI/ML: Surrogate Modeling, Chatbots, & Segmentation"),
         emoji("🛠️ Software Testing, Maintenance & Launch"),
         emoji("🌐 Scalabe Distributed Systems & HPC Solutions"),
         emoji("🤝 Technical Leadership & Team Management"),
@@ -170,7 +170,7 @@ export const software: SoftwareType[] = [
   },
   {
     name: "TomoSAM",
-    desc: ["Description: Deep learning segmentation tool for 3D imaging used in micro-structural analysis",
+    desc: ["Description: Deep learning tool for segmenting 3D imaging used in micro-structural analysis",
            "My Role: Supervisor since 2019, overseeing code development, research, and long-term planning",
            "Language: Python",
            "Release: NASA Open Source (PuMA plug-in)"],
