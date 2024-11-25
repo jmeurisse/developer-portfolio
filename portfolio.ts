@@ -51,8 +51,8 @@ export const skillsSection: SkillsSectionType = {
         emoji("🌐 Scalabe Distributed Systems & HPC Solutions"),
         emoji("🤝 Technical Leadership & Team Management"),
         emoji("📊 Data-driven Model Validation & Statistical Analysis"),
-        // emoji("📣 Technical Advocacy & Community Engagement"),
-        emoji("🔬 Research on Innovative Physics-Based Modeling Projects"),
+        emoji("📣 Technical Advocacy & Community Engagement"),
+        emoji("🔬 Research on Innovative Physics-Based Modeling"),
       ],
       softwareSkills: [
         { skillName: "C/C++", iconifyTag: "bxl:c-plus-plus" },
@@ -83,27 +83,27 @@ export const SkillBars: SkillBarsType[] = [
 
 export const coreSkills: CoreSkillsType[] = [
   {
-    img: "/img/icons/programming.png",
-    name: "Software Development",
-    desc: "9 years of software development. Built 6 CAE simulation tools from scracth to launch. \
-Developed CI/CD framework for automated tests. \
-Led code optimization, and open-source transitions to enhance \
-product quality and performance. Improved UX by adding Conda packages, HPC modules, cloud integration, and SQL web database."
-  },
-  {
-    img: "/img/icons/management.png",
-    name: "Leadership & Collaboration",
-    desc: "7 years of management. Led 12 NASA projects with 8 engineers, overseeing code development, \
-research, milestones, and long-term planning. Secured $3M in research funding. Coordinated with NASA leadership, \
-managed team administration, hosted 30 annual partner visits, and established 2 international research agreements.",
-  },
-  {
     img: "/img/icons/deep-learning.png",
-    name: "Machine Learning Integration",
+    name: "AI & Machine Learning",
     desc: "3 years leading ML integration. Supervised deep learning tools for video and 3D imaging segmentation. \
 Trained PINN to develop surrogate models. Fine-tuned GPT-NeoX (1.3B) for knowledge management systems. \
 Organized ML training sessions and facilitated collaborations with external experts to elevate team proficiency."
    },
+   {
+    img: "/img/icons/programming.png",
+    name: "Software Development & HPC",
+    desc: "9 years of software development. Built 6 simulation platforms from scracth to launch. \
+Led CI/CD development, code optimization, and open-source transitions. \
+Improved UX by adding Conda packages, HPC modules, cloud integration, and SQL web database. \
+Drove impactful, large-scale HPC simulations that deliver critical insights for NASA."
+  },
+  {
+    img: "/img/icons/management.png",
+    name: "Leadership & Strategy",
+    desc: "7 years of management. Led 12 NASA projects with 8 engineers, overseeing code development, \
+research, milestones, and long-term planning. Secured $3M in research funding. Coordinated with NASA leadership, \
+managed team administration, hosted 30 annual partner visits, and established 2 international research agreements."
+  },
   {
     img: "/img/icons/innovation.png",
     name: "Research & Innovation",
@@ -239,7 +239,7 @@ export const experience: ExperienceType[] = [
     titles: ["20% Management", "80% Software"],
     desc: [
       ["Manage 8-member engineering team, directing 5 concurrent projects", "Foster collaboration with 100+ external partners", "Shape and execute strategic roadmaps"],
-      ["Develop ML-integrated CAE simulation platforms", "Architect and maintain scalable codebases", "Drive HPC performance optimizations for large-scale simulations"],
+      ["Develop ML-integrated simulation platforms", "Architect and maintain scalable codebases", "Drive HPC performance optimizations for large-scale simulations"],
     ],   
   },
   {
@@ -251,7 +251,7 @@ export const experience: ExperienceType[] = [
     titles: ["10% Management", "90% Software"],
     desc: [
       ["Managed 8-member engineering team, leading a total of 12 projects", "Collaborated with 10+ external developer teams", "Led strategic planning and resource allocation"],
-      ["Developed ML-integrated CAE simulation tools", "Wrote, tested, and reviewed production code", "Drive HPC performance optimizations for large-scale simulations"],
+      ["Developed ML-integrated simulation tools", "Wrote, tested, and reviewed production code", "Drive HPC performance optimizations for large-scale simulations"],
     ],        
   },
   {
