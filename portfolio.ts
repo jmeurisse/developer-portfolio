@@ -202,7 +202,7 @@ providing accurate predictions to support NASA missions with data-driven decisio
     imageSrc: "/img/nasa/pica-n.png",
   },
   {
-    name: "NASA Mission Concepts",
+    name: "Interplanetary Mission Concepts",
     desc: "Developed a suite of modeling tools that integrate aerosol-sampling inlets, \
 thermal protection systems, and optical analysis into a compact probe. \
 These tools predict the aerothermal environment, simulate flow dynamics, and assess \
