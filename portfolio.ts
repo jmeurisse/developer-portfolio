@@ -202,9 +202,9 @@ providing accurate predictions to support NASA missions with data-driven decisio
     imageSrc: "/img/nasa/pica-n.png",
   },
   {
-    name: "Interplanetary Mission Concepts",
+    name: "Planetary Mission Concepts",
     desc: "Developed a suite of modeling tools that integrate aerosol-sampling inlets, \
-thermal protection systems, and optical analysis into a compact probe. \
+thermal protection systems, and optical analysis into a compact Venus probe. \
 These tools predict the aerothermal environment, simulate flow dynamics, and assess \
 particle capture efficiency to guide design improvements and safeguard sample integrity.",
     link: "https://ntrs.nasa.gov/api/citations/20240009219/downloads/GentryNaughtonMeurisse_AERACEPT_final.pdf",
