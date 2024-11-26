@@ -36,7 +36,7 @@ const ProjectsCard = ({ name, desc, github, link, videoSrc, gifSrc, imageSrc }: 
                     width: "100%", 
                     height: "200px",  // Keeps aspect ratio intact
                     // maxHeight: "200px",  // Restricts maximum height without distortion
-                    objectFit: "cover",  // Ensures the whole image fits within the area
+                    objectFit: "contain",  // Ensures the whole image fits within the area
                     borderRadius: "10px", 
                     marginBottom: "15px" 
                   }}
