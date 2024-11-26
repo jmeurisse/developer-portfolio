@@ -208,7 +208,8 @@ thermal protection systems, and optical analysis into a compact probe. \
 These tools predict the aerothermal environment, simulate flow dynamics, and assess \
 particle capture efficiency to guide design improvements and safeguard sample integrity.",
     link: "https://ntrs.nasa.gov/api/citations/20240009219/downloads/GentryNaughtonMeurisse_AERACEPT_final.pdf",
-    imageSrc: "/img/nasa/aeracept.png",
+    // imageSrc: "/img/nasa/aeracept.png",
+    imageSrc: "/img/nasa/pica-n.png",
   },
   {
     name: "Validation using Martian Data",
