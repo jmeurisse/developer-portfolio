@@ -39,7 +39,7 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: "What I do",
-  subTitle: "Developing, testing, deploying, and leading predictive simulation software products.",
+  subTitle: "Leading the development and research of predictive simulation software products enhanced by AI/ML.",
   data: [
     {
       title: "Lead Software Engineer",
