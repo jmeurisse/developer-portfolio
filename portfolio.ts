@@ -21,7 +21,7 @@ export const greetings: GreetingsType = {
 and leading complex multi-physics simulation platforms enhanced by AI/ML. My journey from Intern to Lead Software Engineer \
 has equipped me with a robust technical background and strong leadership capabilities, \
 including 7 years of team management experience.",
-  resumeLink: "/2024-12-16_Jeremie_Meurisse_Resume.pdf",
+  resumeLink: "/2024-12-30_Jeremie_Meurisse_Resume.pdf",
 };
 
 export const openSource = {
