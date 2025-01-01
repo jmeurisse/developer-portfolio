@@ -21,7 +21,7 @@ export const greetings: GreetingsType = {
 and leading complex multi-physics simulation platforms enhanced by AI/ML. My journey from Intern to Lead Software Engineer \
 has equipped me with a robust technical background and strong leadership capabilities, \
 including 7 years of team management experience.",
-  resumeLink: "/2024-12-30_Jeremie_Meurisse_Resume.pdf",
+  resumeLink: "/2024-12-31_Jeremie_Meurisse_Resume.pdf",
 };
 
 export const openSource = {
@@ -238,7 +238,7 @@ export const experience: ExperienceType[] = [
     contractor: "contracted by AMA, Inc.",
     companyLogo: "/img/nasa/nasa-logo.png",
     date: "Jan 2024 - Present",
-    titles: ["80% Software", "20% Management"],
+    titles: ["90% Technical", "10% Leadership"],
     desc: [
       ["Develop ML-integrated simulation platforms", "Architect and maintain scalable codebases", "Drive HPC performance optimizations for large-scale simulations"],
       ["Manage 8-member engineering team, directing 5 concurrent projects", "Foster collaboration with 100+ external partners", "Shape and execute strategic roadmaps"],
@@ -250,7 +250,7 @@ export const experience: ExperienceType[] = [
     contractor: "contracted by AMA, Inc.",
     companyLogo: "/img/nasa/nasa-logo.png",
     date: "Nov 2020 - Jan 2024",
-    titles: ["90% Software", "10% Management"],
+    titles: ["90% Technical", "10% Leadership"],
     desc: [
       ["Developed ML-integrated simulation platforms", "Wrote, tested, and reviewed production code", "Drive HPC performance optimizations for large-scale simulations"],
       ["Managed 8-member engineering team, leading a total of 12 projects", "Collaborated with 10+ external developer teams", "Led strategic planning and resource allocation"],
@@ -262,7 +262,7 @@ export const experience: ExperienceType[] = [
     contractor: "contracted by STC and UIUC",
     companyLogo: "/img/nasa/nasa-logo.png",
     date: "Jan 2016 - Oct 2020",
-    titles: ["95% Software", "5% Management"],
+    titles: ["90% Technical", "10% Leadership"],
     desc: [
       ["Built simulation platforms and testing pipelines", "Implemented performance tuning strategies", "Contributed to core code development"],
       ["Led 4-member team on digital twin development", "Handled project planning and goal setting", "Collaborated with 10+ external partners"],
